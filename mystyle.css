@@ -1,0 +1,27 @@
+h1, h2, h3, h4 {
+    color: blue;
+}
+
+body {
+    background-color: #aaddff;
+    font-family: Verdana, Arial, Helvetica, sans-serif;
+    color: black;
+    margin: 50px;
+}
+
+a:link {
+    color: #0000ff;
+    text-decoration: none;
+}
+
+a:visited {
+    color: #660000;
+}
+
+a:hover {
+    color: #ff0000;
+}
+
+a:active {
+    color: #ff0000;
+}
