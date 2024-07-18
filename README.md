@@ -1,3 +1,3 @@
 # myFiles
 <br>
-This is a project on "Balancing Chemical Equations".
+This is an interactive project on "Balancing Chemical Equations".
