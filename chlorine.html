@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Chlorine</title>
+    <script src="chem2.js" defer></script>
+    <script src="timer.js" defer></script>
+    <meta name="Keywords" content="exercises,  balancing,  chemistry, equations, hydrogen-chloride, ammonia, nitric-acid, nitrates, sulphur-dioxide, hydrogen-sulphide, sodium-hydroxide, sulphuric-acid, preparation ">
+    <meta name="author" content="Jiban Majumdar">
+    <link rel="stylesheet" href="mystyle.css">
+</head>
+<body>
+  <div>
+    <img src="myPhoto.jpg" alt="webmaster"  width="150" height="200"> <br> <a href="mailto:jibanmajumdar@gmail.com">webmaster</a>
+    </div> 
+
+  <table class="center">
+ <tr>
+<td><a href="index.html">Home Page</a></td>
+<td><a href="equ.html">Elementary Equations</a></td>
+<td><a href="advanced.html">Advanced Equations</a></td>
+<td><a href="assorted.html">Assorted Equations</a></td>
+<td><a href="hydrogen-chloride.html">Hydrogen Chloride</a></td>
+<td><a href="ammonia.html">Ammonia</a></td>
+</tr>
+<tr>
+<td><a href="nitric-acid.html">Nitric Acid</a></td>
+<td><a href="sulphur-dioxide.html">Sulphur Dioxide</a></td>
+<td><a href="hydrogen-sulphide.html">Hydrogen Sulphide</a></td>
+<td><a href="sulphuric-acid.html">Sulphuric Acid</a></td>
+<td><a href="sodium-hydroxide.html">Sodium Hydroxide</a></td>
+<td></td>
+</tr>
+</table>
+
+<h1 style="text-align:center;"> Chlorine</h1>
+
+<h2>Practise balancing equations: </h2> <h3>Direction:</h3> <ul><li>In  the following equations you will see a blank box before the symbol of each compound and element. Enter the lowest possible number in each box, or leave the box blank if you think the chemical needn't have a number (i.e. the number is equivalent to '1').</li> 
+<li>When you think the equation is balanced, click on the small button <span style= "color:blue;"><b>"Check answer"</b></span> that appears below it.</li> <lI>If your equation is incorrect, then click the button <span style= "color:blue;"><b> "Reset"</b></span> and try balancing the  equation again.</li> <li>In case you are in a hurry or are unable to balance, then click the button <span style= "color:blue;"><b>"Show answer."</b></span></li>
+  <li>If you want to know the time taken (minutes:seconds) to balance a chemical equation, you click the <span style="color:blue;"><b>"Start"</b></span> button and after balancing the equation, click the <span style="color:blue;"><b>"Stop"</b></span>button. Once, you have noted the time, click the <span style="color:blue;"><b>"Reset Timer"</b></span> button.
+  </li></ul>
+ <h3>Note:</h3> If you get no response after clicking 'Check answer' or 'Show answer', your browser has disabled to run this program. Enable it by clicking below the 'address bar' and follow the instructions.
+
+<form name="equations">
+
+  <h4>Preparation of Chlorine:</h4>
+  1. Sodium Chloride reacts with concentrated Sulphuric acid and Manganese dioxide to form Chlorine, Sodium hydrogen sulphate, Manganese sulphate and water:
+ 
+  <p style="font-size:115%; text-align:center;"><input style="font-size: 16px; text-align: center;" 
+  size=1 name=q1a> NaCl + <input  style="font-size: 16px; text-align: center;" size=1 name=q1b> H<sub>2</sub>SO<sub>4</sub> +<input  style="font-size: 16px; text-align: center;" size=1 name=q1c>MnO<sub>2</sub>&#8594;<input style="font-size: 16px; text-align: center;" size=1 name=q1d> Cl<sub>2</sub> + <input style="font-size: 16px; text-align: center;" size=1 name=q1e>NaHSO<sub>4</sub>  + <input style="font-size: 16px; text-align: center;" size=1   name=q1f> MnSO<sub>4</sub> + <input style="font-size: 16px; text-align: center;" size=1 name=q1g> H<sub>2</sub>O</p>
+  <p style="font-size:115%; text-align:center;"><input onclick="check(1,'Preparation of Chlorine',2,3,1,1,2,1,2,'NaCl + H<sub>2</sub>SO<sub>4</sub>+ MnO<sub>2</sub>','Cl<sub>2</sub> + NaHSO<sub>4</sub> + MnSO<sub>4</sub> + H<sub>2</sub>O');" type="button" value="Check answer">&nbsp;&nbsp;&nbsp;&nbsp; <input type="reset" value="Reset">&nbsp;&nbsp;&nbsp;&nbsp; <input onclick="show(1,'Preparation of Chlorine',2,3,1,1,2,1,2,'2NaCl + 3H<sub>2</sub>SO<sub>4</sub>+ MnO<sub>2</sub>','Cl<sub>2</sub> +2NaHSO<sub>4</sub> + MnSO<sub>4</sub> + 2H<sub>2</sub>O');" type="button" value="Show answer"> </p>
+  <p style="font-size:115%; text-align:center;">
+    <span style="color:blue;"><b>Time Taken:</b></span><span class="timer" id="timer1">00:00</span>
+    <button type="button" onclick="startTimer('timer1')">Start</button>
+    <button type="button" onclick="stopTimer('timer1')">Stop</button>
+    <button type="button" onclick="resetTimer('timer1')">Reset Timer</button>
+   </p>
+  <p></p>
+  2. Manganese dioxide when heated with concentrated hydrochloric acid, produces Manganese chloride, chlorine and water.
+    <p style="font-size:115%; text-align:center;"><input style="font-size: 16px; text-align:center;" 
+  size=1 name=q2a> HCl + <input  style="font-size: 16px; text-align: center;" size=1 name=q2b> MnO<sub>2</sub>&#8594;<input style="font-size: 16px; text-align: center;" size=1 name=q2c> MnCl<sub>2</sub> + <input style="font-size: 16px; text-align: center;" size=1   name=q2d> Cl<sub>2</sub> + <input style="font-size: 16px; text-align: center;" size=1   name=q2e> H<sub>2</sub>O</p>
+  <p style="font-size:115%; text-align:center;"><input onclick="check(2,'Preparation of Chlorine',4,1,1,1,2,0,0,'HCl + MnO<sub>2</sub>','MnCl<sub>2</sub> + Cl<sub>2</sub> + H<sub>2</sub>O');" type="button" value="Check answer">&nbsp;&nbsp;&nbsp;&nbsp; <input type="reset" value="Reset">&nbsp;&nbsp;&nbsp;&nbsp; <input onclick="show(2,'Preparation of Chlorine',4,1,1,1,2,0,0,'4HCl + MnO<sub>2</sub>','MnCl<sub>2</sub> + Cl<sub>2</sub> + 2H<sub>2</sub>O');" type="button" value="Show answer"></p>
+  <p style="font-size:115%; text-align:center;">
+    <span style="color:blue;"><b>Time Taken:</b></span><span class="timer" id="timer2">00:00</span>
+     <button type="button" onclick="startTimer('timer2')">Start</button>
+     <button type="button" onclick="stopTimer('timer2')">Stop</button>
+     <button type="button" onclick="resetTimer('timer2')">Reset Timer</button>
+   </p>
+  
+<p></p>
+
+  <h4>Reactions of Chlorine:</h4>
+
+  1.Hydrogen sulphide gas reacts with Chlorine gas to form Sulphur and Hydrogen chloride gas:
+    
+  <p style="font-size:115%; text-align:center;"><input style="font-size: 16px; text-align: center;" 
+   size=1 name=q3a> H<sub>2</sub>S + <input  style="font-size: 16px; text-align: center;" size=1 name=q3b> Cl<sub>2</sub>&#8594; <input style="font-size: 16px; text-align: center;" size=1  name=q3c> S + <input style="font-size: 16px; text-align: center;" size=1  name=q3d> HCl</p>
+ <p style="font-size:115%; text-align:center;"> <input onclick="check(3,'Reactions of Chlorine',1,1,1,2,0,0,0,'H<sub>2</sub>S + Cl<sub>2</sub>','S + HCl');" type="button"  value="Check answer">&nbsp;&nbsp;&nbsp;&nbsp; <input type="reset" value="Reset">&nbsp;&nbsp;&nbsp;&nbsp; <input onclick="show(3,'Reactions of Chlorine',1,1,1,2,0,0,0,'H<sub>2</sub>S + Cl<sub>2</sub>','S + 2HCl');" type="button" value="Show answer"> </p>
+ <p style="font-size:115%; text-align:center;">
+  <span style="color:blue;"><b>Time Taken:</b></span><span class="timer" id="timer3">00:00</span>
+  <button type="button" onclick="startTimer('timer3')">Start</button>
+  <button type="button" onclick="stopTimer('timer3')">Stop</button>
+  <button type="button" onclick="resetTimer('timer3')">Reset Timer</button>
+</p>
+ <p></p>
+  2.Excess Ammonia reacts with Chlorine gas to form nitrogen gas and white fumes of Ammonium chloride: 
+  <p style="font-size:115%; text-align:center;"><input style="font-size: 16px; text-align: center;" 
+  size=1 name=q4a> NH<sub>3</sub> + <input  style="font-size: 16px; text-align: center;" size=1 name=q4b> Cl<sub>2</sub> &#8594; <input style="font-size: 16px; text-align: center;" size=1 name=q4c> N<sub>2</sub> + <input style="font-size: 16px; text-align: center;" size=1 name=q4d> NH<sub>4</sub>Cl</p>
+ <p style="font-size:115%; text-align:center;"><input onclick="check(4,'Reactions of Chlorine',8,3,1,6,0,0,0,'NH<sub>3</sub> + Cl<sub>2</sub>','N<sub>2</sub> + NH<sub>4</sub>Cl');" type="button" value="Check answer">&nbsp;&nbsp;&nbsp;&nbsp; <input type="reset" value="Reset">&nbsp;&nbsp;&nbsp;&nbsp;  <input onclick="show(4,'Reactions of Chlorine',8,3,1,6,0,0,0,'8NH<sub>3</sub> + 3Cl<sub>2</sub>','N<sub>2</sub> +  6NH<sub>4</sub>Cl');" type="button" value="Show answer"> </p>
+ <p style="font-size:115%; text-align:center;">
+  <span style="color:blue;"><b>Time Taken:</b></span><span class="timer" id="timer4">00:00</span>
+  <button type="button" onclick="startTimer('timer4')">Start</button>
+  <button type="button" onclick="stopTimer('timer4')">Stop</button>
+  <button type="button" onclick="resetTimer('timer4')">Reset Timer</button>
+</p>
+ <p></p>
+  3.Excess Chlorine reacts with Ammonia gas to form Nitrogen trichloride and misty fumes of Hydrogen chloride: 
+  <p style="font-size:115%; text-align:center;"><input style="font-size: 16px; text-align: center;" 
+  size=1 name=q5a> NH<sub>3</sub> + <input  style="font-size: 16px; text-align: center;" size=1 name=q5b> Cl<sub>2</sub> &#8594; <input style="font-size: 16px; text-align: center;" size=1 name=q5c> NCl<sub>3</sub> + <input style="font-size: 16px; text-align: center;" size=1 name=q5d> HCl</p>
+  <p style="font-size:115%; text-align:center;"><input onclick="check(5,'Reactions of Chlorine',1,3,1,3,0,0,0,'NH<sub>3</sub> + Cl<sub>2</sub>','NCl<sub>3</sub> + HCl');" type="button" value="Check answer">&nbsp;&nbsp;&nbsp;&nbsp; <input type="reset" value="Reset">&nbsp;&nbsp;&nbsp;&nbsp;  <input onclick="show(5,'Reactions of Chlorine',1,3,1,3,0,0,0,'NH<sub>3</sub> + 3Cl<sub>2</sub>','NCl<sub>3</sub> +  3HCl');" type="button" value="Show answer"> </p>
+  <p style="font-size:115%; text-align:center;">
+    <span style="color:blue;"><b>Time Taken:</b></span><span class="timer" id="timer5">00:00</span>
+    <button type="button" onclick="startTimer('timer5')">Start</button>
+    <button type="button" onclick="stopTimer('timer5')">Stop</button>
+    <button type="button" onclick="resetTimer('timer5')">Reset Timer</button>
+  </p>
+ <p></p>
+
+  4. Chlorine reacts with cold dilute sodium hydroxide to form sodium chloride, sodium hypochlorite and water: 
+  <p style="font-size:115%; text-align:center;"><input style="font-size: 16px; text-align: center;" 
+  size=1 name=q6a> Cl<sub>2</sub> + <input  style="font-size: 16px; text-align: center;" size=1 name=q6b> NaOH &#8594; <input style="font-size: 16px; text-align: center;" size=1 name=q6c> NaCl + <input style="font-size: 16px; text-align: center;" size=1 name=q6d> NaClO + <input style="font-size: 16px; text-align: center;" size=1 name=q6e> H<sub>2</sub>O </p>
+  <p style="font-size:115%; text-align:center;"><input onclick="check(6,'Reactions of Chlorine',1,2,1,1,1,0,0,'Cl<sub>2</sub> + NaOH','NaCl + NaClO + H<sub>2</sub>O');" type="button" value="Check answer">&nbsp;&nbsp;&nbsp;&nbsp; <input type="reset" value="Reset">&nbsp;&nbsp;&nbsp;&nbsp;  <input onclick="show(6,'Reactions of Chlorine',1,2,1,1,1,0,0,'Cl<sub>2</sub> + 2 NaOH','NaCl + NaClO + H<sub>2</sub>O');" type="button" value="Show answer"> </p>
+  <p style="font-size:115%; text-align:center;">
+    <span style="color:blue;"><b>Time Taken:</b></span><span class="timer" id="timer6">00:00</span>
+    <button type="button" onclick="startTimer('timer6')">Start</button>
+    <button type="button" onclick="stopTimer('timer6')">Stop</button>
+    <button type="button" onclick="resetTimer('timer6')">Reset Timer</button>
+  </p> 
+ <p></p>
+
+  5. Chlorine reacts with hot concentrated sodium hydroxide to form sodium chloride, sodium chlorate and water: 
+  <p style="font-size:115%; text-align:center;"><input style="font-size: 16px; text-align: center;" 
+  size=1 name=q7a>Cl<sub>2</sub> + <input  style="font-size: 18px; text-align: center;" size=1 name=q7b>NaOH &#8594; <input style="font-size: 16px; text-align: center;" size=1 name=q7c>NaClO<sub>3</sub> + <input style="font-size: 16px; text-align: center;" size=1 name=q7d>NaCl  + <input style="font-size: 16px; text-align: center;" size=1 name=q7e> H<sub>2</sub>O</p>
+  <p style="font-size:115%; text-align:center;"><input onclick="check(7,'Reactions of Chlorine',3,6,1,5,3,0,0,'Cl<sub>2</sub> + NaOH','NaClO<sub>3</sub> + NaCl + H<sub>2</sub>O');" type="button" value="Check answer">&nbsp;&nbsp;&nbsp;&nbsp; <input type="reset" value="Reset">&nbsp;&nbsp;&nbsp;&nbsp;  <input onclick=" show(7,'Reactions of Chlorine',3,6,1,5,3,0,0,'3Cl<sub>2</sub> + 6NaOH','NaClO<sub>3</sub> + 5 NaCl + 3H<sub>2</sub>O');" type="button" value="Show answer"> </p>
+  <p style="font-size:115%; text-align:center;">
+    <span style="color:blue;"><b>Time Taken:</b></span><span class="timer" id="timer7">00:00</span>
+    <button type="button" onclick="startTimer('timer7')">Start</button>
+    <button type="button" onclick="stopTimer('timer7')">Stop</button>
+    <button type="button" onclick="resetTimer('timer7')">Reset Timer</button>
+  </p> 
+ 
+<p></p>
+
+<table class="center">
+<tr>
+<td><a href="index.html">Home Page</a></td>
+<td><a href="equ.html">Elementary Equations</a></td>
+<td><a href="advanced.html">Advanced Equations</a></td>
+<td><a href="assorted.html">Assorted Equations</a></td>
+<td><a href="hydrogen-chloride.html">Hydrogen Chloridne</a></td>
+<td><a href="ammonia.html">Ammonia</a></td>
+</tr>
+<tr>
+<td><a href="nitric-acid.html">Nitric Acid</a></td>
+<td><a href="sulphur-dioxide.html">Sulphur Dioxide</a></td>
+<td><a href="hydrogen-sulphide.html">Hydrogen Sulphide</a></td>
+<td><a href="sulphuric-acid.html">Sulphuric Acid</a></td>
+<td><a href="sodium-hydroxide.html">Sodium Hydroxide</a></td>
+<td><a href="#top">TOP</a></td>
+</tr>
+</table>
+</form>
+
+<p></p>
+
+ <address>   
+  For feedback, please e-mail&nbsp; to:<a href="mailto:jibanmajumdar@gmail.com">jibanmajumdar@gmail.com</a>
+ </address>  
+</body></html>
