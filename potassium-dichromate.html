@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Potassium Dichromate</title>
+    <script src="chem2.js" defer></script>
+    <script src="timer.js" defer></script>
+   <meta name="Keywords" content="exercises,  balancing,  chemistry, equations, fluorine, ozone, potassium-dichromate, potassium permanganate, preparation ">
+    <meta name="author" content="Jiban Majumdar">
+    <link rel="stylesheet" href="mystyle.css">
+</head>
+<body>
+      <div>
+      <img src="myPhoto.jpg" alt="webmaster"  width="150" height="200"> <br> <a href="mailto:jibanmajumdar@gmail.com">webmaster</a>
+      </div> 
+    <table class="center">
+
+<tr>
+<td><a href="index.html">Home Page</a></td>
+<td><a href="equations.html">Intermediate Equations</a></td>
+<td><a href="assorted.html">Assorted Equations</a></td>
+<td><a href="fluorine.html">Fluorine</a></td>
+<td><a href="ozone.html">Ozone</a></td>
+<td><a href="potassium-permanganate.html">Potassium Permanganate</a></td>
+<td><a href="hydrogen-peroxide.html">Hydrogen Peroxide</a></td>
+</tr>
+</table>
+
+<h1 style="text-align:center;"> Potassium Dichromate</h1>
+
+<h2>Practise balancing equations: </h2> <h3>Direction:</h3> <ul><li>In  the following equations you will see a blank box before the symbol of each compound and element. Enter the lowest possible number in each box, or leave the box blank if you think the chemical needn't have a number (i.e. the number is equivalent to '1').</li> 
+<li>When you think the equation is balanced, click on the small button <span style= "color:blue;"><b>"Check answer"</b></span> that appears below it.</li> <lI>If your equation is incorrect, then click the button <span style= "color:blue;"><b> "Reset"</b></span> and try balancing the  equation again.</li> <li>In case you are in a hurry or are unable to balance, then click the button <span style= "color:blue;"><b>"Show answer."</b></span></li>
+  <li>If you want to know the time taken (minutes:seconds) to balance a chemical equation, you click the <span style="color:blue;"><b>"Start"</b></span> button and after balancing the equation, click the <span style="color:blue;"><b>"Stop"</b></span>button. Once, you have noted the time, click the <span style="color:blue;"><b>"Reset Timer"</b></span> button.
+  </li></ul>
+ <h3>Note:</h3> If you get no response after clicking 'Check answer' or 'Show answer', your browser has disabled to run this program. Enable it by clicking below the 'address bar' and follow the instructions.
+<form name="equations">
+
+  <h4>Extraction of Potassium dichromate from chromite ore:</h4>
+
+  The process involves the following three steps: 
+  <p>
+  <ul><li><p style="font-size:115%; color:blue;">Conversion of chromite ore into sodium chromate:</p> The chromite ore(FeCr<sub>2</sub>O<sub>4</sub>) is mixed with soda ash (Na<sub>2</sub>CO<sub>3</sub>) and quick lime. The mixture is then roasted in a reverberatory furnace in the presence of excess air when a yellow mass of sodium chromate is obtained.</li></ul>
+  <p style="font-size:115%; text-align:center;"><input style="font-size: 16px; text-align: center" 
+  size=1 name=q1a>FeCr<sub>2</sub>O<sub>4</sub> + <input  style="font-size: 16px; text-align: center" size=1 name=q1b>Na<sub>2</sub>CO<sub>3</sub> + <input  style="font-size: 16px; text-align: center" size=1 name=q1c>O<sub>2</sub> &#8594;<input style="font-size: 16px; text-align: center" size=1 name=q1d>Fe<sub>2</sub>O<sub>3</sub> + <input style="font-size: 16px; text-align: center" size=1   name=q1e>Na<sub>2</sub>CrO<sub>4</sub> + <input style="font-size: 16px; text-align: center" size=1   name=q1f> CO<sub>2</sub></p>
+  <p style="font-size:115%; text-align:center;"><input onclick="check(1,'Extraction of Potassium dichromate',4,8,7,2,8,8,0,'FeCr<sub>2</sub>O<sub>4</sub> + Na<sub>2</sub>CO<sub>3</sub> + O<sub>2</sub> ',' Fe<sub>2</sub>O<sub>3</sub> +Na<sub>2</sub>CrO<sub>4</sub> + CO<sub>2</sub>');" type="button" value="Check answer">&nbsp;&nbsp;&nbsp;&nbsp; <input type="reset" value="Reset">&nbsp;&nbsp;&nbsp;&nbsp; <input onclick="show(1,'Extraction of Potassium dichromate',4,8,7,2,8,8,0,'4FeCr<sub>2</sub>O<sub>4</sub> + 8Na<sub>2</sub>CO<sub>3</sub> + 7O<sub>2</sub> ',' 2Fe<sub>2</sub>O<sub>3</sub> +8Na<sub>2</sub>CrO<sub>4</sub> + 8CO<sub>2</sub>');" type="button" value="Show answer"></p>
+  <p style="font-size:115%; text-align:center;">
+    <span style="color:blue;"><b>Time Taken:</b></span><span class="timer" id="timer1">00:00</span>
+    <button type="button" onclick="startTimer('timer1')">Start</button>
+    <button type="button" onclick="stopTimer('timer1')">Stop</button>
+    <button type="button" onclick="resetTimer('timer1')">Reset Timer</button>
+   </p>
+  <p></p>
+
+  <ul><li> <p style="font-size:115%; color:blue;">Conversion of sodium chromate into sodium dichromate:</p>The sodium chromate obtained from the above step is treated with concentrated sulphuric acid when it is converted into sodium dichromate.</li></ul><p></p><p style="font-size:115%; text-align:center;"><input style="font-size: 16px; text-align: center" 
+  size=1 name=q2a>Na<sub>2</sub>CrO<sub>4</sub> + <input  style="font-size: 16px; text-align: center" size=1 name=q2b>H<sub>2</sub>SO<sub>4</sub>&#8594;<input style="font-size: 16px; text-align: center" size=1 name=q2c>Na<sub>2</sub>Cr<sub>2</sub>O<sub>7</sub> + <input style="font-size: 16px; text-align: center" size=1   name=q2d>Na<sub>2</sub>SO<sub>4</sub> +<input style="font-size: 16px; text-align: center" size=1   name=q2e> H<sub>2</sub>O 
+  <p style="font-size:115%; text-align:center;"><input onclick="check(2,'Extraction of Potassium dichromate',2,1,1,1,1,0,0,'Na<sub>2</sub>CrO<sub>4</sub> +  H<sub>2</sub>SO<sub>4</sub>',' Na<sub>2</sub>Cr<sub>2</sub>O<sub>7</sub> + Na<sub>2</sub>SO<sub>4</sub> + H<sub>2</sub>O');" type="button" value="Check answer">&nbsp;&nbsp;&nbsp;&nbsp; <input type="reset" value="Reset">&nbsp;&nbsp;&nbsp;&nbsp; <input onclick="show(2,'Extraction of Potassium dichromate',2,1,1,1,1,0,0,'2Na<sub>2</sub>CrO<sub>4</sub> +  H<sub>2</sub>SO<sub>4</sub>',' Na<sub>2</sub>Cr<sub>2</sub>O<sub>7</sub> + Na<sub>2</sub>SO<sub>4</sub> + H<sub>2</sub>O');" type="button" value="Show answer"></p>
+  <p style="font-size:115%; text-align:center;">
+    <span style="color:blue;"><b>Time Taken:</b></span><span class="timer" id="timer2">00:00</span>
+     <button type="button" onclick="startTimer('timer2')">Start</button>
+     <button type="button" onclick="stopTimer('timer2')">Stop</button>
+     <button type="button" onclick="resetTimer('timer2')">Reset Timer</button>
+   </p>
+  <p></p>
+<ul><li> <p style="font-size:115%; color:blue;">Conversion of sodium dichromate into potassium dichromate:</p>Hot concentrated solution of sodium dichromate is treated with a calculated quantity of potassium chloride and the mixture is allowed to cool when orange crystals of potassium dichromate is obtained.</li></ul>
+<p></p>
+<p style="font-size:115%; text-align:center;"><input style="font-size: 16px; text-align: center" 
+  size=1 name=q3a>Na<sub>2</sub>Cr<sub>2</sub>O<sub>7</sub> + <input  style="font-size: 16px; text-align: center" size=1 name=q3b>KCl &#8594;<input style="font-size: 16px; text-align: center" size=1 name=q3c>Na<sub>2</sub>Cr<sub>2</sub>O<sub>7</sub> + <input style="font-size: 16px; text-align: center" size=1   name=q3d>NaCl 
+  <p style="font-size:115%; text-align:center;"><input onclick="check(3,'Extraction of Potassium permanganate',1,2,1,2,0,0,0,'Na<sub>2</sub>Cr<sub>2</sub>O<sub>7</sub> + KCl','K<sub>2</sub>Cr<sub>2</sub>O<sub>7</sub> + NaCl');" type="button" value="Check answer">&nbsp;&nbsp;&nbsp;&nbsp; <input type="reset" value="Reset">&nbsp;&nbsp;&nbsp;&nbsp; <input onclick="show(3,'Extraction of Potassium permanganate',1,2,1,2,0,0,0,'Na<sub>2</sub>Cr<sub>2</sub>O<sub>7</sub> + 2KCl','K<sub>2</sub>Cr<sub>2</sub>O<sub>7</sub> + 2NaCl');" type="button" value="Show answer"></p>
+  <p style="font-size:115%; text-align:center;">
+    <span style="color:blue;"><b>Time Taken:</b></span><span class="timer" id="timer3">00:00</span>
+    <button type="button" onclick="startTimer('timer3')">Start</button>
+    <button type="button" onclick="stopTimer('timer3')">Stop</button>
+    <button type="button" onclick="resetTimer('timer3')">Reset Timer</button>
+  </p>
+<p></p>  
+<h4>Reactions of Potassium dichromate:</h4>
+  
+  1. When heated strongly, Potassium dichromate decomposes to form oxygen gas, Potassium chromate and Chromium trioxide:
+    
+  <p style="font-size:115%; text-align:center;"><input style="font-size: 16px; text-align: center" 
+  size=1 name=q4a>K<sub>2</sub>Cr<sub>2</sub>O<sub>7</sub> &#8594; <input  style="font-size: 16px; text-align: center" size=1 name=q4b>  O<sub>2</sub> + <input  style="font-size: 16px; text-align: center" size=1 name=q4c>K<sub>2</sub>CrO<sub>4</sub> + <input  style="font-size: 16px; text-align: center" size=1 name=q4d>Cr<sub>2</sub>O<sub>3</sub> </p> 
+
+   <p style="font-size:115%; text-align:center;"><input onclick="check(4,'Reactions of Potassium dichromate',4,1,4,2,0,0,0,'K<sub>2</sub>Cr<sub>2</sub>O<sub>7</sub>','O<sub>2</sub> + K<sub>2</sub>CrO<sub>4</sub> + Cr<sub>2</sub>O<sub>3</sub>');" type="button" value="Check answer">&nbsp;&nbsp;&nbsp;&nbsp; <input type="reset"  value="Reset">&nbsp;&nbsp;&nbsp;&nbsp; <input onclick="show(4,'Reactions of Potassium dichromate',4,1,4,2,0,0,0,'4 K<sub>2</sub>Cr<sub>2</sub>O<sub>7</sub>','O<sub>2</sub> + 4 K<sub>2</sub>CrO<sub>4</sub> + 2 Cr<sub>2</sub>O<sub>3</sub>');" type="button" value="Show answer"></p>
+   <p style="font-size:115%; text-align:center;">
+    <span style="color:blue;"><b>Time Taken:</b></span><span class="timer" id="timer4">00:00</span>
+    <button type="button" onclick="startTimer('timer4')">Start</button>
+    <button type="button" onclick="stopTimer('timer4')">Stop</button>
+    <button type="button" onclick="resetTimer('timer4')">Reset Timer</button>
+  </p>
+<p></p>
+
+2.  Acidified Potassium dichromate oxidizes Potassium iodide into Iodine:
+ <p style="font-size:115%; text-align:center;"><input style="font-size: 16px; text-align: center" 
+  size=1 name=q5a>K<sub>2</sub>Cr<sub>2</sub>O<sub>7</sub> + <input  style="font-size: 16px; text-align: center" size=1 name=q5b>H<sub>2</sub>SO<sub>4</sub> + <input  style="font-size: 16px; text-align: center" size=1 name=q5c>KI &#8594;<input style="font-size: 16px; text-align: center" size=1 name=q5d>K<sub>2</sub>SO<sub>4</sub> + <input style="font-size: 16px; text-align: center" size=1   name=q5e>Cr<sub>2</sub>(SO<sub>4</sub>)<sub>3</sub> + <input style="font-size: 16px; text-align: center" size=1   name=q5f>I<sub>2</sub> + <input style="font-size: 16px; text-align: center" size=1   name=q5g>H<sub>2</sub>O</p>
+  <p style="font-size:115%; text-align:center;"><input onclick="check(5,'Reactions of Potassium dichromate',1,7,6,4,1,3,7,'K<sub>2</sub>Cr<sub>2</sub>O<sub>7</sub> + H<sub>2</sub>SO<sub>4</sub> + KI',' K<sub>2</sub>SO<sub>4</sub> + Cr<sub>2</sub>(SO<sub>4</sub>)<sub>3</sub> + I<sub>2</sub> + H<sub>2</sub>O');" type="button" value="Check answer">&nbsp;&nbsp;&nbsp;&nbsp; <input type="reset" value="Reset">&nbsp;&nbsp;&nbsp;&nbsp; <input onclick="show(5,'Reactions of Potassium dichromate',1,7,6,4,1,3,7,'K<sub>2</sub>Cr<sub>2</sub>O<sub>7</sub> + 7 H<sub>2</sub>SO<sub>4</sub> + 6 KI',' 4 K<sub>2</sub>SO<sub>4</sub> + Cr<sub>2</sub>(SO<sub>4</sub>)<sub>3</sub> + 3 I<sub>2</sub> + 7 H<sub>2</sub>O');" type="button" value="Show answer"></p>
+  <p style="font-size:115%; text-align:center;">
+    <span style="color:blue;"><b>Time Taken:</b></span><span class="timer" id="timer5">00:00</span>
+    <button type="button" onclick="startTimer('timer5')">Start</button>
+    <button type="button" onclick="stopTimer('timer5')">Stop</button>
+    <button type="button" onclick="resetTimer('timer5')">Reset Timer</button>
+  </p> 
+<p></p>
+3.  Acidified Potassium dichromate oxidizes Iron(II) sulphate into Iron(III) sulphate:
+ <p style="font-size:115%; text-align:center;"><input style="font-size: 16px; text-align: center" 
+  size=1 name=q6a>K<sub>2</sub>Cr<sub>2</sub>O<sub>7</sub> + <input  style="font-size: 16px; text-align: center" size=1 name=q6b>H<sub>2</sub>SO<sub>4</sub> + <input  style="font-size: 16px; text-align: center" size=1 name=q6c> FeSO<sub>4</sub> &#8594;<input style="font-size: 16px; text-align: center" size=1 name=q6d> K<sub>2</sub>SO<sub>4</sub> + <input style="font-size: 16px; text-align: center" size=1   name=q6e>Cr<sub>2</sub>(SO<sub>4</sub>)<sub>3</sub> + <input style="font-size: 16px; text-align: center" size=1   name=q6f> Fe<sub>2</sub>(SO<sub>4</sub>)<sub>3</sub> + <input style="font-size: 16px; text-align: center" size=1   name=q6g>H<sub>2</sub>O</p>
+  <p style="font-size:115%; text-align:center;"><input onclick="check(6,'Reactions of Potassium dichromate',1,7,6,1,1,3,7,'K<sub>2</sub>Cr<sub>2</sub>O<sub>7</sub> + H<sub>2</sub>SO<sub>4</sub> + FeSO<sub>4</sub>',' K<sub>2</sub>SO<sub>4</sub> + Cr<sub>2</sub>(SO<sub>4</sub>)<sub>3</sub> + Fe<sub>2</sub>(SO<sub>4</sub>)<sub>3</sub> + H<sub>2</sub>O');" type="button" value="Check answer">&nbsp;&nbsp;&nbsp;&nbsp; <input type="reset" value="Reset">&nbsp;&nbsp;&nbsp;&nbsp; <input onclick="show(6,'Reactions of Potassium dichromate',1,7,6,1,1,3,7,'K<sub>2</sub>Cr<sub>2</sub>O<sub>7</sub> + 7 H<sub>2</sub>SO<sub>4</sub> + 6 FeSO<sub>4</sub>',' K<sub>2</sub>SO<sub>4</sub> + Cr<sub>2</sub>(SO<sub>4</sub>)<sub>3</sub> + 3 Fe<sub>2</sub>(SO<sub>4</sub>)<sub>3</sub> + 7 H<sub>2</sub>O');" type="button" value="Show answer"></p>
+  <p style="font-size:115%; text-align:center;">
+  <span style="color:blue;"><b>Time Taken:</b></span><span class="timer" id="timer6">00:00</span>
+  <button type="button" onclick="startTimer('timer6')">Start</button>
+  <button type="button" onclick="stopTimer('timer6')">Stop</button>
+  <button type="button" onclick="resetTimer('timer6')">Reset Timer</button>
+</p> 
+  <p></p>
+4.  Potassium dichromate reacts with Lead(II) nitrate to form yellow precipitate of Lead chromate :
+ <p style="font-size:115%; text-align:center;"><input style="font-size: 16px; text-align: center" 
+  size=1 name=q7a>K<sub>2</sub>Cr<sub>2</sub>O<sub>7</sub> + <input  style="font-size: 16px; text-align: center" size=1 name=q7b>Pb(NO<sub>3</sub>)<sub>2</sub> + <input  style="font-size: 16px; text-align: center" size=1 name=q7c>H<sub>2</sub>O &#8594;<input style="font-size: 16px; text-align: center" size=1 name=q7d>PbCrO<sub>4</sub> + <input style="font-size: 16px; text-align: center" size=1   name=q7e>KNO<sub>3</sub> + <input style="font-size: 16px; text-align: center" size=1   name=q7f>HNO<sub>3</sub></p>
+  <p style="font-size:115%; text-align:center;"><input onclick="check(7,'Reactions of Potassium dichromate',1,2,1,2,2,2,0,'K<sub>2</sub>Cr<sub>2</sub>O<sub>7</sub> + Pb(NO<sub>3</sub>)<sub>2</sub> + H<sub>2</sub>O',' PbCrO<sub>4</sub> + KNO<sub>3</sub> + HNO<sub>3</sub>');" type="button" value="Check answer">&nbsp;&nbsp;&nbsp;&nbsp; <input type="reset" value="Reset">&nbsp;&nbsp;&nbsp;&nbsp; <input onclick="show(7,'Reactions of Potassium dichromate',1,2,1,2,2,2,0,' K<sub>2</sub>Cr<sub>2</sub>O<sub>7</sub> + 2 Pb(NO<sub>3</sub>)<sub>2</sub> + H<sub>2</sub>O',' 2 PbCrO<sub>4</sub> + 2 KNO<sub>3</sub> + 2 HNO<sub>3</sub>');" type="button" value="Show answer"></p>
+  <p style="font-size:115%; text-align:center;">
+  <span style="color:blue;"><b>Time Taken:</b></span><span class="timer" id="timer7">00:00</span>
+  <button type="button" onclick="startTimer('timer7')">Start</button>
+  <button type="button" onclick="stopTimer('timer7')">Stop</button>
+  <button type="button" onclick="resetTimer('timer7')">Reset Timer</button>
+</p> 
+
+ <p></p>
+
+<table class="center">
+
+  <tr>
+  <td><a href="index.html">Home Page</a></td>
+  <td><a href="equations.html">Intermediate Equations</a></td>
+  <td><a href="assorted.html">Assorted Equations</a></td>
+  <td><a href="fluorine.html">Fluorine</a></td>
+  <td><a href="ozone.html">Ozone</a></td>
+  <td><a href="potassium-permanganate.html">Potassium Permanganate</a></td>
+  <td><a href="hydrogen-peroxide.html">Hydrogen Peroxide</a></td>
+<td><a href="#top">TOP</a></td>	
+</tr>
+</table>
+</form>
+<p></p>
+ <address>   
+  For feedback, please e-mail&nbsp; to:<a href="mailto:jibanmajumdar@gmail.com">jibanmajumdar@gmail.com</a> </address> 
+  </body>
+  </html>
