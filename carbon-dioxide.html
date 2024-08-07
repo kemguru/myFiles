@@ -1,0 +1,481 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Carbon Dioxide</title>
+    <script src="chem1.js" defer></script>
+    <script src="timer.js" defer></script>
+    <meta name="keywords" content="exercises, balancing, chemistry, equations, hydrogen, Oxygen, Carbon-dioxide, carbon-monoxide, preparation">
+    <meta name="author" content="Jiban Majumdar">
+    <link rel="stylesheet" href="mystyle.css">
+</head>
+<body>
+  <div>
+    <img src="myPhoto.jpg" alt="webmaster"  width="150" height="200"> <br> <a href="mailto:jibanmajumdar@gmail.com">webmaster</a>
+    </div> 
+  <table class="center">
+<tr>
+<td><a href="index.html">Home Page</a></td>
+<td><a href="equations.html">Intermediate Equations</a></td>
+<td><a href="assorted.html">Assorted Equations</a></td>
+<td><a href="oxygen.html">Oxygen</a></td>
+<td><a href="hydrogen.html">Hydrogen</a></td>	
+<td><a href="carbon-monoxide.html">Carbon Monoxide</a></td>
+<td><a href="nitrogen.html">Nitrogen</a></td>	
+</tr>
+</table>
+
+<h1 style="text-align:center;">Carbon Dioxide</h1>
+
+<h2>Practise balancing equations:</h2> <h3>Direction:</h3> <ul><li>In  the following equations you will see a blank box before the symbol of each compound and element. Enter the lowest possible number in each box, or leave the box blank if you think the chemical needn't have a number (i.e. the number is equivalent to '1').</li> 
+<li>When you think the equation is balanced, click on the small button <span style= "color:blue;"><b>"Check answer"</b></span> that appears below it.</li> <lI>If your equation is incorrect, then click the button <span style= "color:blue;"><b> "Reset"</b></span> and try balancing the  equation again.</li> <li>In case you are in a hurry or are unable to balance, then click the button <span style= "color:blue;"><b>"Show answer."</b></span></li>
+  <li>If you want to know the time taken (minutes:seconds) to balance a chemical equation, you click the <span style="color:blue;"><b>"Start"</b></span> button and after balancing the equation, click the <span style="color:blue;"><b>"Stop"</b></span>button. Once, you have noted the time, click the <span style="color:blue;"><b>"Reset Timer"</b></span> button.
+  </li>
+</ul>
+
+ <h3>Note:</h3> If you get no response after clicking 'Check answer' or 'Show answer', your browser has disabled to run this program. Enable it by clicking below the 'address bar' and follow the instructions.
+
+<form name="equations">
+
+  <h4>Preparation of Carbon Dioxide(Laboratory Method):</h4> <ul><li>When marble chips are reacted with dilute Hydrochloric acid, Calcium chloride, Carbon dioxide and water are formed:</li></ul> 
+  <p style="font-size:115%; text-align:center;">  <input style="font-size: 16px; text-align: center" 
+  size=1 name=q1a> CaCO<sub>3</sub> + <input  style="font-size: 16px; text-align: center" size=1 name=q1b> HCl &#8594; <input  style="font-size: 16px; text-align: center" size=1 name=q1c> CaCl<sub>2</sub> + <input style="font-size: 16px;text-align: center" size=1 name=q1d> CO<sub>2</sub> + <input  style="font-size: 16px; text-align: center" size=1 name=q1e> H<sub>2</sub>O</p> 
+
+ <p style="font-size:115%; text-align:center;"> <input onclick="check(1,'Preparation of Carbon Dioxide(Laboratory Method)',1,2,1,1,1,0,'CaCO<sub>3</sub> + HCl', 'CaCl<sub>2</sub> + CO<sub>2</sub> + H<sub>2</sub>O');" type="button" value="Check answer">&nbsp;&nbsp;&nbsp;&nbsp; <input type="reset" value="Reset">&nbsp;&nbsp;&nbsp;&nbsp; <input onclick="show(1,'Preparation of Carbon Dioxide(Laboratory Method)',1,2,1,1,1,0,'CaCO<sub>3</sub> + 2 HCl', 'CaCl<sub>2</sub> + CO<sub>2</sub> + H<sub>2</sub>O');" type="button" value="Show answer"></p> 
+ <p style="font-size:115%; text-align:center;">
+  <span style="color:blue;"><b>Time Taken:</b></span><span class="timer" id="timer1">00:00</span>
+  <button type="button" onclick="startTimer('timer1')">Start</button>
+  <button type="button" onclick="stopTimer('timer1')">Stop</button>
+  <button type="button" onclick="resetTimer('timer1')">Reset Timer</button>
+</p>
+<p></p>
+
+<h4>Preparation of Carbon Dioxide(Other methods):</h4> 1. When marble chips are reacted with dilute Nitric acid, Calcium nitrate, Carbon dioxide and water are formed: 
+  <p style="font-size:115%; text-align:center;">  <input style="font-size: 16px; text-align: center" 
+  size=1 name=q2a> CaCO<sub>3</sub> + <input  style="font-size: 16px; text-align: center" size=1 name=q2b> HNO<sub>3</sub>&#8594; <input  style="font-size: 16px; text-align: center" size=1 name=q2c> Ca(NO<sub>3</sub>)<sub>2</sub> + <input style="font-size: 16px;text-align: center" size=1 name=q2d> CO<sub>2</sub> + <input  style="font-size: 16px; text-align: center" size=1 name=q2e> H<sub>2</sub>O</p> 
+
+ <p style="font-size:115%; text-align:center;"> <input onclick="check(2,'Preparation of Carbon Dioxide(Other methods)',1,2,1,1,1,0,'CaCO<sub>3</sub> + HNO<sub>3</sub>', 'Ca(NO<sub>3</sub>)<sub>2</sub> + CO<sub>2</sub> + H<sub>2</sub>O');" type="button" value="Check answer">&nbsp;&nbsp;&nbsp;&nbsp; <input type="reset" value="Reset">&nbsp;&nbsp;&nbsp;&nbsp; <input onclick="show(2,'Preparation of Carbon Dioxide(Other methods)',1,2,1,1,1,0,'CaCO<sub>3</sub> + 2 HNO<sub>3</sub>', 'Ca(NO<sub>3</sub>)<sub>2</sub> + CO<sub>2</sub> + H<sub>2</sub>O');" type="button" value="Show answer"></p> 
+ <p style="font-size:115%; text-align:center;">
+  <span style="color:blue;"><b>Time Taken:</b></span><span class="timer" id="timer2">00:00</span>
+  <button type="button" onclick="startTimer('timer2')">Start</button>
+  <button type="button" onclick="stopTimer('timer2')">Stop</button>
+  <button type="button" onclick="resetTimer('timer2')">Reset Timer</button>
+</p>
+<p></p>
+2. When Sodium carbonate is reacted with dilute Sulphuric acid, Sodium sulphate, Carbon dioxide and water are formed:
+  <p style="font-size:115%; text-align:center;"> <input style="font-size: 16px; text-align: center" 
+  size=1 name=q3a> Na<sub>2</sub>CO<sub>3</sub> + <input  style="font-size: 16px; text-align: center" size=1 name=q3b> H<sub>2</sub>SO<sub>4</sub> &#8594; <input style="font-size: 16px; text-align: center" size=1 name=q3c> Na<sub>2</sub>SO<sub>4</sub> + <input style="font-size: 16px;text-align: center" size=1 name=q3d> CO<sub>2</sub> + <input  style="font-size: 16px; text-align: center" size=1 name=q3e> H<sub>2</sub>O</p> 
+<p style="font-size:115%; text-align:center;"> <input onclick="check(3,'Preparation of Carbon Dioxide(Other methods)',1,1,1,1,1,0,'Na<sub>2</sub>CO<sub>3</sub> + H<sub>2</sub>SO<sub>4</sub>', 'Na<sub>2</sub>SO<sub>4</sub> + CO<sub>2</sub> + H<sub>2</sub>O');" type="button" value="Check answer">&nbsp;&nbsp;&nbsp;&nbsp; <input type="reset" value="Reset">&nbsp;&nbsp;&nbsp;&nbsp; <input onclick="show(3,'Preparation of Carbon Dioxide(Other methods)',1,1,1,1,1,0,'Na<sub>2</sub>CO<sub>3</sub> + H<sub>2</sub>SO<sub>4</sub>', 'Na<sub>2</sub>SO<sub>4</sub> + CO<sub>2</sub> + H<sub>2</sub>O');" type="button" value="Show answer"></p> 
+<p style="font-size:115%; text-align:center;">
+  <span style="color:blue;"><b>Time Taken:</b></span><span class="timer" id="timer3">00:00</span>
+  <button type="button" onclick="startTimer('timer3')">Start</button>
+  <button type="button" onclick="stopTimer('timer3')">Stop</button>
+  <button type="button" onclick="resetTimer('timer3')">Reset Timer</button>
+</p>
+<p></p>
+3. When Sodium carbonate is reacted with dilute Hydrochloric acid, Sodium chloride, Carbon dioxide and water are formed: 
+  <p style="font-size:115%; text-align:center;"> <input style="font-size: 16px; text-align: center" 
+  size=1 name=q4a> Na<sub>2</sub>CO<sub>3</sub> + <input  style="font-size: 16px; text-align: center" size=1 name=q4b> HCl &#8594; <input style="font-size: 16px; text-align: center" size=1 name=q4c> NaCl + <input style="font-size: 16px;text-align: center" size=1 name=q4d> CO<sub>2</sub> + <input  style="font-size: 16px; text-align: center" size=1 name=q4e> H<sub>2</sub>O</p> 
+<p style="font-size:115%; text-align:center;"> <input onclick="check(4,'Preparation of Carbon Dioxide(Other methods)',1,2,2,1,1,0,'Na<sub>2</sub>CO<sub>3</sub> + HCl', 'NaCl + CO<sub>2</sub> + H<sub>2</sub>O');" type="button" value="Check answer">&nbsp;&nbsp;&nbsp;&nbsp; <input type="reset" value="Reset">&nbsp;&nbsp;&nbsp;&nbsp; <input onclick="show(4,'Preparation of Carbon Dioxide(Other methods)',1,1,1,1,1,0,'Na<sub>2</sub>CO<sub>3</sub> + 2 HCl', '2 NaCl + CO<sub>2</sub> + H<sub>2</sub>O');" type="button" value="Show answer"></p> 
+<p style="font-size:115%; text-align:center;">
+  <span style="color:blue;"><b>Time Taken:</b></span><span class="timer" id="timer4">00:00</span>
+  <button type="button" onclick="startTimer('timer4')">Start</button>
+  <button type="button" onclick="stopTimer('timer4')">Stop</button>
+  <button type="button" onclick="resetTimer('timer4')">Reset Timer</button>
+</p>
+<p></p>
+4. When Sodium carbonate is reacted with dilute Nitric acid, Sodium nitrate, Carbon dioxide and water are formed:
+  <p style="font-size:115%; text-align:center;"> <input style="font-size: 16px; text-align: center" 
+  size=1 name=q5a> Na<sub>2</sub>CO<sub>3</sub> + <input  style="font-size: 16px; text-align: center" size=1 name=q5b> HNO<sub>3</sub> &#8594; <input style="font-size: 16px; text-align: center" size=1 name=q5c> NaNO<sub>3</sub> + <input style="font-size: 16px;text-align: center" size=1 name=q5d> CO<sub>2</sub> + <input  style="font-size: 16px; text-align: center" size=1 name=q5e> H<sub>2</sub>O</p> 
+<p style="font-size:115%; text-align:center;"> <input onclick="check(5,'Preparation of Carbon Dioxide(Other methods)',1,2,2,1,1,0,'Na<sub>2</sub>CO<sub>3</sub> + HNO<sub>3</sub>', 'NaNO<sub>3</sub> + CO<sub>2</sub> + H<sub>2</sub>O');" type="button" value="Check answer">&nbsp;&nbsp;&nbsp;&nbsp; <input type="reset" value="Reset">&nbsp;&nbsp;&nbsp;&nbsp; <input onclick="show(5,'Preparation of Carbon Dioxide(Other methods)',1,2,2,1,1,0,'Na<sub>2</sub>CO<sub>3</sub> + 2 HNO<sub>3</sub>', '2 NaNO<sub>3</sub> + CO<sub>2</sub> + H<sub>2</sub>O');" type="button" value="Show answer"></p> 
+<p style="font-size:115%; text-align:center;">
+  <span style="color:blue;"><b>Time Taken:</b></span><span class="timer" id="timer5">00:00</span>
+  <button type="button" onclick="startTimer('timer5')">Start</button>
+  <button type="button" onclick="stopTimer('timer5')">Stop</button>
+  <button type="button" onclick="resetTimer('timer5')">Reset Timer</button>
+</p>
+<p></p>
+5. When Potassium carbonate is reacted with dilute Sulphuric acid, Potassium sulphate, Carbon dioxide and water are formed: 
+  <p style="font-size:115%; text-align:center;"> <input style="font-size: 16px; text-align: center" 
+  size=1 name=q6a> K<sub>2</sub>CO<sub>3</sub> + <input  style="font-size: 16px; text-align: center" size=1 name=q6b> H<sub>2</sub>SO<sub>4</sub> &#8594; <input style="font-size: 16px; text-align: center" size=1 name=q6c> K<sub>2</sub>SO<sub>4</sub> + <input style="font-size: 16px;text-align: center" size=1 name=q6d> CO<sub>2</sub> + <input  style="font-size: 16px; text-align: center" size=1 name=q6e> H<sub>2</sub>O</p> 
+<p style="font-size:115%; text-align:center;"> <input onclick="check(6,'Preparation of Carbon Dioxide(Other methods)',1,1,1,1,1,0,'K<sub>2</sub>CO<sub>3</sub> + H<sub>2</sub>SO<sub>4</sub>', 'K<sub>2</sub>SO<sub>4</sub> + CO<sub>2</sub> + H<sub>2</sub>O');" type="button" value="Check answer">&nbsp;&nbsp;&nbsp;&nbsp; <input type="reset" value="Reset">&nbsp;&nbsp;&nbsp;&nbsp; <input onclick="show(6,'Preparation of Carbon Dioxide(Other methods)',1,1,1,1,1,0,'K<sub>2</sub>CO<sub>3</sub> + H<sub>2</sub>SO<sub>4</sub>', 'K<sub>2</sub>SO<sub>4</sub> + CO<sub>2</sub> + H<sub>2</sub>O');" type="button" value="Show answer"></p> 
+<p style="font-size:115%; text-align:center;">
+  <span style="color:blue;"><b>Time Taken:</b></span><span class="timer" id="timer6">00:00</span>
+  <button type="button" onclick="startTimer('timer6')">Start</button>
+  <button type="button" onclick="stopTimer('timer6')">Stop</button>
+  <button type="button" onclick="resetTimer('timer6')">Reset Timer</button>
+</p> 
+<p></p>
+6. When Potassium carbonate is reacted with dilute Hydrochloric acid, Potassium chloride, Carbon dioxide and water are formed: 
+  <p style="font-size:115%; text-align:center;"> <input style="font-size: 16px; text-align: center" 
+  size=1 name=q7a> K<sub>2</sub>CO<sub>3</sub> + <input  style="font-size: 16px; text-align: center" size=1 name=q7b> HCl &#8594; <input style="font-size: 16px; text-align: center" size=1 name=q7c> KCl + <input style="font-size: 16px;text-align: center" size=1 name=q7d> CO<sub>2</sub> + <input  style="font-size: 16px; text-align: center" size=1 name=q7e> H<sub>2</sub>O</p> 
+<p style="font-size:115%; text-align:center;"> <input onclick="check(7,'Preparation of Carbon Dioxide(Other methods)',1,2,2,1,1,0,'K<sub>2</sub>CO<sub>3</sub> + HCl', 'KCl + CO<sub>2</sub> + H<sub>2</sub>O');" type="button" value="Check answer">&nbsp;&nbsp;&nbsp;&nbsp; <input type="reset" value="Reset">&nbsp;&nbsp;&nbsp;&nbsp; <input onclick="show(7,'Preparation of Carbon Dioxide(Other methods)',1,1,1,1,1,0,'K<sub>2</sub>CO<sub>3</sub> + 2 HCl', '2 KCl + CO<sub>2</sub> + H<sub>2</sub>O');" type="button" value="Show answer"></p> 
+<p style="font-size:115%; text-align:center;">
+  <span style="color:blue;"><b>Time Taken:</b></span><span class="timer" id="timer7">00:00</span>
+  <button type="button" onclick="startTimer('timer7')">Start</button>
+  <button type="button" onclick="stopTimer('timer7')">Stop</button>
+  <button type="button" onclick="resetTimer('timer7')">Reset Timer</button>
+</p> 
+<p></p>
+7. When Potassium carbonate is reacted with dilute Nitric acid, Potassium nitrate, Carbon dioxide and water are formed: 
+  <p style="font-size:115%; text-align:center;"> <input style="font-size: 16px; text-align: center" 
+  size=1 name=q8a> K<sub>2</sub>CO<sub>3</sub> + <input  style="font-size: 16px; text-align: center" size=1 name=q8b> HNO<sub>3</sub> &#8594; <input style="font-size: 16px; text-align: center" size=1 name=q8c> KNO<sub>3</sub> + <input style="font-size: 16px;text-align: center" size=1 name=q8d> CO<sub>2</sub> + <input  style="font-size: 16px; text-align: center" size=1 name=q8e> H<sub>2</sub>O</p> 
+<p style="font-size:115%; text-align:center;"> <input onclick="check(8,'Preparation of Carbon Dioxide(Other methods)',1,2,2,1,1,0,'K<sub>2</sub>CO<sub>3</sub> + HNO<sub>3</sub>', 'KNO<sub>3</sub> + CO<sub>2</sub> + H<sub>2</sub>O');" type="button" value="Check answer">&nbsp;&nbsp;&nbsp;&nbsp; <input type="reset" value="Reset">&nbsp;&nbsp;&nbsp;&nbsp; <input onclick="show(8,'Preparation of Carbon Dioxide(Other methods)',1,2,2,1,1,0,'K<sub>2</sub>CO<sub>3</sub> + 2 HNO<sub>3</sub>', '2 KNO<sub>3</sub> + CO<sub>2</sub> + H<sub>2</sub>O');" type="button" value="Show answer"></p> 
+<p style="font-size:115%; text-align:center;">
+  <span style="color:blue;"><b>Time Taken:</b></span><span class="timer" id="timer8">00:00</span>
+  <button type="button" onclick="startTimer('timer8')">Start</button>
+  <button type="button" onclick="stopTimer('timer8')">Stop</button>
+  <button type="button" onclick="resetTimer('timer8')">Reset Timer</button>
+</p>
+<p></p>
+8. When Sodium bicarbonate is reacted with dilute Sulphuric acid, Sodium sulphate, Carbon dioxide and water are formed:
+  <p style="font-size:115%; text-align:center;"> <input style="font-size: 16px; text-align: center" 
+  size=1 name=q9a> NaHCO<sub>3</sub> + <input  style="font-size: 16px; text-align: center" size=1 name=q9b> H<sub>2</sub>SO<sub>4</sub> &#8594; <input style="font-size: 16px; text-align: center" size=1 name=q9c> Na<sub>2</sub>SO<sub>4</sub> + <input style="font-size: 16px;text-align: center" size=1 name=q9d> CO<sub>2</sub> + <input  style="font-size: 16px; text-align: center" size=1 name=q9e> H<sub>2</sub>O</p> 
+<p style="font-size:115%; text-align:center;"> <input onclick="check(9,'Preparation of Carbon Dioxide(Other methods)',2,1,1,2,2,0,'NaHCO<sub>3</sub> + H<sub>2</sub>SO<sub>4</sub>', 'Na<sub>2</sub>SO<sub>4</sub> + CO<sub>2</sub> + H<sub>2</sub>O');" type="button" value="Check answer">&nbsp;&nbsp;&nbsp;&nbsp; <input type="reset" value="Reset">&nbsp;&nbsp;&nbsp;&nbsp; <input onclick="show(9,'Preparation of Carbon Dioxide(Other methods)',2,1,1,2,2,0,'2 NaHCO<sub>3</sub> + H<sub>2</sub>SO<sub>4</sub>', 'Na<sub>2</sub>SO<sub>4</sub> + 2 CO<sub>2</sub> + 2 H<sub>2</sub>O');" type="button" value="Show answer"></p> 
+<p style="font-size:115%; text-align:center;">
+  <span style="color:blue;"><b>Time Taken:</b></span><span class="timer" id="timer9">00:00</span>
+  <button type="button" onclick="startTimer('timer9')">Start</button>
+  <button type="button" onclick="stopTimer('timer9')">Stop</button>
+  <button type="button" onclick="resetTimer('timer9')">Reset Timer</button>
+</p>
+<p></p>
+9. When Sodium bicarbonate is reacted with dilute Hydrochloric acid, Sodium chloride, Carbon dioxide and water are formed:
+  <p style="font-size:115%; text-align:center;"> <input style="font-size: 16px; text-align: center" 
+  size=1 name=q10a> NaHCO<sub>3</sub> + <input  style="font-size: 16px; text-align: center" size=1 name=q10b> HCl &#8594; <input style="font-size: 16px; text-align: center" size=1 name=q10c> NaCl + <input style="font-size: 16px;text-align: center" size=1 name=q10d> CO<sub>2</sub> + <input  style="font-size: 16px; text-align: center" size=1 name=q10e> H<sub>2</sub>O</p> 
+<p style="font-size:115%; text-align:center;"> <input onclick="check(10,'Preparation of Carbon Dioxide(Other methods)',1,1,1,1,1,0,'NaHCO<sub>3</sub> + HCl', 'NaCl + CO<sub>2</sub> + H<sub>2</sub>O');" type="button" value="Check answer">&nbsp;&nbsp;&nbsp;&nbsp; <input type="reset" value="Reset">&nbsp;&nbsp;&nbsp;&nbsp; <input onclick="show(10,'Preparation of Carbon Dioxide(Other methods)',1,1,1,1,1,0,'NaHCO<sub>3</sub> + HCl', 'NaCl + CO<sub>2</sub> + H<sub>2</sub>O');" type="button" value="Show answer"></p> 
+<p style="font-size:115%; text-align:center;">
+  <span style="color:blue;"><b>Time Taken:</b></span><span class="timer" id="timer10">00:00</span>
+  <button type="button" onclick="startTimer('timer10')">Start</button>
+  <button type="button" onclick="stopTimer('timer10')">Stop</button>
+  <button type="button" onclick="resetTimer('timer10')">Reset Timer</button>
+</p>
+
+<p></p>
+10. When Sodium bicarbonate is reacted with dilute Nitric acid, Sodium nitrate, Carbon dioxide and water are formed:
+  <p style="font-size:115%; text-align:center;"> <input style="font-size: 16px; text-align: center" 
+  size=1 name=q11a> NaHCO<sub>3</sub> + <input  style="font-size: 16px; text-align: center" size=1 name=q11b> HNO<sub>3</sub> &#8594; <input style="font-size: 16px; text-align: center" size=1 name=q11c> NaNO<sub>3</sub> + <input style="font-size: 16px;text-align: center" size=1 name=q11d> CO<sub>2</sub> + <input  style="font-size: 16px; text-align: center" size=1 name=q11e> H<sub>2</sub>O</p> 
+<p style="font-size:115%; text-align:center;"> <input onclick="check(11,'Preparation of Carbon Dioxide(Other methods)',1,1,1,1,1,0,'NaHCO<sub>3</sub> + HNO<sub>3</sub>', 'NaNO<sub>3</sub> + CO<sub>2</sub> + H<sub>2</sub>O');" type="button" value="Check answer">&nbsp;&nbsp;&nbsp;&nbsp; <input type="reset" value="Reset">&nbsp;&nbsp;&nbsp;&nbsp; <input onclick="show(11,'Preparation of Carbon Dioxide(Other methods)',1,1,1,1,1,0,'NaHCO<sub>3</sub> + HNO<sub>3</sub>', 'NaNO<sub>3</sub> + CO<sub>2</sub> + H<sub>2</sub>O');" type="button" value="Show answer"></p> 
+<p style="font-size:115%; text-align:center;">
+  <span style="color:blue;"><b>Time Taken:</b></span><span class="timer" id="timer11">00:00</span>
+  <button type="button" onclick="startTimer('timer11')">Start</button>
+  <button type="button" onclick="stopTimer('timer11')">Stop</button>
+  <button type="button" onclick="resetTimer('timer11')">Reset Timer</button>
+</p>
+ 
+<p></p>
+ 11. When Potassium bicarbonate is reacted with dilute Sulphuric acid, Potassium sulphate, Carbon dioxide and water are formed:
+  <p style="font-size:115%; text-align:center;"> <input style="font-size: 16px; text-align: center" 
+  size=1 name=q12a> KHCO<sub>3</sub> + <input  style="font-size: 16px; text-align: center" size=1 name=q12b> H<sub>2</sub>SO<sub>4</sub> &#8594; <input style="font-size: 16px; text-align: center" size=1 name=q12c> K<sub>2</sub>SO<sub>4</sub> + <input style="font-size: 16px;text-align: center" size=1 name=q12d> CO<sub>2</sub> + <input  style="font-size: 16px; text-align: center" size=1 name=q12e> H<sub>2</sub>O</p> 
+<p style="font-size:115%; text-align:center;"> <input onclick="check(12,'Preparation of Carbon Dioxide(Other methods)',2,1,1,2,2,0,'KHCO<sub>3</sub> + H<sub>2</sub>SO<sub>4</sub>', 'K<sub>2</sub>SO<sub>4</sub> + CO<sub>2</sub> + H<sub>2</sub>O');" type="button" value="Check answer">&nbsp;&nbsp;&nbsp;&nbsp; <input type="reset" value="Reset">&nbsp;&nbsp;&nbsp;&nbsp; <input onclick="show(12,'Preparation of Carbon Dioxide(Other methods)',2,1,1,2,2,0,'2 KHCO<sub>3</sub> + H<sub>2</sub>SO<sub>4</sub>', 'K<sub>2</sub>SO<sub>4</sub> + 2 CO<sub>2</sub> + 2 H<sub>2</sub>O');" type="button" value="Show answer"></p> 
+<p style="font-size:115%; text-align:center;">
+  <span style="color:blue;"><b>Time Taken:</b></span><span class="timer" id="timer12">00:00</span>
+  <button type="button" onclick="startTimer('timer12')">Start</button>
+  <button type="button" onclick="stopTimer('timer12')">Stop</button>
+  <button type="button" onclick="resetTimer('timer12')">Reset Timer</button>
+</p>
+<p></p>
+12. When Potassium bicarbonate is reacted with dilute Hydrochloric acid, Potassium chloride, Carbon dioxide and water are formed: 
+  <p style="font-size:115%; text-align:center;"> <input style="font-size: 16px; text-align: center" 
+  size=1 name=q13a> KHCO<sub>3</sub> + <input  style="font-size: 16px; text-align: center" size=1 name=q13b> HCl &#8594; <input style="font-size: 16px; text-align: center" size=1 name=q13c> KCl + <input style="font-size: 16px;text-align: center" size=1 name=q13d> CO<sub>2</sub> + <input  style="font-size: 16px; text-align: center" size=1 name=q13e> H<sub>2</sub>O</p> 
+<p style="font-size:115%; text-align:center;"> <input onclick="check(13,'Preparation of Carbon Dioxide(Other methods)',1,1,1,1,1,0,'KHCO<sub>3</sub> + HCl', 'KCl + CO<sub>2</sub> + H<sub>2</sub>O');" type="button" value="Check answer">&nbsp;&nbsp;&nbsp;&nbsp; <input type="reset" value="Reset">&nbsp;&nbsp;&nbsp;&nbsp; <input onclick="show(13,'Preparation of Carbon Dioxide(Other methods)',1,1,1,1,1,0,'KHCO<sub>3</sub> + HCl', 'KCl + CO<sub>2</sub> + H<sub>2</sub>O');" type="button" value="Show answer"></p> 
+<p style="font-size:115%; text-align:center;">
+  <span style="color:blue;"><b>Time Taken:</b></span><span class="timer" id="timer13">00:00</span>
+  <button type="button" onclick="startTimer('timer13')">Start</button>
+  <button type="button" onclick="stopTimer('timer13')">Stop</button>
+  <button type="button" onclick="resetTimer('timer13')">Reset Timer</button>
+</p>
+<p></p>
+13. When Potassium bicarbonate is reacted with dilute Nitric acid, Potassium nitrate, Carbon dioxide and water are formed: 
+  <p style="font-size:115%; text-align:center;"> <input style="font-size: 16px; text-align: center" 
+  size=1 name=q14a> KHCO<sub>3</sub> + <input  style="font-size: 16px; text-align: center" size=1 name=q14b> HNO<sub>3</sub> &#8594; <input style="font-size: 16px; text-align: center" size=1 name=q14c> KNO<sub>3</sub> + <input style="font-size: 16px;text-align: center" size=1 name=q14d> CO<sub>2</sub> + <input  style="font-size: 16px; text-align: center" size=1 name=q14e> H<sub>2</sub>O</p> 
+<p style="font-size:115%; text-align:center;"> <input onclick="check(14,'Preparation of Carbon Dioxide(Other methods)',1,1,1,1,1,0,'KHCO<sub>3</sub> + HNO<sub>3</sub>', 'KNO<sub>3</sub> + CO<sub>2</sub> + H<sub>2</sub>O');" type="button" value="Check answer">&nbsp;&nbsp;&nbsp;&nbsp; <input type="reset" value="Reset">&nbsp;&nbsp;&nbsp;&nbsp; <input onclick="show(14,'Preparation of Carbon Dioxide(Other methods)',1,1,1,1,1,0,'KHCO<sub>3</sub> + HNO<sub>3</sub>', 'KNO<sub>3</sub> + CO<sub>2</sub> + H<sub>2</sub>O');" type="button" value="Show answer"></p>
+<p style="font-size:115%; text-align:center;">
+  <span style="color:blue;"><b>Time Taken:</b></span><span class="timer" id="timer14">00:00</span>
+  <button type="button" onclick="startTimer('timer14')">Start</button>
+  <button type="button" onclick="stopTimer('timer14')">Stop</button>
+  <button type="button" onclick="resetTimer('timer14')">Reset Timer</button>
+</p> 
+<p></p>
+14. When Calcium bicarbonate is reacted with dilute Sulphuric acid, Calcium sulphate, Carbon dioxide and water are formed:
+  <p style="font-size:115%; text-align:center;"> <input style="font-size: 16px; text-align: center" 
+  size=1 name=q15a> Ca(HCO<sub>3</sub>)<sub>2</sub> + <input  style="font-size: 16px; text-align: center" size=1 name=q15b> H<sub>2</sub>SO<sub>4</sub> &#8594; <input style="font-size: 16px; text-align: center" size=1 name=q15c> CaSO<sub>4</sub> + <input style="font-size: 16px;text-align: center" size=1 name=q15d> CO<sub>2</sub> + <input  style="font-size: 16px; text-align: center" size=1 name=q15e> H<sub>2</sub>O</p> 
+<p style="font-size:115%; text-align:center;"> <input onclick="check(15,'Preparation of Carbon Dioxide(Other methods)',1,1,1,2,2,0,'Ca(HCO<sub>3</sub>)<sub>2</sub> + H<sub>2</sub>SO<sub>4</sub>', 'CaSO<sub>4</sub> + CO<sub>2</sub> + H<sub>2</sub>O');" type="button" value="Check answer">&nbsp;&nbsp;&nbsp;&nbsp; <input type="reset" value="Reset">&nbsp;&nbsp;&nbsp;&nbsp; <input onclick="show(15,'Preparation of Carbon Dioxide(Other methods)',1,1,1,2,2,0,'Ca(HCO<sub>3</sub>)<sub>2</sub> + H<sub>2</sub>SO<sub>4</sub>', 'CaSO<sub>4</sub> + 2 CO<sub>2</sub> + 2 H<sub>2</sub>O');" type="button" value="Show answer"></p> 
+<p style="font-size:115%; text-align:center;">
+  <span style="color:blue;"><b>Time Taken:</b></span><span class="timer" id="timer15">00:00</span>
+  <button type="button" onclick="startTimer('timer15')">Start</button>
+  <button type="button" onclick="stopTimer('timer15')">Stop</button>
+  <button type="button" onclick="resetTimer('timer15')">Reset Timer</button>
+</p>
+<p></p>
+15. When Calcium bicarbonate is reacted with dilute Hydrochloric acid, Calcium chloride, Carbon dioxide and water are formed:
+  <p style="font-size:115%; text-align:center;"> <input style="font-size: 16px; text-align: center" 
+  size=1 name=q16a> Ca(HCO<sub>3</sub>)<sub>2</sub> + <input  style="font-size: 16px; text-align: center" size=1 name=q16b> HCl &#8594; <input style="font-size: 16px; text-align: center" size=1 name=q16c> CaCl<sub>2</sub> + <input style="font-size: 16px;text-align: center" size=1 name=q16d> CO<sub>2</sub> + <input  style="font-size: 16px; text-align: center" size=1 name=q16e> H<sub>2</sub>O</p> 
+<p style="font-size:115%; text-align:center;"> <input onclick="check(16,'Preparation of Carbon Dioxide(Other methods)',1,2,1,2,2,0,'Ca(HCO<sub>3</sub>)<sub>2</sub> + HCl', 'CaCl<sub>2</sub> + CO<sub>2</sub> + H<sub>2</sub>O');" type="button" value="Check answer">&nbsp;&nbsp;&nbsp;&nbsp; <input type="reset" value="Reset">&nbsp;&nbsp;&nbsp;&nbsp; <input onclick="show(16,'Preparation of Carbon Dioxide(Other methods)',1,2,1,2,2,0,'Ca(HCO<sub>3</sub>)<sub>2</sub> + 2 HCl', 'CaCl<sub>2</sub> + 2 CO<sub>2</sub> + 2 H<sub>2</sub>O');" type="button" value="Show answer"></p> 
+<p style="font-size:115%; text-align:center;">
+  <span style="color:blue;"><b>Time Taken:</b></span><span class="timer" id="timer16">00:00</span>
+  <button type="button" onclick="startTimer('timer16')">Start</button>
+  <button type="button" onclick="stopTimer('timer16')">Stop</button>
+  <button type="button" onclick="resetTimer('timer16')">Reset Timer</button>
+</p>
+<p></p>
+16. When Calcium bicarbonate is reacted with dilute Nitric acid, Calcium nitrate, Carbon dioxide and water are formed:
+  <p style="font-size:115%; text-align:center;"> <input style="font-size: 16px; text-align: center" 
+  size=1 name=q17a> Ca(HCO<sub>3</sub>)<sub>2</sub> + <input  style="font-size: 16px; text-align: center" size=1 name=q17b> HNO<sub>3</sub> &#8594; <input style="font-size: 16px; text-align: center" size=1 name=q17c> Ca(NO<sub>3</sub>)<sub>2</sub> + <input style="font-size: 16px;text-align: center" size=1 name=q17d> CO<sub>2</sub> + <input  style="font-size: 16px; text-align: center" size=1 name=q17e> H<sub>2</sub>O</p> 
+<p style="font-size:115%; text-align:center;"> <input onclick="check(17,'Preparation of Carbon Dioxide(Other methods)',1,2,1,2,2,0,'Ca(HCO<sub>3</sub>)<sub>2</sub> + HNO<sub>3</sub>', 'Ca(NO<sub>3</sub>)<sub>2</sub> + CO<sub>2</sub> + H<sub>2</sub>O');" type="button" value="Check answer">&nbsp;&nbsp;&nbsp;&nbsp; <input type="reset" value="Reset">&nbsp;&nbsp;&nbsp;&nbsp; <input onclick="show(17,'Preparation of Carbon Dioxide(Other methods)',1,2,1,2,2,0,'Ca(HCO<sub>3</sub>)<sub>2</sub> + 2 HNO<sub>3</sub>', 'Ca(NO<sub>3</sub>)<sub>2</sub> + 2 CO<sub>2</sub> + 2 H<sub>2</sub>O');" type="button" value="Show answer"></p>
+<p style="font-size:115%; text-align:center;">
+  <span style="color:blue;"><b>Time Taken:</b></span><span class="timer" id="timer17">00:00</span>
+  <button type="button" onclick="startTimer('timer17')">Start</button>
+  <button type="button" onclick="stopTimer('timer17')">Stop</button>
+  <button type="button" onclick="resetTimer('timer17')">Reset Timer</button>
+</p>
+<p></p>
+
+<h4>Reactions of Carbon dioxide:</h4>
+	1. Under high pressure Carbon dioxide gas dissolves in water to form weakly acidic Carbonic acid:
+	<p style="font-size:115%; text-align:center;"> <input style="font-size: 16px; text-align: center" size=1 name=q18a> CO<sub>2</sub> + <input  style="font-size: 16px; text-align: center" size=1 name=q18b> H<sub>2</sub>O &#8594; <input style="font-size: 16px; text-align: center" size=1 name=q18c>H<sub>2</sub>CO<sub>3</sub></p> 
+ <p style="font-size:115%; text-align:center;"> <input onclick="check(18,'Reactions of Carbon dioxide',1,1,1,0,0,0,'CO<sub>2</sub> + H<sub>2</sub>O','H<sub>2</sub>CO<sub>3</sub>');" type="button" value="Check answer">&nbsp;&nbsp;&nbsp;&nbsp; <input type="reset" value="Reset">&nbsp;&nbsp;&nbsp;&nbsp; <input onclick="show(18,'Reactions of Carbon dioxide',1,1,1,0,0,0,'CO<sub>2</sub> + H<sub>2</sub>O','H<sub>2</sub>CO<sub>3</sub>');" type="button" value="Show answer"></p>
+ <p style="font-size:115%; text-align:center;">
+  <span style="color:blue;"><b>Time Taken:</b></span><span class="timer" id="timer18">00:00</span>
+  <button type="button" onclick="startTimer('timer18')">Start</button>
+  <button type="button" onclick="stopTimer('timer18')">Stop</button>
+  <button type="button" onclick="resetTimer('timer18')">Reset Timer</button>
+</p>
+<p></p>
+2. Burning Magnesium continues to burn in Carbon dioxide gas to form Magnesium oxide and Carbon:
+	<p style="font-size:115%; text-align:center;"> <input style="font-size: 16px; text-align: center" size=1 name=q19a> Mg + <input  style="font-size: 16px; text-align: center" size=1 name=q19b> CO<sub>2</sub> &#8594;<input style="font-size: 16px; text-align: center" size=1 name=q19c> MgO + <input style="font-size: 16px; text-align: center" size=1 name=q19d> C</p> 
+ <p style="font-size:115%; text-align:center;"> <input onclick="check(19,'Reactions of Carbon dioxide',2,1,2,1,0,0,'Mg + CO<sub>2</sub>','MgO + C');" type="button" value="Check answer">&nbsp;&nbsp;&nbsp;&nbsp; <input type="reset" value="Reset">&nbsp;&nbsp;&nbsp;&nbsp; <input onclick="show(19,'Reactions of Carbon dioxide',2,1,2,1,0,0,'2 Mg + CO<sub>2</sub>','2 MgO + C');" type="button" value="Show answer"></p>
+ <p style="font-size:115%; text-align:center;">
+  <span style="color:blue;"><b>Time Taken:</b></span><span class="timer" id="timer19">00:00</span>
+  <button type="button" onclick="startTimer('timer19')">Start</button>
+  <button type="button" onclick="stopTimer('timer19')">Stop</button>
+  <button type="button" onclick="resetTimer('timer19')">Reset Timer</button>
+</p>
+<p></p>
+
+3. When Carbon dioxide gas is passed into lime water, first it forms milky Calcium carbonate; and when excess carbon dioxide is passed into the milky suspension, it becomes colourless Calcium bicarbonate solution :
+	<p style="font-size:115%; text-align:center;"> <input style="font-size: 16px; text-align: center" size=1 name=q20a> CO<sub>2</sub> + <input  style="font-size: 16px; text-align: center" size=1 name=q20b> Ca(OH)<sub>2</sub> &#8594; <input style="font-size: 16px; text-align: center" size=1 name=q20c> CaCO<sub>3</sub> + <input style="font-size: 16px; text-align: center" size=1 name=q20d> H<sub>2</sub>O</p> 
+ <p style="font-size:115%; text-align:center;"> <input onclick="check(20,'Reactions of Carbon dioxide',1,1,1,1,0,0,'CO<sub>2</sub> + Ca(OH)<sub>2</sub>','CaCO<sub>3</sub> + H<sub>2</sub>O');" type="button" value="Check answer">&nbsp;&nbsp;&nbsp;&nbsp; <input type="reset" value="Reset">&nbsp;&nbsp;&nbsp;&nbsp; <input onclick="show(20,'Reactions of Carbon dioxide',1,1,1,1,0,0,'CO<sub>2</sub> + Ca(OH)<sub>2</sub>','CaCO<sub>3</sub> + H<sub>2</sub>O');" type="button" value="Show answer"></p>
+ <p style="font-size:115%; text-align:center;">
+  <span style="color:blue;"><b>Time Taken:</b></span><span class="timer" id="timer20">00:00</span>
+  <button type="button" onclick="startTimer('timer20')">Start</button>
+  <button type="button" onclick="stopTimer('timer20')">Stop</button>
+  <button type="button" onclick="resetTimer('timer20')">Reset Timer</button>
+</p>
+<p></p> 
+	<p style="font-size:115%; text-align:center;"> <input style="font-size: 16px; text-align: center" size=1 name=q21a> CO<sub>2</sub> + <input  style="font-size: 16px; text-align: center" size=1 name=q21b> CaCO<sub>3</sub> <input style="font-size: 16px; text-align: center" size=1 name=q21c>H<sub>2</sub>O &#8594; <input style="font-size: 16px; text-align: center" size=1 name=q21d> Ca(HCO<sub>3</sub>)<sub>2</sub></p> 
+ <p style="font-size:115%; text-align:center;"> <input onclick="check(21,'Reactions of Carbon dioxide',1,1,1,1,0,0,'CO<sub>2</sub> + CaCO<sub>3</sub>+ H<sub>2</sub>O','Ca(HCO<sub>3</sub>)<sub>2</sub>');" type="button" value="Check answer">&nbsp;&nbsp;&nbsp;&nbsp; <input type="reset" value="Reset">&nbsp;&nbsp;&nbsp;&nbsp; <input onclick="show(21,'Reactions of Carbon dioxide',1,1,1,1,0,0,'CO<sub>2</sub> + CaCO<sub>3</sub>+ H<sub>2</sub>O','Ca(HCO<sub>3</sub>)<sub>2</sub>');" type="button" value="Show answer"></p>
+ <p style="font-size:115%; text-align:center;">
+  <span style="color:blue;"><b>Time Taken:</b></span><span class="timer" id="timer21">00:00</span>
+  <button type="button" onclick="startTimer('timer21')">Start</button>
+  <button type="button" onclick="stopTimer('timer21')">Stop</button>
+  <button type="button" onclick="resetTimer('timer21')">Reset Timer</button>
+</p>
+<p></p>
+
+
+4. When Carbon dioxide gas is passed into Sodium hydroxide solution, first it forms colourless Sodium carbonate; and when excess carbon dioxide is passed into the colourless solution ,it forms a faint white suspension of Sodium bicarbonate:
+	<p style="font-size:115%; text-align:center;"> <input style="font-size: 16px; text-align: center" size=1 name=q22a> CO<sub>2</sub> + <input  style="font-size: 16px; text-align: center" size=1 name=q22b> NaOH &#8594; <input style="font-size: 16px; text-align: center" size=1 name=q22c> Na<sub>2</sub>CO<sub>3</sub> + <input style="font-size: 16px; text-align: center" size=1 name=q22d> H<sub>2</sub>O</p> 
+ <p style="font-size:115%; text-align:center;"> <input onclick="check(22,'Reactions of Carbon dioxide',1,2,1,1,0,0,'CO<sub>2</sub> + NaOH','Na<sub>2</sub>CO<sub>3</sub> + H<sub>2</sub>O');" type="button" value="Check answer">&nbsp;&nbsp;&nbsp;&nbsp; <input type="reset" value="Reset">&nbsp;&nbsp;&nbsp;&nbsp; <input onclick="show(22,'Reactions of Carbon dioxide',1,2,1,1,0,0,'CO<sub>2</sub> + 2 NaOH','Na<sub>2</sub>CO<sub>3</sub> + H<sub>2</sub>O');" type="button" value="Show answer"></p>
+ <p style="font-size:115%; text-align:center;">
+  <span style="color:blue;"><b>Time Taken:</b></span><span class="timer" id="timer22">00:00</span>
+  <button type="button" onclick="startTimer('timer22')">Start</button>
+  <button type="button" onclick="stopTimer('timer22')">Stop</button>
+  <button type="button" onclick="resetTimer('timer22')">Reset Timer</button>
+</p>	
+<p></p> 
+
+
+	<p style="font-size:115%; text-align:center;"> <input style="font-size: 16px; text-align: center" size=1 name=q23a> CO<sub>2</sub> + <input  style="font-size: 16px; text-align: center" size=1 name=q23b> Na<sub>2</sub>CO<sub>3</sub>  <input style="font-size: 16px; text-align: center" size=1 name=q23c>H<sub>2</sub>O &#8594;<input style="font-size: 16px; text-align: center" size=1 name=q23d> NaHCO<sub>3</sub></p> 
+ <p style="font-size:115%; text-align:center;"> <input onclick="check(23,'Reactions of Carbon dioxide',1,1,1,2,0,0,'CO<sub>2</sub> + Na<sub>2</sub>CO<sub>3</sub> + H<sub>2</sub>O','NaHCO<sub>3</sub>');" type="button" value="Check answer">&nbsp;&nbsp;&nbsp;&nbsp; <input type="reset" value="Reset">&nbsp;&nbsp;&nbsp;&nbsp; <input onclick="show(23,'Reactions of Carbon dioxide',1,1,1,2,0,0,'CO<sub>2</sub> + Na<sub>2</sub>CO<sub>3</sub> + H<sub>2</sub>O','2 NaHCO<sub>3</sub>');" type="button" value="Show answer"></p>
+ <p style="font-size:115%; text-align:center;">
+  <span style="color:blue;"><b>Time Taken:</b></span><span class="timer" id="timer23">00:00</span>
+  <button type="button" onclick="startTimer('timer23')">Start</button>
+  <button type="button" onclick="stopTimer('timer23')">Stop</button>
+  <button type="button" onclick="resetTimer('timer23')">Reset Timer</button>
+</p>
+<p></p>
+
+5.When Carbon dioxide gas is passed over red hot coke(Carbon), Carbon monoxide gas is formed: 
+  <p style="font-size:115%; text-align:center;">  <input style="font-size: 16px; text-align: center" 
+  size=1 name=q24a> CO<sub>2</sub> + <input  style="font-size: 16px; text-align: center" size=1 name=q24b> C &#8594;  <input style="font-size: 16px; text-align: center" size=1 name=q24c> CO</p> 
+
+ <p style="font-size:115%; text-align:center;"> <input onclick="check(24,'Reactions of Carbon dioxide',1,1,2,0,0,0,'CO<sub>2</sub> + C', 'CO');" type="button" value="Check answer">&nbsp;&nbsp;&nbsp;&nbsp; <input type="reset" value="Reset">&nbsp;&nbsp;&nbsp;&nbsp; <input onclick="show(24,'Reactions of Carbon dioxide',1,1,2,0,0,0,'CO<sub>2</sub> + C', '2 CO');" type="button" value="Show answer"></p>
+ <p style="font-size:115%; text-align:center;">
+  <span style="color:blue;"><b>Time Taken:</b></span><span class="timer" id="timer24">00:00</span>
+  <button type="button" onclick="startTimer('timer24')">Start</button>
+  <button type="button" onclick="stopTimer('timer24')">Stop</button>
+  <button type="button" onclick="resetTimer('timer24')">Reset Timer</button>
+</p>
+<p></p> 
+
+
+6. At 200<sup>o</sup>C temperature and 200 atm pressure Carbon dioxide gas reacts with Ammonia gas to form urea (NH<sub>2</sub>CONH<sub>2</sub>)and water:
+	<p style="font-size:115%; text-align:center;"> <input style="font-size: 16px; text-align: center" size=1 name=q25a> CO<sub>2</sub> + <input  style="font-size: 16px; text-align: center" size=1 name=q25b> NH<sub>3</sub> &#8594; <input style="font-size: 16px; text-align: center" size=1 name=q25c> NH<sub>2</sub>CONH<sub>2</sub> + <input style="font-size: 16px; text-align: center" size=1 name=q25d> H<sub>2</sub>O</p> 
+ <p style="font-size:115%; text-align:center;"> <input onclick="check(25,'Reactions of Carbon dioxide',1,2,1,1,0,0,'CO<sub>2</sub> + NH<sub>3</sub>','NH<sub>2</sub>CONH<sub>2</sub> + H<sub>2</sub>O');" type="button" value="Check answer">&nbsp;&nbsp;&nbsp;&nbsp; <input type="reset" value="Reset">&nbsp;&nbsp;&nbsp;&nbsp; <input onclick="show(25,'Reactions of Carbon dioxide',1,2,1,1,0,0,'CO<sub>2</sub> + 2 NH<sub>3</sub>','NH<sub>2</sub>CONH<sub>2</sub> + H<sub>2</sub>O');" type="button" value="Show answer"></p>
+ <p style="font-size:115%; text-align:center;">
+  <span style="color:blue;"><b>Time Taken:</b></span><span class="timer" id="timer25">00:00</span>
+  <button type="button" onclick="startTimer('timer25')">Start</button>
+  <button type="button" onclick="stopTimer('timer25')">Stop</button>
+  <button type="button" onclick="resetTimer('timer25')">Reset Timer</button>
+</p>
+<p></p>   
+
+
+<h4>Effect of heat on metallic carbonates:</h4>
+	1. When white Calcium carbonate is heated strongly, it decomposes into white Calcium oxide and colourless Carbon dioxide gas:
+	<p style="font-size:115%; text-align:center;"> <input style="font-size: 16px; text-align: center" size=1 name=q26a> CaCO<sub>3</sub> &#8594; <input style="font-size: 16px; text-align: center" size=1 name=q26b> CaO +  <input style="font-size: 16px; text-align: center" size=1 name=q26c>CO<sub>2</sub></p> 
+ <p style="font-size:115%; text-align:center;"> <input onclick="check(26,'Effect of heat on metallic carbonates',1,1,1,0,0,0,'CaCO<sub>3</sub>',' CaO + CO<sub>2</sub>');" type="button" value="Check answer">&nbsp;&nbsp;&nbsp;&nbsp; <input type="reset" value="Reset">&nbsp;&nbsp;&nbsp;&nbsp; <input onclick="show(26,'Effect of heat on metallic carbonates',1,1,1,0,0,0,'CaCO<sub>3</sub>',' CaO + CO<sub>2</sub>');" type="button" value="Show answer"></p>
+ <p style="font-size:115%; text-align:center;">
+  <span style="color:blue;"><b>Time Taken:</b></span><span class="timer" id="timer26">00:00</span>
+  <button type="button" onclick="startTimer('timer26')">Start</button>
+  <button type="button" onclick="stopTimer('timer26')">Stop</button>
+  <button type="button" onclick="resetTimer('timer26')">Reset Timer</button>
+</p>
+<p></p>
+
+2. When white Magnesium carbonate is heated strongly, it decomposes into white Magnesium oxide and colourless Carbon dioxide gas:
+	<p style="font-size:115%; text-align:center;"> <input style="font-size: 16px; text-align: center" size=1 name=q27a> MgCO<sub>3</sub> &#8594; <input style="font-size: 16px; text-align: center" size=1 name=q27b> MgO +  <input style="font-size: 16px; text-align: center" size=1 name=q27c>CO<sub>2</sub></p> 
+ <p style="font-size:115%; text-align:center;"> <input onclick="check(27,'Effect of heat on metallic carbonates',1,1,1,0,0,0,'MgCO<sub>3</sub>',' MgO + CO<sub>2</sub>');" type="button" value="Check answer">&nbsp;&nbsp;&nbsp;&nbsp; <input type="reset" value="Reset">&nbsp;&nbsp;&nbsp;&nbsp; <input onclick="show(27,'Effect of heat on metallic carbonates',1,1,1,0,0,0,'MgCO<sub>3</sub>',' MgO + CO<sub>2</sub>');" type="button" value="Show answer"></p>
+ <p style="font-size:115%; text-align:center;">
+  <span style="color:blue;"><b>Time Taken:</b></span><span class="timer" id="timer27">00:00</span>
+  <button type="button" onclick="startTimer('timer27')">Start</button>
+  <button type="button" onclick="stopTimer('timer27')">Stop</button>
+  <button type="button" onclick="resetTimer('timer27')">Reset Timer</button>
+</p>	
+<p></p>
+
+3. When white Zinc carbonate is heated strongly, it decomposes into Zinc oxide which is yellow when hot and white when cold, and colourless Carbon dioxide gas:
+	<p style="font-size:115%; text-align:center;"> <input style="font-size: 16px; text-align: center" size=1 name=q28a> ZnCO<sub>3</sub> &#8594; <input style="font-size: 16px; text-align: center" size=1 name=q28b> ZnO +  <input style="font-size: 16px; text-align: center" size=1 name=q28c>CO<sub>2</sub></p> 
+ <p style="font-size:115%; text-align:center;"> <input onclick="check(28,'Effect of heat on metallic carbonates',1,1,1,0,0,0,'ZnCO<sub>3</sub>',' ZnO + CO<sub>2</sub>');" type="button" value="Check answer">&nbsp;&nbsp;&nbsp;&nbsp; <input type="reset" value="Reset">&nbsp;&nbsp;&nbsp;&nbsp; <input onclick="show(28,'Effect of heat on metallic carbonates',1,1,1,0,0,0,'ZnCO<sub>3</sub>',' ZnO + CO<sub>2</sub>');" type="button" value="Show answer"></p>
+ <p style="font-size:115%; text-align:center;">
+  <span style="color:blue;"><b>Time Taken:</b></span><span class="timer" id="timer28">00:00</span>
+  <button type="button" onclick="startTimer('timer28')">Start</button>
+  <button type="button" onclick="stopTimer('timer28')">Stop</button>
+  <button type="button" onclick="resetTimer('timer28')">Reset Timer</button>
+</p>
+<p></p>
+
+4. When white Lead(II) carbonate is heated strongly, it decomposes into Lead(II) oxide which is orange when hot and yellow when cold, and colourless Carbon dioxide gas:
+	<p style="font-size:115%; text-align:center;"> <input style="font-size: 16px; text-align: center" size=1 name=q29a> PbCO<sub>3</sub> &#8594; <input style="font-size: 16px; text-align: center" size=1 name=q29b> PbO +  <input style="font-size: 16px; text-align: center" size=1 name=q29c>CO<sub>2</sub></p> 
+ <p style="font-size:115%; text-align:center;"> <input onclick="check(29,'Effect of heat on metallic carbonates',1,1,1,0,0,0,'PbCO<sub>3</sub>',' PbO + CO<sub>2</sub>');" type="button" value="Check answer">&nbsp;&nbsp;&nbsp;&nbsp; <input type="reset" value="Reset">&nbsp;&nbsp;&nbsp;&nbsp; <input onclick="show(29,'Effect of heat on metallic carbonates',1,1,1,0,0,0,'PbCO<sub>3</sub>',' PbO + CO<sub>2</sub>');" type="button" value="Show answer"></p>
+ <p style="font-size:115%; text-align:center;">
+  <span style="color:blue;"><b>Time Taken:</b></span><span class="timer" id="timer29">00:00</span>
+  <button type="button" onclick="startTimer('timer29')">Start</button>
+  <button type="button" onclick="stopTimer('timer29')">Stop</button>
+  <button type="button" onclick="resetTimer('timer29')">Reset Timer</button>
+</p>
+<p></p>
+
+5. When green Copper(II) carbonate is heated strongly, it decomposes into black Copper(II) oxide, and colourless Carbon dioxide gas:
+	<p style="font-size:115%; text-align:center;"> <input style="font-size: 16px; text-align: center" size=1 name=q30a> CuCO<sub>3</sub> &#8594; <input style="font-size: 16px; text-align: center" size=1 name=q30b> CuO +  <input style="font-size: 16px; text-align: center" size=1 name=q30c>CO<sub>2</sub></p> 
+ <p style="font-size:115%; text-align:center;"> <input onclick="check(30,'Effect of heat on metallic carbonates',1,1,1,0,0,0,'CuCO<sub>3</sub>',' CuO + CO<sub>2</sub>');" type="button" value="Check answer">&nbsp;&nbsp;&nbsp;&nbsp; <input type="reset" value="Reset">&nbsp;&nbsp;&nbsp;&nbsp; <input onclick="show(30,'Effect of heat on metallic carbonates',1,1,1,0,0,0,'CuCO<sub>3</sub>',' CuO + CO<sub>2</sub>');" type="button" value="Show answer"></p>
+ <p style="font-size:115%; text-align:center;">
+  <span style="color:blue;"><b>Time Taken:</b></span><span class="timer" id="timer30">00:00</span>
+  <button type="button" onclick="startTimer('timer30')">Start</button>
+  <button type="button" onclick="stopTimer('timer30')">Stop</button>
+  <button type="button" onclick="resetTimer('timer30')">Reset Timer</button>
+</p>
+<p></p>
+
+6. When Mercury(II) carbonate is heated gently, it decomposes into Mercury metal,colourless Carbon dioxide gas and Oxygen gas:
+	<p style="font-size:115%; text-align:center;"> <input style="font-size: 16px; text-align: center" size=1 name=q31a> HgCO<sub>3</sub> &#8594; <input style="font-size: 16px; text-align: center" size=1 name=q31b> Hg +  <input style="font-size: 16px; text-align: center" size=1 name=q31c>CO<sub>2</sub> + <input style="font-size: 16px; text-align: center" size=1 name=q31d>O<sub>2</sub></p> 
+ <p style="font-size:115%; text-align:center;"> <input onclick="check(31,'Effect of heat on metallic carbonates',2,2,2,1,0,0,'HgCO<sub>3</sub>',' Hg + CO<sub>2</sub> +O<sub>2</sub>');" type="button" value="Check answer">&nbsp;&nbsp;&nbsp;&nbsp; <input type="reset" value="Reset">&nbsp;&nbsp;&nbsp;&nbsp; <input onclick="show(31,'Effect of heat on metallic carbonates',2,2,2,1,0,0,'2 HgCO<sub>3</sub>',' 2 Hg + 2 CO<sub>2</sub> +O<sub>2</sub>');" type="button" value="Show answer"></p>
+ <p style="font-size:115%; text-align:center;">
+  <span style="color:blue;"><b>Time Taken:</b></span><span class="timer" id="timer31">00:00</span>
+  <button type="button" onclick="startTimer('timer31')">Start</button>
+  <button type="button" onclick="stopTimer('timer31')">Stop</button>
+  <button type="button" onclick="resetTimer('timer31')">Reset Timer</button>
+</p>
+<p></p>
+
+7. When Silver carbonate is heated gently, it decomposes into Silver metal,colourless Carbon dioxide gas and Oxygen gas:
+	<p style="font-size:115%; text-align:center;"> <input style="font-size: 16px; text-align: center" size=1 name=q32a> Ag<sub>2</sub>CO<sub>3</sub> &#8594; <input style="font-size: 16px; text-align: center" size=1 name=q32b> Ag +  <input style="font-size: 16px; text-align: center" size=1 name=q32c>CO<sub>2</sub> + <input style="font-size: 16px; text-align: center" size=1 name=q32d>O<sub>2</sub></p> 
+ <p style="font-size:115%; text-align:center;"> <input onclick="check(32,'Effect of heat on metallic carbonates',2,4,2,1,0,0,'Ag<sub>2</sub>CO<sub>3</sub>',' Hg + CO<sub>2</sub> +O<sub>2</sub>');" type="button" value="Check answer">&nbsp;&nbsp;&nbsp;&nbsp; <input type="reset" value="Reset">&nbsp;&nbsp;&nbsp;&nbsp; <input onclick="show(32,'Effect of heat on metallic carbonates',2,4,2,1,0,0,'2 Ag<sub>2</sub>CO<sub>3</sub>',' 4 Ag + 2 CO<sub>2</sub> +O<sub>2</sub>');" type="button" value="Show answer"></p>
+ <p style="font-size:115%; text-align:center;">
+  <span style="color:blue;"><b>Time Taken:</b></span><span class="timer" id="timer32">00:00</span>
+  <button type="button" onclick="startTimer('timer32')">Start</button>
+  <button type="button" onclick="stopTimer('timer32')">Stop</button>
+  <button type="button" onclick="resetTimer('timer32')">Reset Timer</button>
+</p>
+<p></p>
+
+<h4>Effect of heat on metallic bicarbonates:</h4>
+	1. When white Potassium bicarbonate is heated, it decomposes into white Potassium carbonate, Carbon dioxide gas and  water:
+	<p style="font-size:115%; text-align:center;"> <input style="font-size: 16px; text-align: center" size=1 name=q33a> KHCO<sub>3</sub> &#8594; <input style="font-size: 16px; text-align: center" size=1 name=q33b> K<sub>2</sub>CO<sub>3</sub> +  <input style="font-size: 16px; text-align: center" size=1 name=q33c>CO<sub>2</sub> + <input style="font-size: 16px; text-align: center" size=1 name=q33d>H<sub>2</sub>O</p> 
+ <p style="font-size:115%; text-align:center;"> <input onclick="check(33,'Effect of heat on metallic bicarbonates',2,1,1,1,0,0,'KHCO<sub>3</sub>',' K<sub>2</sub>CO<sub>3</sub> + CO<sub>2</sub> + H<sub>2</sub>O');" type="button" value="Check answer">&nbsp;&nbsp;&nbsp;&nbsp; <input type="reset" value="Reset">&nbsp;&nbsp;&nbsp;&nbsp; <input onclick="show(33,'Effect of heat on metallic bicarbonates',2,1,1,1,0,0,'2 KHCO<sub>3</sub>',' K<sub>2</sub>CO<sub>3</sub> + CO<sub>2</sub> + H<sub>2</sub>O');" type="button" value="Show answer"></p>
+ <p style="font-size:115%; text-align:center;">
+  <span style="color:blue;"><b>Time Taken:</b></span><span class="timer" id="timer33">00:00</span>
+  <button type="button" onclick="startTimer('timer33')">Start</button>
+  <button type="button" onclick="stopTimer('timer33')">Stop</button>
+  <button type="button" onclick="resetTimer('timer33')">Reset Timer</button>
+</p>
+<p></p>
+
+2. When white Sodium bicarbonate is heated, it decomposes into white Sodium carbonate, Carbon dioxide gas and  water:
+	<p style="font-size:115%; text-align:center;"> <input style="font-size: 16px; text-align: center" size=1 name=q34a> NaHCO<sub>3</sub> &#8594; <input style="font-size: 16px; text-align: center" size=1 name=q34b> Na<sub>2</sub>CO<sub>3</sub> +  <input style="font-size: 16px; text-align: center" size=1 name=q34c>CO<sub>2</sub> + <input style="font-size: 16px; text-align: center" size=1 name=q34d>H<sub>2</sub>O</p> 
+ <p style="font-size:115%; text-align:center;"> <input onclick="check(34,'Effect of heat on metallic bicarbonates',2,1,1,1,0,0,'NaHCO<sub>3</sub>',' Na<sub>2</sub>CO<sub>3</sub> + CO<sub>2</sub> + H<sub>2</sub>O');" type="button" value="Check answer">&nbsp;&nbsp;&nbsp;&nbsp; <input type="reset" value="Reset">&nbsp;&nbsp;&nbsp;&nbsp; <input onclick="show(34,'Effect of heat on metallic bicarbonates',2,1,1,1,0,0,'2 NaHCO<sub>3</sub>',' Na<sub>2</sub>CO<sub>3</sub> + CO<sub>2</sub> + H<sub>2</sub>O');" type="button" value="Show answer"></p>
+ <p style="font-size:115%; text-align:center;">
+  <span style="color:blue;"><b>Time Taken:</b></span><span class="timer" id="timer34">00:00</span>
+  <button type="button" onclick="startTimer('timer34')">Start</button>
+  <button type="button" onclick="stopTimer('timer34')">Stop</button>
+  <button type="button" onclick="resetTimer('timer34')">Reset Timer</button>
+</p>
+<p></p>
+
+3. When Calcium bicarbonate solution is heated, it decomposes into white Calcium carbonate, Carbon dioxide gas and  water:
+	<p style="font-size:115%; text-align:center;"> <input style="font-size: 16px; text-align: center" size=1 name=q35a> Ca(HCO<sub>3</sub>)<sub>2</sub> &#8594; <input style="font-size: 16px; text-align: center" size=1 name=q35b> CaCO<sub>3</sub> +  <input style="font-size: 16px; text-align: center" size=1 name=q35c>CO<sub>2</sub> + <input style="font-size: 16px; text-align: center" size=1 name=q35d>H<sub>2</sub>O</p> 
+ <p style="font-size:115%; text-align:center;"> <input onclick="check(35,'Effect of heat on metallic bicarbonates',1,1,1,1,0,0,'Ca(HCO<sub>3</sub>)<sub>2</sub>',' CaCO<sub>3</sub> + CO<sub>2</sub> + H<sub>2</sub>O');" type="button" value="Check answer">&nbsp;&nbsp;&nbsp;&nbsp; <input type="reset" value="Reset">&nbsp;&nbsp;&nbsp;&nbsp; <input onclick="show(35,'Effect of heat on metallic bicarbonates',2,1,1,1,0,0,'Ca(HCO<sub>3</sub>)<sub>2</sub>',' CaCO<sub>3</sub> + CO<sub>2</sub> + H<sub>2</sub>O');" type="button" value="Show answer"></p>
+ <p style="font-size:115%; text-align:center;">
+  <span style="color:blue;"><b>Time Taken:</b></span><span class="timer" id="timer35">00:00</span>
+  <button type="button" onclick="startTimer('timer35')">Start</button>
+  <button type="button" onclick="stopTimer('timer35')">Stop</button>
+  <button type="button" onclick="resetTimer('timer35')">Reset Timer</button>
+</p>
+<p></p>
+
+4. When Magnesium bicarbonate solution is heated, it decomposes into white Magnesium carbonate, Carbon dioxide gas and  water:
+	<p style="font-size:115%; text-align:center;"> <input style="font-size: 16px; text-align: center" size=1 name=q36a> Mg(HCO<sub>3</sub>)<sub>2</sub> &#8594; <input style="font-size: 16px; text-align: center" size=1 name=q36b> MgCO<sub>3</sub> +  <input style="font-size: 16px; text-align: center" size=1 name=q36c>CO<sub>2</sub> + <input style="font-size: 16px; text-align: center" size=1 name=q36d>H<sub>2</sub>O</p> 
+ <p style="font-size:115%; text-align:center;"> <input onclick="check(36,'Effect of heat on metallic bicarbonates',1,1,1,1,0,0,'Mg(HCO<sub>3</sub>)<sub>2</sub>',' MgCO<sub>3</sub> + CO<sub>2</sub> + H<sub>2</sub>O');" type="button" value="Check answer">&nbsp;&nbsp;&nbsp;&nbsp; <input type="reset" value="Reset">&nbsp;&nbsp;&nbsp;&nbsp; <input onclick="show(36,'Effect of heat on metallic bicarbonates',2,1,1,1,0,0,'Mg(HCO<sub>3</sub>)<sub>2</sub>',' MgCO<sub>3</sub> + CO<sub>2</sub> + H<sub>2</sub>O');" type="button" value="Show answer"></p>
+ <p style="font-size:115%; text-align:center;">
+  <span style="color:blue;"><b>Time Taken:</b></span><span class="timer" id="timer36">00:00</span>
+  <button type="button" onclick="startTimer('timer36')">Start</button>
+  <button type="button" onclick="stopTimer('timer36')">Stop</button>
+  <button type="button" onclick="resetTimer('timer36')">Reset Timer</button>
+</p>
+<p></p>
+
+
+<table class="center">
+<tr>
+<td><a href="index.html">Home Page</a></td>
+<td><a href="equations.html">Intermediate Equations</a></td>
+<td><a href="assorted.html">Assorted Equations</a></td>
+<td><a href="oxygen.html">Oxygen</a></td>
+<td><a href="hydrogen.html">Hydrogen</a></td>	
+<td><a href="carbon-monoxide.html">Carbon Monoxide</a></td>
+<td><a href="nitrogen.html">Nitrogen</a></td>
+<td><a href="#top">TOP</a></td>		
+</tr>
+</table>
+</form>
+<p></p>
+
+<address>   
+  For feedback, please e-mail&nbsp; to:<a href="mailto:jibanmajumdar@gmail.com">jibanmajumdar@gmail.com</a>
+</address> 
+
+</body>
+</html>
+
+
+
+
+
+
+
+
+
+
+
+
