@@ -1,0 +1,440 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hydrogen</title>
+    <script src="chem1.js" defer></script>
+    <script src="timer.js" defer></script>
+    <meta name="keywords" content="exercises, balancing, chemistry, equations, hydrogen, Oxygen, Carbon-dioxide, carbon-monoxide, preparation">
+    <meta name="author" content="Jiban Majumdar">
+    <link rel="stylesheet" href="mystyle.css">
+    
+</head>
+<body>
+  <div>
+    <img src="myPhoto.jpg" alt="webmaster"  width="150" height="200"> <br> <a href="mailto:jibanmajumdar@gmail.com">webmaster</a>
+    </div> 
+  <table class="center">
+
+<tr>
+<td><a href="index.html">Home Page</a></td>
+<td><a href="equations.html">Intermediate Equations</a></td>
+<td><a href="assorted.html">Assorted Equations</a></td>
+<td><a href="oxygen.html">Oxygen</a></td>
+<td><a href="carbon-monoxide.html">Carbon Monoxide</a></td>	
+<td><a href="carbon-dioxide.html">Carbon Dioxide</a></td>
+<td><a href="nitrogen.html">Nitrogen</a></td>	
+</tr>
+</table>
+
+<h1 style="text-align:center;">Hydrogen</h1>
+
+<h2>Practise balancing equations:</h2> <h3>Direction:</h3> <ul><li>In  the following equations you will see a blank box before the symbol of each compound and element. Enter the lowest possible number in each box, or leave the box blank if you think the chemical needn't have a number (i.e. the number is equivalent to '1').</li> 
+<li>When you think the equation is balanced, click on the small button <span style= "color:blue;"><b>"Check answer"</b></span> that appears below it.</li> <lI>If your equation is incorrect, then click the button <span style= "color:blue;"><b> "Reset"</b></span> and try balancing the  equation again.</li> <li>In case you are in a hurry or are unable to balance, then click the button <span style= "color:blue;"><b>"Show answer."</b></span></li>
+  <li>If you want to know the time taken (minutes:seconds) to balance a chemical equation, you click the <span style="color:blue;"><b>"Start"</b></span> button and after balancing the equation, click the <span style="color:blue;"><b>"Stop"</b></span>button. Once, you have noted the time, click the <span style="color:blue;"><b>"Reset Timer"</b></span> button.
+  </li>
+</ul>
+
+ <h3>Note:</h3> If you get no response after clicking 'Check answer' or 'Show answer', your browser has disabled to run this program. Enable it by clicking below the 'address bar' and follow the instructions.
+
+<form name="equations">
+
+<h4>Preparation of Hydrogen(Laboratory Methods):</h4>1.Zinc granules react with dilute Sulphuric acid to form zinc sulphate and Hydrogen: 
+  <p style="font-size:115%; text-align:center;">
+  <input style="font-size: 16px; text-align: center" 
+  size=1 name=q1a>  
+  Zn + <input  style="font-size: 16px; text-align: center" size=1 name=q1b> H<sub>2</sub>SO<sub>4</sub> &#8594; <input style="font-size: 16px; text-align: center" size=1 name=q1c> ZnSO<sub>4</sub> + <input style="font-size: 16px; text-align: center" size=1   name=q1d > H<sub>2</sub></p> 
+ <p style="font-size:115%; text-align:center;"> <input onclick="check(1,'Preparation of Hydrogen(Laboratory Methods)',1,1,1,1,0,0,'Zn + H<sub>2</sub>SO<sub>4</sub>','ZnSO<sub>4</sub> + H<sub>2</sub>');" type="button" value="Check answer">
+  &nbsp;&nbsp;&nbsp;&nbsp; <input type="reset" value="Reset">&nbsp;&nbsp;&nbsp;&nbsp; <input onclick="show(1,'Preparation of Hydrogen(Laboratory Methods)',1,1,1,1,0,0,'Zn + H<sub>2</sub>SO<sub>4</sub>','ZnSO<sub>4</sub> + H<sub>2</sub>');" type="button" value="Show answer"></p> 
+  <p style="font-size:115%; text-align:center;">
+    <span style="color:blue;"><b>Time Taken:</b></span><span class="timer" id="timer1">00:00</span>
+    <button type="button" onclick="startTimer('timer1')">Start</button>
+    <button type="button" onclick="stopTimer('timer1')">Stop</button>
+    <button type="button" onclick="resetTimer('timer1')">Reset Timer</button>
+</p>
+
+2.Zinc granules react with dilute  Hydrochloric acid to form Zinc chloride and Hydrogen: 
+  <p style="font-size:115%; text-align:center;">
+  <input style="font-size: 16px; text-align: center" 
+  size=1 name=q2a> Zn + <input  style="font-size: 16px; text-align: center" size=1 name=q2b> HCl &#8594;; <input style="font-size: 16px; text-align: center" size=1 name=q2c> ZnCl<sub>2</sub> + <input style="font-size: 16px; text-align: center" size=1   name=q2d > H<sub>2</sub></p> 
+ <p style="font-size:115%; text-align:center;"> <input onclick="check(2,'Preparation of Hydrogen(Laboratory Methods)',1,2,1,1,0,0,'Zn + HCl','ZnCl<sub>2</sub> + H<sub>2</sub>');" type="button" value="Check answer">&nbsp;&nbsp;&nbsp;&nbsp; <input type="reset" value="Reset">&nbsp;&nbsp;&nbsp;&nbsp; <input onclick="show(2,'Preparation of Hydrogen(Laboratory Methods)',1,2,1,1,0,0,'Zn + 2HCl','ZnCl<sub>2</sub> + H<sub>2</sub>');" type="button" value="Show answer"></p>
+ <p style="font-size:115%; text-align:center;">
+  <span style="color:blue;"><b>Time Taken:</b></span><span class="timer" id="timer2">00:00</span>
+  <button type="button" onclick="startTimer('timer2')">Start</button>
+  <button type="button" onclick="stopTimer('timer2')">Stop</button>
+  <button type="button" onclick="resetTimer('timer2')">Reset Timer</button>
+</p>
+  <p></p>
+<h4>Preparation of Hydrogen(Other methods):</h4> <ul><li><h4>By the action of active metals on cold water:</h4></li></ul>
+	1. Potassium metal reacts with cold water to form Potassium hydroxide and Hydrogen.
+	<p style="font-size:115%; text-align:center;">
+  <input style="font-size: 16px; text-align: center" 
+  size=1 name=q3a> K + <input  style="font-size: 16px; text-align: center" size=1 name=q3b> H<sub>2</sub>O &#8594;<input style="font-size: 16px; text-align: center" size=1 name=q3c> KOH + <input style="font-size: 16px; text-align: center" size=1   name=q3d > H<sub>2</sub></p> 
+ <p style="font-size:115%; text-align:center;"> <input onclick="check(3,'Preparation of Hydrogen(Other methods)',2,2,2,1,0,0,'K + H<sub>2</sub>O','KOH+ H<sub>2</sub>');" type="button" value="Check answer">&nbsp;&nbsp;&nbsp;&nbsp; <input type="reset" value="Reset">&nbsp;&nbsp;&nbsp;&nbsp; <input onclick="show(3,'Preparation of Hydrogen(Other methods)',2,2,2,1,0,0,'2 K + 2 H<sub>2</sub>O ','2 KOH + H<sub>2</sub>');" type="button" value="Show answer"></p>
+ <p style="font-size:115%; text-align:center;">
+  <span style="color:blue;"><b>Time Taken:</b></span><span class="timer" id="timer3">00:00</span>
+  <button type="button" onclick="startTimer('timer3')">Start</button>
+  <button type="button" onclick="stopTimer('timer3')">Stop</button>
+  <button type="button" onclick="resetTimer('timer3')">Reset Timer</button>
+</p>
+
+	2. Sodium metal reacts with cold water to form Sodium hydroxide and Hydrogen.
+	<p style="font-size:115%; text-align:center;">
+  <input style="font-size: 16px; text-align: center" 
+  size=1 name=q4a> Na + <input  style="font-size: 16px; text-align: center" size=1 name=q4b> H<sub>2</sub>O &#8594; <input style="font-size: 16px; text-align: center" size=1 name=q4c> NaOH + <input style="font-size: 16px; text-align: center" size=1   name=q4d > H<sub>2</sub></p> 
+ <p style="font-size:115%; text-align:center;"> <input onclick="check(4,'Preparation of Hydrogen(Other methods)',2,2,2,1,0,0,'Na + H<sub>2</sub>O','NaOH+ H<sub>2</sub>');" type="button" value="Check answer">&nbsp;&nbsp;&nbsp;&nbsp; <input type="reset" value="Reset">&nbsp;&nbsp;&nbsp;&nbsp; <input onclick="show(3,'Preparation of Hydrogen(Other methods)',2,2,2,1,0,0,'2 Na + 2 H<sub>2</sub>O ','2 NaOH + H<sub>2</sub>');" type="button" value="Show answer"></p>
+<p style="font-size:115%; text-align:center;">
+  <span style="color:blue;"><b>Time Taken:</b></span><span class="timer" id="timer4">00:00</span>
+  <button type="button" onclick="startTimer('timer4')">Start</button>
+  <button type="button" onclick="stopTimer('timer4')">Stop</button>
+  <button type="button" onclick="resetTimer('timer4')">Reset Timer</button>
+</p>
+
+	3. Calcium metal reacts with cold water to form Calcium hydroxide and Hydrogen.
+	<p style="font-size:115%; text-align:center;">
+  <input style="font-size: 16px; text-align: center" 
+  size=1 name=q5a> Ca + <input  style="font-size: 16px; text-align: center" size=1 name=q5b> H<sub>2</sub>O &#8594; <input style="font-size: 16px; text-align: center" size=1 name=q5c>Ca(OH)<sub>2</sub>  + <input style="font-size: 16px; text-align: center" size=1   name=q5d > H<sub>2</sub></p> 
+ <p style="font-size:115%; text-align:center;"> <input onclick="check(5,'Preparation of Hydrogen(Other methods)',1,2,1,1,0,0,'Ca + H<sub>2</sub>O','Ca(OH)<sub>2</sub>+ H<sub>2</sub>');" type="button" value="Check answer">&nbsp;&nbsp;&nbsp;&nbsp; <input type="reset" value="Reset">&nbsp;&nbsp;&nbsp;&nbsp; <input onclick="show(3,'Preparation of Hydrogen(Other methods)',1,2,1,1,0,0,' Ca + 2 H<sub>2</sub>O ','Ca(OH)<sub>2</sub> + H<sub>2</sub>');" type="button" value="Show answer"></p>
+ <p style="font-size:115%; text-align:center;">
+  <span style="color:blue;"><b>Time Taken:</b></span><span class="timer" id="timer5">00:00</span>
+  <button type="button" onclick="startTimer('timer5')">Start</button>
+  <button type="button" onclick="stopTimer('timer5')">Stop</button>
+  <button type="button" onclick="resetTimer('timer5')">Reset Timer</button>
+</p>
+	
+  <p></p>
+	<ul><li><h4>By the action of steam (H<sub>2</sub>O) on metals:</h4></li></ul>
+		1. Magnesium metal reacts with steam to form Magnesium oxide and Hydrogen.
+	<p style="font-size:115%; text-align:center;">  <input style="font-size: 16px; text-align: center"   size=1 name=q6a> Mg + <input  style="font-size: 16px; text-align: center" size=1 name=q6b> H<sub>2</sub>O &#8594; <input style="font-size: 16px; text-align: center" size=1 name=q6c>MgO + <input style="font-size: 16px; text-align: center" size=1   name=q6d > H<sub>2</sub></p> 
+ <p style="font-size:115%; text-align:center;"> <input onclick="check(6,'Preparation of Hydrogen(Other methods)',1,1,1,1,0,0,'Mg+ H<sub>2</sub>O','MgO+ H<sub>2</sub>');" type="button" value="Check answer">&nbsp;&nbsp;&nbsp;&nbsp; <input type="reset" value="Reset">&nbsp;&nbsp;&nbsp;&nbsp; <input onclick="show(6,'Preparation of Hydrogen(Other methods)',1,1,1,1,0,0,' Mg +  H<sub>2</sub>O ','MgO + H<sub>2</sub>');" type="button" value="Show answer"></p>
+ <p style="font-size:115%; text-align:center;">
+  <span style="color:blue;"><b>Time Taken:</b></span><span class="timer" id="timer6">00:00</span>
+  <button type="button" onclick="startTimer('timer6')">Start</button>
+  <button type="button" onclick="stopTimer('timer6')">Stop</button>
+  <button type="button" onclick="resetTimer('timer6')">Reset Timer</button>
+</p>
+
+	2. Zinc metal reacts with steam to form Zinc oxide and Hydrogen.
+	<p style="font-size:115%; text-align:center;">  <input style="font-size: 16px; text-align: center"   size=1 name=q7a> Zn + <input  style="font-size: 16px; text-align: center" size=1 name=q7b> H<sub>2</sub>O &#8594; <input style="font-size: 16px; text-align: center" size=1 name=q7c>ZnO + <input style="font-size: 16px; text-align: center" size=1   name=q7d > H<sub>2</sub></p> 
+ <p style="font-size:115%; text-align:center;"> <input onclick="check(7,'Preparation of Hydrogen(Other methods)',1,1,1,1,0,0,'Zn + H<sub>2</sub>O','ZnO+ H<sub>2</sub>');" type="button" value="Check answer">&nbsp;&nbsp;&nbsp;&nbsp; <input type="reset" value="Reset">&nbsp;&nbsp;&nbsp;&nbsp; <input onclick="show(7,'Preparation of Hydrogen(Other methods)',1,1,1,1,0,0,' Zn +  H<sub>2</sub>O ','ZnO + H<sub>2</sub>');" type="button" value="Show answer"></p>
+ <p style="font-size:115%; text-align:center;">
+  <span style="color:blue;"><b>Time Taken:</b></span><span class="timer" id="timer7">00:00</span>
+  <button type="button" onclick="startTimer('timer7')">Start</button>
+  <button type="button" onclick="stopTimer('timer7')">Stop</button>
+  <button type="button" onclick="resetTimer('timer7')">Reset Timer</button>
+</p>
+
+	3. Iron metal reacts with steam to form Tri iron tetroxide and Hydrogen.
+	<p style="font-size:115%; text-align:center;">  <input style="font-size: 16px; text-align: center"   size=1 name=q8a> Fe + <input  style="font-size: 16px; text-align: center" size=1 name=q8b> H<sub>2</sub>O&nbsp;&nbsp;&#8652;&nbsp;&nbsp;<input style="font-size: 16px; text-align: center" size=1 name=q8c>Fe<sub>3</sub>O<sub>4</sub> + <input style="font-size: 16px; text-align: center" size=1   name=q8d > H<sub>2</sub></p> 
+ <p style="font-size:115%; text-align:center;"> <input onclick="check(8,'Preparation of Hydrogen(Other methods)',3,4,1,4,0,0,'Fe + H<sub>2</sub>O','Fe<sub>3</sub>O<sub>4</sub> + H<sub>2</sub>');" type="button" value="Check answer">&nbsp;&nbsp;&nbsp;&nbsp; <input type="reset" value="Reset">&nbsp;&nbsp;&nbsp;&nbsp; <input onclick="show(8,'Preparation of Hydrogen(Other methods)',3,4,1,4,0,0,'3 Fe + 4 H<sub>2</sub>O', '  Fe<sub>3</sub>O<sub>4</sub> + 4 H<sub>2</sub>');" type="button" value="Show answer"></p>
+ <p style="font-size:115%; text-align:center;">
+  <span style="color:blue;"><b>Time Taken:</b></span><span class="timer" id="timer8">00:00</span>
+  <button type="button" onclick="startTimer('timer8')">Start</button>
+  <button type="button" onclick="stopTimer('timer8')">Stop</button>
+  <button type="button" onclick="resetTimer('timer8')">Reset Timer</button>
+</p>
+
+	<ul><li><h4>By the action of acids on metals:</h4></li></ul>
+		1. Magnesium metal reacts with dilute Sulphuric acid to form Magnesium sulphate and Hydrogen.
+	<p style="font-size:115%; text-align:center;">  <input style="font-size: 16px; text-align: center"   size=1 name=q9a> Mg + <input  style="font-size: 16px; text-align: center" size=1 name=q9b> H<sub>2</sub>SO<sub>4</sub> &#8594; <input style="font-size: 16px; text-align: center" size=1 name=q9c> MgSO<sub>4</sub> + <input style="font-size: 16px; text-align: center" size=1   name=q9d > H<sub>2</sub></p> 
+ <p style="font-size:115%; text-align:center;"> <input onclick="check(9,'Preparation of Hydrogen(Other methods)',1,1,1,1,0,0,'Mg + H<sub>2</sub>SO<sub>4</sub>','MgSO<sub>4</sub> + H<sub>2</sub>');" type="button" value="Check answer">&nbsp;&nbsp;&nbsp;&nbsp; <input type="reset" value="Reset">&nbsp;&nbsp;&nbsp;&nbsp; <input onclick="show(9,'Preparation of Hydrogen(Other methods)',1,1,1,1,0,0,'Mg + H<sub>2</sub>SO<sub>4</sub>','MgSO<sub>4</sub> + H<sub>2</sub>');" type="button" value="Show answer"></p> 
+ <p style="font-size:115%; text-align:center;">
+  <span style="color:blue;"><b>Time Taken:</b></span><span class="timer" id="timer9">00:00</span>
+  <button type="button" onclick="startTimer('timer9')">Start</button>
+  <button type="button" onclick="stopTimer('timer9')">Stop</button>
+  <button type="button" onclick="resetTimer('timer9')">Reset Timer</button>
+</p>
+<p></p>
+	2.Magnesium metal reacts with dilute  Hydrochloric acid to form Magnesium chloride and Hydrogen: 
+  <p style="font-size:115%; text-align:center;">
+  <input style="font-size: 16px; text-align: center" 
+  size=1 name=q10a> Mg + <input  style="font-size: 16px; text-align: center" size=1 name=q10b> HCl &#8594; <input style="font-size: 16px; text-align: center" size=1 name=q10c> MgCl<sub>2</sub> + <input style="font-size: 16px; text-align: center" size=1   name=q10d > H<sub>2</sub></p> 
+ <p style="font-size:115%; text-align:center;"> <input onclick="check(10,'Preparation of Hydrogen(Other methods)',1,2,1,1,0,0,'Mg + HCl','MgCl<sub>2</sub> + H<sub>2</sub>');" type="button" value="Check answer">&nbsp;&nbsp;&nbsp;&nbsp; <input type="reset" value="Reset">&nbsp;&nbsp;&nbsp;&nbsp; <input onclick="show(10,'Preparation of Hydrogen(Other methods)',1,2,1,1,0,0,'Mg + 2 HCl','MgCl<sub>2</sub> + H<sub>2</sub>');" type="button" value="Show answer"></p>
+ <p style="font-size:115%; text-align:center;">
+  <span style="color:blue;"><b>Time Taken:</b></span><span class="timer" id="timer10">00:00</span>
+  <button type="button" onclick="startTimer('timer10')">Start</button>
+  <button type="button" onclick="stopTimer('timer10')">Stop</button>
+  <button type="button" onclick="resetTimer('timer10')">Reset Timer</button>
+</p>
+<p></p>
+	3. Aluminium metal reacts with dilute Sulphuric acid to form Aluminium sulphate and Hydrogen.
+	<p style="font-size:115%; text-align:center;">  <input style="font-size: 16px; text-align: center"   size=1 name=q11a> Al + <input  style="font-size: 16px; text-align: center" size=1 name=q11b> H<sub>2</sub>SO<sub>4</sub> &#8594; <input style="font-size: 16px; text-align: center" size=1 name=q11c> Al<sub>2</sub>(SO<sub>4</sub>)<sub>3</sub> + <input style="font-size: 16px; text-align: center" size=1   name=q11d > H<sub>2</sub></p> 
+ <p style="font-size:115%; text-align:center;"> <input onclick="check(11,'Preparation of Hydrogen(Other methods)',2,3,1,3,0,0,'Al + H<sub>2</sub>SO<sub>4</sub>','Al<sub>2</sub>(SO<sub>4</sub>)<sub>3</sub> + H<sub>2</sub>');" type="button" value="Check answer">&nbsp;&nbsp;&nbsp;&nbsp; <input type="reset" value="Reset">&nbsp;&nbsp;&nbsp;&nbsp; <input onclick="show(11,'Preparation of Hydrogen(Other methods)',2,3,1,3,0,0,'2 Al + 3 H<sub>2</sub>SO<sub>4</sub>','Al<sub>2</sub>(SO<sub>4</sub>)<sub>3</sub> + 3 H<sub>2</sub>');" type="button" value="Show answer"></p> 
+ <p style="font-size:115%; text-align:center;">
+  <span style="color:blue;"><b>Time Taken:</b></span><span class="timer" id="timer11">00:00</span>
+  <button type="button" onclick="startTimer('timer11')">Start</button>
+  <button type="button" onclick="stopTimer('timer11')">Stop</button>
+  <button type="button" onclick="resetTimer('timer11')">Reset Timer</button>
+</p>
+<p></p>
+	4.Aluminium metal reacts with dilute  Hydrochloric acid to form Aluminium chloride and Hydrogen: 
+  <p style="font-size:115%; text-align:center;">
+  <input style="font-size: 16px; text-align: center" 
+  size=1 name=q12a> Al + <input  style="font-size: 16px; text-align: center" size=1 name=q12b> HCl &#8594; <input style="font-size: 16px; text-align: center" size=1 name=q12c> AlCl<sub>3</sub> + <input style="font-size: 16px; text-align: center" size=1   name=q12d > H<sub>2</sub></p> 
+ <p style="font-size:115%; text-align:center;"> <input onclick="check(12,'Preparation of Hydrogen(Other methods)',2,6,2,3,0,0,'Al + HCl','AlCl<sub>3</sub> + H<sub>2</sub>');" type="button" value="Check answer">&nbsp;&nbsp;&nbsp;&nbsp; <input type="reset" value="Reset">&nbsp;&nbsp;&nbsp;&nbsp; <input onclick="show(12,'Preparation of Hydrogen(Other methods)',2,6,2,3,0,0,'2 Al +6 HCl','2 AlCl<sub>3</sub> +3 H<sub>2</sub>');" type="button" value="Show answer"></p>
+ <p style="font-size:115%; text-align:center;">
+  <span style="color:blue;"><b>Time Taken:</b></span><span class="timer" id="timer12">00:00</span>
+  <button type="button" onclick="startTimer('timer12')">Start</button>
+  <button type="button" onclick="stopTimer('timer12')">Stop</button>
+  <button type="button" onclick="resetTimer('timer12')">Reset Timer</button>
+</p>
+<p></p>
+5. Iron metal reacts with dilute Sulphuric acid to form Iron(II) sulphate and Hydrogen.
+	<p style="font-size:115%; text-align:center;">  <input style="font-size: 16px; text-align: center"   size=1 name=q13a> Fe + <input  style="font-size: 16px; text-align: center" size=1 name=q13b> H<sub>2</sub>SO<sub>4</sub> &#8594; <input style="font-size: 16px; text-align: center" size=1 name=q13c> FeSO<sub>4</sub> + <input style="font-size: 16px; text-align: center" size=1   name=q13d > H<sub>2</sub></p> 
+ <p style="font-size:115%; text-align:center;"> <input onclick="check(13,'Preparation of Hydrogen(Other methods)',1,1,1,1,0,0,'Fe + H<sub>2</sub>SO<sub>4</sub>','FeSO<sub>4</sub> + H<sub>2</sub>');" type="button" value="Check answer">&nbsp;&nbsp;&nbsp;&nbsp; <input type="reset" value="Reset">&nbsp;&nbsp;&nbsp;&nbsp; <input onclick="show(13,'Preparation of Hydrogen(Other methods)',1,1,1,1,0,0,'Fe + H<sub>2</sub>SO<sub>4</sub>','FeSO<sub>4</sub> + H<sub>2</sub>');" type="button" value="Show answer"></p> 
+ <p style="font-size:115%; text-align:center;">
+  <span style="color:blue;"><b>Time Taken:</b></span><span class="timer" id="timer13">00:00</span>
+  <button type="button" onclick="startTimer('timer13')">Start</button>
+  <button type="button" onclick="stopTimer('timer13')">Stop</button>
+  <button type="button" onclick="resetTimer('timer13')">Reset Timer</button>
+</p>
+
+<p></p>
+	6.Iron metal reacts with dilute  Hydrochloric acid to form Iron(II) chloride and Hydrogen: 
+  <p style="font-size:115%; text-align:center;">
+  <input style="font-size: 16px; text-align: center" 
+  size=1 name=q14a> Fe + <input  style="font-size: 16px; text-align: center" size=1 name=q14b> HCl &#8594; <input style="font-size: 16px; text-align: center" size=1 name=q14c> FeCl<sub>2</sub> + <input style="font-size: 16px; text-align: center" size=1   name=q14d > H<sub>2</sub></p> 
+ <p style="font-size:115%; text-align:center;"> <input onclick="check(14,'Preparation of Hydrogen(Other methods)',1,2,1,1,0,0,'Fe + HCl','FeCl<sub>2</sub> + H<sub>2</sub>');" type="button" value="Check answer">&nbsp;&nbsp;&nbsp;&nbsp; <input type="reset" value="Reset">&nbsp;&nbsp;&nbsp;&nbsp; <input onclick="show(14,'Preparation of Hydrogen(Other methods)',1,2,1,1,0,0,'Fe + 2 HCl','FeCl<sub>2</sub> + H<sub>2</sub>');" type="button" value="Show answer"></p>
+ <p style="font-size:115%; text-align:center;">
+  <span style="color:blue;"><b>Time Taken:</b></span><span class="timer" id="timer14">00:00</span>
+  <button type="button" onclick="startTimer('timer14')">Start</button>
+  <button type="button" onclick="stopTimer('timer14')">Stop</button>
+  <button type="button" onclick="resetTimer('timer14')">Reset Timer</button>
+</p>
+<p></p>
+7.Magnesium metal reacts with very dilute  Nitric acid to form Magnesium nitrate and Hydrogen: 
+  <p style="font-size:115%; text-align:center;">
+  <input style="font-size: 16px; text-align: center" 
+  size=1 name=q15a> Mg + <input  style="font-size: 16px; text-align: center" size=1 name=q15b> HNO<sub>3</sub> &#8594; <input style="font-size: 16px; text-align: center" size=1 name=q15c> Mg(NO<sub>3</sub>)<sub>2</sub> + <input style="font-size: 16px; text-align: center" size=1   name=q15d > H<sub>2</sub></p> <p style="font-size:115%; text-align:center;"> <input onclick="check(15,'Preparation of Hydrogen(Other methods)',1,2,1,1,0,0,'Mg + HNO<sub>3</sub>','Mg(NO<sub>3</sub>)<sub>2</sub> + H<sub>2</sub>');" type="button" value="Check answer">&nbsp;&nbsp;&nbsp;&nbsp; <input type="reset" value="Reset">&nbsp;&nbsp;&nbsp;&nbsp; <input onclick="show(15,'Preparation of Hydrogen(Other methods)',1,2,1,1,0,0,'Mg +2 HNO<sub>3</sub>','Mg(NO<sub>3</sub>)<sub>2</sub> + H<sub>2</sub>');" type="button" value="Show answer"></p>
+  <p style="font-size:115%; text-align:center;">
+    <span style="color:blue;"><b>Time Taken:</b></span><span class="timer" id="timer15">00:00</span>
+    <button type="button" onclick="startTimer('timer15')">Start</button>
+    <button type="button" onclick="stopTimer('timer15')">Stop</button>
+    <button type="button" onclick="resetTimer('timer15')">Reset Timer</button>
+</p>
+  <p></p>
+<ul><li><h4>By the action of alkalis on metals:</h4></li></ul>
+	1.Zinc metal reacts with concentrated Sodium hydroxide solution to form Sodium zincate and Hydrogen: 
+  <p style="font-size:115%; text-align:center;"> <input style="font-size: 16px; text-align: center" size=1 name=q16a> Zn + <input  style="font-size: 16px; text-align: center" size=1 name=q16b> NaOH &#8594; <input style="font-size: 16px; text-align: center" size=1 name=q16c> Na<sub>2</sub>ZnO<sub>2</sub> + <input style="font-size: 16px; text-align: center" size=1   name=q16d > H<sub>2</sub></p> 
+ <p style="font-size:115%; text-align:center;"> <input onclick="check(16,'Preparation of Hydrogen(Other methods)',1,2,1,1,0,0,'Zn + NaOH','Na<sub>2</sub>ZnO<sub>2</sub> + H<sub>2</sub>');" type="button" value="Check answer">&nbsp;&nbsp;&nbsp;&nbsp; <input type="reset" value="Reset">&nbsp;&nbsp;&nbsp;&nbsp; <input onclick="show(16,'Preparation of Hydrogen(Other methods)',1,2,1,1,0,0,'Zn +2 NaOH','Na<sub>2</sub>ZnO<sub>2</sub> + H<sub>2</sub>');" type="button" value="Show answer"></p>
+ <p style="font-size:115%; text-align:center;">
+  <span style="color:blue;"><b>Time Taken:</b></span><span class="timer" id="timer16">00:00</span>
+  <button type="button" onclick="startTimer('timer16')">Start</button>
+  <button type="button" onclick="stopTimer('timer16')">Stop</button>
+  <button type="button" onclick="resetTimer('timer16')">Reset Timer</button>
+</p>
+
+	2.Zinc metal reacts with concentrated Potassium hydroxide solution to form Potassium zincate and Hydrogen: 
+  <p style="font-size:115%; text-align:center;"> <input style="font-size: 16px; text-align: center" size=1 name=q17a> Zn + <input  style="font-size: 16px; text-align: center" size=1 name=q17b> KOH &#8594; <input style="font-size: 16px; text-align: center" size=1 name=q17c> K<sub>2</sub>ZnO<sub>2</sub> + <input style="font-size: 16px; text-align: center" size=1   name=q17d > H<sub>2</sub></p> 
+ <p style="font-size:115%; text-align:center;"> <input onclick="check(17,'Preparation of Hydrogen(Other methods)',1,2,1,1,0,0,'Zn + KOH','K<sub>2</sub>ZnO<sub>2</sub> + H<sub>2</sub>');" type="button" value="Check answer">&nbsp;&nbsp;&nbsp;&nbsp; <input type="reset" value="Reset">&nbsp;&nbsp;&nbsp;&nbsp; <input onclick="show(17,'Preparation of Hydrogen(Other methods)',1,2,1,1,0,0,'Zn +2 KOH','K<sub>2</sub>ZnO<sub>2</sub> + H<sub>2</sub>');" type="button" value="Show answer"></p>
+ <p style="font-size:115%; text-align:center;">
+  <span style="color:blue;"><b>Time Taken:</b></span><span class="timer" id="timer17">00:00</span>
+  <button type="button" onclick="startTimer('timer17')">Start</button>
+  <button type="button" onclick="stopTimer('timer17')">Stop</button>
+  <button type="button" onclick="resetTimer('timer17')">Reset Timer</button>
+</p>
+
+	3.Lead metal reacts with concentrated Sodium hydroxide solution to form Sodium plumbite and Hydrogen: 
+  <p style="font-size:115%; text-align:center;"> <input style="font-size: 16px; text-align: center" size=1 name=q18a> Pb + <input  style="font-size: 16px; text-align: center" size=1 name=q18b> NaOH &#8594; <input style="font-size: 16px; text-align: center" size=1 name=q18c> Na<sub>2</sub>PbO<sub>2</sub> + <input style="font-size: 16px; text-align: center" size=1   name=q18d > H<sub>2</sub></p> 
+ <p style="font-size:115%; text-align:center;"> <input onclick="check(18,'Preparation of Hydrogen(Other methods)',1,2,1,1,0,0,'Pb + NaOH','Na<sub>2</sub>PbO<sub>2</sub> + H<sub>2</sub>');" type="button" value="Check answer">&nbsp;&nbsp;&nbsp;&nbsp; <input type="reset" value="Reset">&nbsp;&nbsp;&nbsp;&nbsp; <input onclick="show(18,'Preparation of Hydrogen(Other methods)',1,2,1,1,0,0,'Pb +2 NaOH','Na<sub>2</sub>PbO<sub>2</sub> + H<sub>2</sub>');" type="button" value="Show answer"></p>
+ <p style="font-size:115%; text-align:center;">
+  <span style="color:blue;"><b>Time Taken:</b></span><span class="timer" id="timer18">00:00</span>
+  <button type="button" onclick="startTimer('timer18')">Start</button>
+  <button type="button" onclick="stopTimer('timer18')">Stop</button>
+  <button type="button" onclick="resetTimer('timer18')">Reset Timer</button>
+</p>
+
+	4.Lead metal reacts with concentrated Potassium hydroxide solution to form Potassium plumbite and Hydrogen: 
+  <p style="font-size:115%; text-align:center;"> <input style="font-size: 16px; text-align: center" size=1 name=q19a> Pb + <input  style="font-size: 16px; text-align: center" size=1 name=q19b> KOH &#8594; <input style="font-size: 16px; text-align: center" size=1 name=q19c> K<sub>2</sub>PbO<sub>2</sub> + <input style="font-size: 16px; text-align: center" size=1   name=q19d > H<sub>2</sub></p> 
+ <p style="font-size:115%; text-align:center;"> <input onclick="check(19,'Preparation of Hydrogen(Other methods)',1,2,1,1,0,0,'Pb + KOH','K<sub>2</sub>PbO<sub>2</sub> + H<sub>2</sub>');" type="button" value="Check answer">&nbsp;&nbsp;&nbsp;&nbsp; <input type="reset" value="Reset">&nbsp;&nbsp;&nbsp;&nbsp; <input onclick="show(19,'Preparation of Hydrogen(Other methods)',1,2,1,1,0,0,'Pb +2 KOH','K<sub>2</sub>PbO<sub>2</sub> + H<sub>2</sub>');" type="button" value="Show answer"></p>
+ <p style="font-size:115%; text-align:center;">
+  <span style="color:blue;"><b>Time Taken:</b></span><span class="timer" id="timer19">00:00</span>
+  <button type="button" onclick="startTimer('timer19')">Start</button>
+  <button type="button" onclick="stopTimer('timer19')">Stop</button>
+  <button type="button" onclick="resetTimer('timer19')">Reset Timer</button>
+</p>
+
+	5.Aluminium metal reacts with concentrated Sodium hydroxide solution to form Sodium aluminate and Hydrogen: 
+  <p style="font-size:115%; text-align:center;"> <input style="font-size: 16px; text-align: center" size=1 name=q20a> Al + <input  style="font-size: 16px; text-align: center" size=1 name=q20b> NaOH + <input  style="font-size: 16px; text-align: center" size=1 name=q20c>H<sub>2</sub>O &#8594; <input style="font-size: 16px; text-align: center" size=1 name=q20d> NaAlO<sub>2</sub> + <input style="font-size: 16px; text-align: center" size=1   name=q20e > H<sub>2</sub></p> 
+ <p style="font-size:115%; text-align:center;"> <input onclick="check(20,'Preparation of Hydrogen(Other methods)',2,2,2,2,3,0,'Al + NaOH +  H<sub>2</sub>O','NaAlO<sub>2</sub> + H<sub>2</sub>');" type="button" value="Check answer">&nbsp;&nbsp;&nbsp;&nbsp; <input type="reset" value="Reset">&nbsp;&nbsp;&nbsp;&nbsp; <input onclick="show(20,'Preparation of Hydrogen(Other methods)',2,2,2,2,3,0,'2 Al +2 NaOH + 2 H<sub>2</sub>O ','2 NaAlO<sub>2</sub> + 3 H<sub>2</sub>');" type="button" value="Show answer"></p>
+ <p style="font-size:115%; text-align:center;">
+  <span style="color:blue;"><b>Time Taken:</b></span><span class="timer" id="timer20">00:00</span>
+  <button type="button" onclick="startTimer('timer20')">Start</button>
+  <button type="button" onclick="stopTimer('timer20')">Stop</button>
+  <button type="button" onclick="resetTimer('timer20')">Reset Timer</button>
+</p>
+
+	6.Aluminium metal reacts with concentrated Potassium hydroxide solution to form Potassium aluminate and Hydrogen: 
+  <p style="font-size:115%; text-align:center;"> <input style="font-size: 16px; text-align: center" size=1 name=q21a> Al + <input  style="font-size: 16px; text-align: center" size=1 name=q21b> KOH + <input  style="font-size: 16px; text-align: center" size=1 name=q21c>H<sub>2</sub>O &#8594; <input style="font-size: 16px; text-align: center" size=1 name=q21d> KAlO<sub>2</sub> + <input style="font-size: 16px; text-align: center" size=1   name=q21e > H<sub>2</sub></p> 
+ <p style="font-size:115%; text-align:center;"> <input onclick="check(21,'Preparation of Hydrogen(Other methods)',2,2,2,2,3,0,'Al + KOH + H<sub>2</sub>O ','KAlO<sub>2</sub> + H<sub>2</sub>');" type="button" value="Check answer">&nbsp;&nbsp;&nbsp;&nbsp; <input type="reset" value="Reset">&nbsp;&nbsp;&nbsp;&nbsp; <input onclick="show(21,'Preparation of Hydrogen(Other methods)',2,2,2,2,3,0,'2 Al +2 KOH + 2 H<sub>2</sub>O ','2 KAlO<sub>2</sub> + 3 H<sub>2</sub>');" type="button" value="Show answer"></p>
+ <p style="font-size:115%; text-align:center;">
+  <span style="color:blue;"><b>Time Taken:</b></span><span class="timer" id="timer21">00:00</span>
+  <button type="button" onclick="startTimer('timer21')">Start</button>
+  <button type="button" onclick="stopTimer('timer21')">Stop</button>
+  <button type="button" onclick="resetTimer('timer21')">Reset Timer</button>
+</p>
+<p></p>
+
+	<h4>Manufacture of Hydrogen:</h4>
+	1. In Bosch Process, white hot coke at about 1000<sup>o</sup>C is reacted with steam when water gas(CO + H<sub>2</sub>) is formed:
+	<p style="font-size:115%; text-align:center;"> <input style="font-size: 16px; text-align: center" size=1 name=q22a> C + <input  style="font-size: 16px; text-align: center" size=1 name=q22b> H<sub>2</sub>O &#8594; <input style="font-size: 16px; text-align: center" size=1 name=q22c> CO + <input style="font-size: 16px; text-align: center" size=1   name=q22d > H<sub>2</sub></p> 
+ <p style="font-size:115%; text-align:center;"> <input onclick="check(22,'Manufacture of Hydrogen',1,1,1,1,0,0,'C + H<sub>2</sub>O','CO + H<sub>2</sub>');" type="button" value="Check answer">&nbsp;&nbsp;&nbsp;&nbsp; <input type="reset" value="Reset">&nbsp;&nbsp;&nbsp;&nbsp; <input onclick="show(22,'Manufacture of Hydrogen',1,1,1,1,0,0,'C + H<sub>2</sub>O','CO + H<sub>2</sub>');" type="button" value="Show answer"></p>
+ <p style="font-size:115%; text-align:center;">
+  <span style="color:blue;"><b>Time Taken:</b></span><span class="timer" id="timer22">00:00</span>
+  <button type="button" onclick="startTimer('timer22')">Start</button>
+  <button type="button" onclick="stopTimer('timer22')">Stop</button>
+  <button type="button" onclick="resetTimer('timer22')">Reset Timer</button>
+</p>	
+ <ul><li> Next,the mixture of Carbon monoxide and Hydrogen is mixed with more steam and passed over heated Iron(III)oxide(catalyst) at 450<sup>o</sup>C when Carbon dioxide and Hydrogen are formed:</li></ul>
+  <p style="font-size:115%; text-align:center;"> <input style="font-size: 16px; text-align: center" size=1 name=q23a> CO + <input style="font-size: 16px; text-align: center" size=1 name=q23b> H<sub>2</sub> + <input style="font-size: 16px; text-align: center" size=1 name=q23c> H<sub>2</sub>O &#8594; <input style="font-size: 16px; text-align: center" size=1 name=q23d>CO<sub>2</sub> + <input style="font-size: 16px; text-align: center" size=1   name=q23e > H<sub>2</sub></p> 
+<p style="font-size:115%; text-align:center;"> <input onclick="check(23,'Manufacture of Hydrogen',1,1,1,1,2,0,'CO + H<sub>2</sub> + H<sub>2</sub>O','CO<sub>2</sub> + H<sub>2</sub>');" type="button" value="Check answer">&nbsp;&nbsp;&nbsp;&nbsp; <input type="reset" value="Reset">&nbsp;&nbsp;&nbsp;&nbsp; <input onclick="show(23,'Manufacture of Hydrogen',1,1,1,1,2,0,'CO + H<sub>2</sub> + H<sub>2</sub>O','CO<sub>2</sub> + 2 H<sub>2</sub>');" type="button" value="Show answer"></p>
+<p style="font-size:115%; text-align:center;">
+  <span style="color:blue;"><b>Time Taken:</b></span><span class="timer" id="timer23">00:00</span>
+  <button type="button" onclick="startTimer('timer23')">Start</button>
+  <button type="button" onclick="stopTimer('timer23')">Stop</button>
+  <button type="button" onclick="resetTimer('timer23')">Reset Timer</button>
+</p>
+
+<ul><li>  Carbon dioxide is removed by passing the mixture through Potassium hydroxide solution when Carbon dioxide reacts with Potassium hydroxide forming Potassium carbonate and water:</li></ul>
+ <p style="font-size:115%; text-align:center;"> <input style="font-size: 16px; text-align: center" size=1 name=q24a> CO<sub>2</sub> + <input  style="font-size: 16px; text-align: center" size=1 name=q24b> KOH &#8594; <input style="font-size: 16px; text-align: center" size=1 name=q24c>K<sub>2</sub>CO<sub>3</sub> + <input style="font-size: 16px; text-align: center" size=1   name=q24d > H<sub>2</sub>O</p> 
+<p style="font-size:115%; text-align:center;"> <input onclick="check(24,'Manufacture of Hydrogen',1,2,1,1,0,0,'CO<sub>2</sub> + KOH','K<sub>2</sub>CO<sub>3</sub> + H<sub>2</sub>O');" type="button" value="Check answer">&nbsp;&nbsp;&nbsp;&nbsp; <input type="reset" value="Reset">&nbsp;&nbsp;&nbsp;&nbsp; <input onclick="show(24,'Manufacture of Hydrogen',1,2,1,1,0,0,'CO<sub>2</sub> + 2 KOH','K<sub>2</sub>CO<sub>3</sub> + H<sub>2</sub>O');" type="button" value="Show answer"></p>
+<p style="font-size:115%; text-align:center;">
+  <span style="color:blue;"><b>Time Taken:</b></span><span class="timer" id="timer24">00:00</span>
+  <button type="button" onclick="startTimer('timer24')">Start</button>
+  <button type="button" onclick="stopTimer('timer24')">Stop</button>
+  <button type="button" onclick="resetTimer('timer24')">Reset Timer</button>
+</p>
+
+	2. In Modern Process,a mixture of Methane (present in natural gas) and steam is passed over heated Nickel(catalyst)at about 800<sup>o</sup>C when synthesis gas(CO + 3 H<sub>2</sub>) is formed:
+	<p style="font-size:115%; text-align:center;"> <input style="font-size: 16px; text-align: center" size=1 name=q25a> CH<sub>4</sub> + <input  style="font-size: 16px; text-align: center" size=1 name=q25b> H<sub>2</sub>O &#8594; <input style="font-size: 16px; text-align: center" size=1 name=q25c>CO + <input style="font-size: 16px; text-align: center" size=1   name=q25d > H<sub>2</sub></p> 
+ <p style="font-size:115%; text-align:center;"> <input onclick="check(25,'Manufacture of Hydrogen',1,1,1,3,0,0,'CH<sub>4</sub> + H<sub>2</sub>O','CO + H<sub>2</sub>');" type="button" value="Check answer">&nbsp;&nbsp;&nbsp;&nbsp; <input type="reset" value="Reset">&nbsp;&nbsp;&nbsp;&nbsp; <input onclick="show(25,'Manufacture of Hydrogen',1,1,1,3,0,0,'CH<sub>4</sub> + H<sub>2</sub>O','CO + 3 H<sub>2</sub>');" type="button" value="Show answer"></p>
+ <p style="font-size:115%; text-align:center;">
+  <span style="color:blue;"><b>Time Taken:</b></span><span class="timer" id="timer25">00:00</span>
+  <button type="button" onclick="startTimer('timer25')">Start</button>
+  <button type="button" onclick="stopTimer('timer25')">Stop</button>
+  <button type="button" onclick="resetTimer('timer25')">Reset Timer</button>
+</p>
+	<ul><li> Next,the mixture of Carbon monoxide and Hydrogen is mixed with more steam and passed over heated Iron(III)oxide(catalyst) at 450<sup>o</sup>C when Carbon dioxide and Hydrogen are formed:</li></ul>
+	  <p style="font-size:115%; text-align:center;"> <input style="font-size: 16px; text-align: center" size=1 name=q26a> CO + <input style="font-size: 16px; text-align: center" size=1 name=q26b> H<sub>2</sub> + <input style="font-size: 16px; text-align: center" size=1 name=q26c> H<sub>2</sub>O &#8594; <input style="font-size: 16px; text-align: center" size=1 name=q26d>CO<sub>2</sub> + <input style="font-size: 16px; text-align: center" size=1   name=q26e > H<sub>2</sub></p> 
+ <p style="font-size:115%; text-align:center;"> <input onclick="check(26,'Manufacture of Hydrogen',1,1,1,1,2,0,'CO + H<sub>2</sub> + H<sub>2</sub>O','CO<sub>2</sub> + H<sub>2</sub>');" type="button" value="Check answer">&nbsp;&nbsp;&nbsp;&nbsp; <input type="reset" value="Reset">&nbsp;&nbsp;&nbsp;&nbsp; <input onclick="show(26,'Manufacture of Hydrogen',1,1,1,1,2,0,'CO + H<sub>2</sub> + H<sub>2</sub>O','CO<sub>2</sub> + 2 H<sub>2</sub>');" type="button" value="Show answer"></p>
+ <p style="font-size:115%; text-align:center;">
+  <span style="color:blue;"><b>Time Taken:</b></span><span class="timer" id="timer26">00:00</span>
+  <button type="button" onclick="startTimer('timer26')">Start</button>
+  <button type="button" onclick="stopTimer('timer26')">Stop</button>
+  <button type="button" onclick="resetTimer('timer26')">Reset Timer</button>
+</p>
+	
+	<ul><li>  Carbon dioxide is removed by passing the mixture through Potassium hydroxide solution when Carbon dioxide reacts with Potassium hydroxide forming Potassium carbonate and water:</li></ul>
+	 <p style="font-size:115%; text-align:center;"> <input style="font-size: 16px; text-align: center" size=1 name=q27a> CO<sub>2</sub> + <input  style="font-size: 16px; text-align: center" size=1 name=q27b> KOH &#8594; <input style="font-size: 16px; text-align: center" size=1 name=q27c>K<sub>2</sub>CO<sub>3</sub> + <input style="font-size: 16px; text-align: center" size=1   name=q27d > H<sub>2</sub>O</p> 
+ <p style="font-size:115%; text-align:center;"> <input onclick="check(27,'Manufacture of Hydrogen',1,2,1,1,0,0,'CO<sub>2</sub> + KOH','K<sub>2</sub>CO<sub>3</sub> + H<sub>2</sub>O');" type="button" value="Check answer">&nbsp;&nbsp;&nbsp;&nbsp; <input type="reset" value="Reset">&nbsp;&nbsp;&nbsp;&nbsp; <input onclick="show(27,'Manufacture of Hydrogen',1,2,1,1,0,0,'CO<sub>2</sub> + 2 KOH','K<sub>2</sub>CO<sub>3</sub> + H<sub>2</sub>O');" type="button" value="Show answer"></p>	
+ <p style="font-size:115%; text-align:center;">
+  <span style="color:blue;"><b>Time Taken:</b></span><span class="timer" id="timer27">00:00</span>
+  <button type="button" onclick="startTimer('timer27')">Start</button>
+  <button type="button" onclick="stopTimer('timer27')">Stop</button>
+  <button type="button" onclick="resetTimer('timer27')">Reset Timer</button>
+</p>	  
+	 
+  <h4>Reactions of Hydrogen:</h4>
+      1. A mixture of Hydrogen and Oxygen, when ignited, burns with a 'pop' sound to form water:
+	<p style="font-size:115%; text-align:center;"> <input style="font-size: 16px; text-align: center" size=1 name=q28a> H<sub>2</sub> + <input  style="font-size: 16px; text-align: center" size=1 name=q28b> O<sub>2</sub> &#8594; <input style="font-size: 16px; text-align: center" size=1 name=q28c>H<sub>2</sub>O</p> 
+ <p style="font-size:115%; text-align:center;"> <input onclick="check(28,'Reactions of Hydrogen',2,1,2,0,0,0,'H<sub>2</sub> + O<sub>2</sub>','H<sub>2</sub>O');" type="button" value="Check answer">&nbsp;&nbsp;&nbsp;&nbsp; <input type="reset" value="Reset">&nbsp;&nbsp;&nbsp;&nbsp; <input onclick="show(28,'Reactions of Hydrogen',2,1,2,0,0,0,'2 H<sub>2</sub> + O<sub>2</sub>','2 H<sub>2</sub>O');" type="button" value="Show answer"></p>
+ <p style="font-size:115%; text-align:center;">
+  <span style="color:blue;"><b>Time Taken:</b></span><span class="timer" id="timer28">00:00</span>
+  <button type="button" onclick="startTimer('timer28')">Start</button>
+  <button type="button" onclick="stopTimer('timer28')">Stop</button>
+  <button type="button" onclick="resetTimer('timer28')">Reset Timer</button>
+</p>
+<p></p>
+
+2. In diffused sunlight Hydrogen reacts with Chlorine to form Hydrogen chloride gas:
+	
+	<p style="font-size:115%; text-align:center;"> <input style="font-size: 16px; text-align: center" size=1 name=q29a> H<sub>2</sub> + <input  style="font-size: 16px; text-align: center" size=1 name=q29b> Cl<sub>2</sub> &#8594; <input style="font-size: 16px; text-align: center" size=1 name=q29c>HCl</p> 
+ <p style="font-size:115%; text-align:center;"> <input onclick="check(29,'Reactions of Hydrogen',1,1,2,0,0,0,'H<sub>2</sub> + Cl<sub>2</sub>','HCl');" type="button" value="Check answer">&nbsp;&nbsp;&nbsp;&nbsp; <input type="reset" value="Reset">&nbsp;&nbsp;&nbsp;&nbsp; <input onclick="show(29,'Reactions of Hydrogen',1,1,2,0,0,0,'H<sub>2</sub> + Cl<sub>2</sub>','2 HCl');" type="button" value="Show answer"></p>
+ <p style="font-size:115%; text-align:center;">
+  <span style="color:blue;"><b>Time Taken:</b></span><span class="timer" id="timer29">00:00</span>
+  <button type="button" onclick="startTimer('timer29')">Start</button>
+  <button type="button" onclick="stopTimer('timer29')">Stop</button>
+  <button type="button" onclick="resetTimer('timer29')">Reset Timer</button>
+</p>
+<p></p>
+
+3. When bubbled through molten Sulphur, Hydrogen gas reacts with Sulphur to form Hydrogen sulphide gas:
+ <p style="font-size:115%; text-align:center;"> <input style="font-size: 16px; text-align: center" size=1 name=q30a> H<sub>2</sub> + <input  style="font-size: 16px; text-align: center" size=1 name=q30b> S &#8594; <input style="font-size: 16px; text-align: center" size=1 name=q30c>H<sub>2</sub>S</p> 
+ <p style="font-size:115%; text-align:center;"> <input onclick="check(30,'Reactions of Hydrogen',1,1,1,0,0,0,'H<sub>2</sub> + S','H<sub>2</sub>S');" type="button" value="Check answer">&nbsp;&nbsp;&nbsp;&nbsp; <input type="reset" value="Reset">&nbsp;&nbsp;&nbsp;&nbsp; <input onclick="show(30,'Reactions of Hydrogen',1,1,1,0,0,0,'H<sub>2</sub> + S','H<sub>2</sub>S');" type="button" value="Show answer"></p>
+<p style="font-size:115%; text-align:center;">
+  <span style="color:blue;"><b>Time Taken:</b></span><span class="timer" id="timer30">00:00</span>
+  <button type="button" onclick="startTimer('timer30')">Start</button>
+  <button type="button" onclick="stopTimer('timer30')">Stop</button>
+  <button type="button" onclick="resetTimer('timer30')">Reset Timer</button>
+</p>
+<p></p>
+4.When A mixture of Nitrogen gas and Hydrogen gas is passed over Iron catalyst at 200 atm pressure and 450<sup>o</sup>C, Ammonia gas is formed:
+  
+  <p style="font-size:115%; text-align:center;"><input style="font-size: 16px; text-align: center" 
+  size=1 name=q31a> N<sub>2</sub> + <input style="font-size: 16px; text-align:center" size=1 name=q31b> H<sub>2</sub>&nbsp;&nbsp;&#8652; &nbsp;&nbsp;<input style="font-size: 16px; text-align: center" size=1 name=q31c> NH<sub>3</sub></p> 
+  
+<p style="font-size:115%; text-align:center;"><input onclick="check(31,'Reactions of Hydrogen',1,3,2,0,0,0,'N<sub>2</sub> + H<sub>2</sub>','NH<sub>3</sub>');" type="button"  value="Check answer">&nbsp;&nbsp;&nbsp;&nbsp; <input type="reset" value="Reset">  &nbsp;&nbsp;&nbsp; <input onclick="show(31,'Reactions of Hydrogen',1,3,2,0,0,0,'N<sub>2</sub> + 3H<sub>2</sub>','2NH<sub>3</sub> ');" type="button" value="Show answer"></p>
+<p style="font-size:115%; text-align:center;">
+  <span style="color:blue;"><b>Time Taken:</b></span><span class="timer" id="timer31">00:00</span>
+  <button type="button" onclick="startTimer('timer31')">Start</button>
+  <button type="button" onclick="stopTimer('timer31')">Stop</button>
+  <button type="button" onclick="resetTimer('timer31')">Reset Timer</button>
+</p>
+<p></p>
+5. When Hydrogen gas is passed over heated black Copper(II) oxide, brown Copper and water are formed:
+
+	<p style="font-size:115%; text-align:center;"> <input style="font-size: 16px; text-align: center" size=1 name=q32a> H<sub>2</sub> + <input  style="font-size: 16px; text-align: center" size=1 name=q32b> CuO &#8594; <input style="font-size: 16px; text-align: center" size=1 name=q32c>Cu + <input style="font-size: 16px; text-align: center" size=1   name=q32d > H<sub>2</sub>O</p> 
+ <p style="font-size:115%; text-align:center;"> <input onclick="check(32,'Reactions of Hydrogen',1,1,1,1,0,0,'H<sub>2</sub> + CuO','Cu + H<sub>2</sub>O');" type="button" value="Check answer">&nbsp;&nbsp;&nbsp;&nbsp; <input type="reset" value="Reset">&nbsp;&nbsp;&nbsp;&nbsp; <input onclick="show(32,'Reactions of Hydrogen',1,1,1,1,0,0,'H<sub>2</sub> + CuO','Cu + H<sub>2</sub>O');" type="button" value="Show answer"></p>
+ <p style="font-size:115%; text-align:center;">
+  <span style="color:blue;"><b>Time Taken:</b></span><span class="timer" id="timer32">00:00</span>
+  <button type="button" onclick="startTimer('timer32')">Start</button>
+  <button type="button" onclick="stopTimer('timer32')">Stop</button>
+  <button type="button" onclick="resetTimer('timer32')">Reset Timer</button>
+</p>
+<p></p>
+
+6. When Hydrogen gas is passed over heated yellow Lead(II) oxide, grey Lead and water are formed:
+
+	<p style="font-size:115%; text-align:center;"> <input style="font-size: 16px; text-align: center" size=1 name=q33a> H<sub>2</sub> + <input  style="font-size: 16px; text-align: center" size=1 name=q33b> PbO &#8594; <input style="font-size: 16px; text-align: center" size=1 name=q33c>Pb + <input style="font-size: 16px; text-align: center" size=1   name=q33d > H<sub>2</sub>O</p> 
+ <p style="font-size:115%; text-align:center;"> <input onclick="check(33,'Reactions of Hydrogen',1,1,1,1,0,0,'H<sub>2</sub> + PbO','Pb + H<sub>2</sub>O');" type="button" value="Check answer">&nbsp;&nbsp;&nbsp;&nbsp; <input type="reset" value="Reset">&nbsp;&nbsp;&nbsp;&nbsp; <input onclick="show(33,'Reactions of Hydrogen',1,1,1,1,0,0,'H<sub>2</sub> + PbO','Pb + H<sub>2</sub>O');" type="button" value="Show answer"></p>
+ <p style="font-size:115%; text-align:center;">
+  <span style="color:blue;"><b>Time Taken:</b></span><span class="timer" id="timer33">00:00</span>
+  <button type="button" onclick="startTimer('timer33')">Start</button>
+  <button type="button" onclick="stopTimer('timer33')">Stop</button>
+  <button type="button" onclick="resetTimer('timer33')">Reset Timer</button>
+</p>
+
+<p></p>
+7. When Hydrogen gas is passed over heated brown Iron(III) oxide, grey Iron and water are formed:
+
+	<p style="font-size:115%; text-align:center;"> <input style="font-size: 16px; text-align: center" size=1 name=q34a> H<sub>2</sub> + <input  style="font-size: 16px; text-align: center" size=1 name=q34b> Fe<sub>2</sub>O<sub>3</sub> &#8594; <input style="font-size: 16px; text-align: center" size=1 name=q34c>Fe + <input style="font-size: 16px; text-align: center" size=1   name=q34d > H<sub>2</sub>O</p> 
+ <p style="font-size:115%; text-align:center;"> <input onclick="check(34,'Reactions of Hydrogen',3,1,2,3,0,0,'H<sub>2</sub> + Fe<sub>2</sub>O<sub>3</sub>','Fe + H<sub>2</sub>O');" type="button" value="Check answer">&nbsp;&nbsp;&nbsp;&nbsp; <input type="reset" value="Reset">&nbsp;&nbsp;&nbsp;&nbsp; <input onclick="show(34,'Reactions of Hydrogen',3,1,2,3,0,0,'3 H<sub>2</sub> + Fe<sub>2</sub>O<sub>3</sub>','2 Fe + 3 H<sub>2</sub>O');" type="button" value="Show answer"></p>
+ <p style="font-size:115%; text-align:center;">
+  <span style="color:blue;"><b>Time Taken:</b></span><span class="timer" id="timer34">00:00</span>
+  <button type="button" onclick="startTimer('timer34')">Start</button>
+  <button type="button" onclick="stopTimer('timer34')">Stop</button>
+  <button type="button" onclick="resetTimer('timer34')">Reset Timer</button>
+</p>
+</form>
+
+<table class="center">
+<tr>
+<td><a href="index.html">Home Page</a></td>
+<td><a href="equations.html">Intermediate Equations</a></td>
+<td><a href="assorted.html">Assorted Equations</a></td>
+<td><a href="oxygen.html">Oxygen</a></td>
+<td><a href="carbon-monoxide.html">Carbon Monoxide</a></td>	
+<td><a href="carbon-dioxide.html">Carbon Dioxide</a></td>
+<td><a href="nitrogen.html">Nitrogen</a></td>
+<td><a href="#top">TOP</a></td>	
+</tr>
+</table>
+<p></p>
+
+<address>   
+  For feedback, please e-mail&nbsp; to:<a href="mailto:jibanmajumdar@gmail.com">jibanmajumdar@gmail.com</a>
+ </address>  
+ </body>
+
+</html>
