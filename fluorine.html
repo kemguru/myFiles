@@ -1,0 +1,219 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fluorine</title>
+    <script src="chem1.js" defer></script>
+    <script src="timer.js" defer></script>
+    <meta name="Keywords" content="exercises,  balancing,  chemistry, equations, fluorine, ozone, potassium-dichromate, potassium permanganate, preparation ">
+    <meta name="author" content="Jiban Majumdar">
+    <link rel="stylesheet" href="mystyle.css">
+</head>
+<body>
+  <div>
+    <img src="myPhoto.jpg" alt="webmaster"  width="150" height="200"> <br> <a href="mailto:jibanmajumdar@gmail.com">webmaster</a>
+    </div> 
+  <table class="center">
+
+<tr>
+<td><a href="index.html">Home Page</a></td>
+<td><a href="equations.html">Intermediate Equations</a></td>
+<td><a href="assorted.html">Assorted Equations</a></td>
+<td><a href="ozone.html">Ozone</a></td>
+<td><a href="potassium-dichromate.html">Potassium Dichromate</a></td>
+<td><a href="potassium-permanganate.html">Potassium Permanganate</a></td>
+<td><a href="hydrogen-peroxide.html">Hydrogen Peroxide</a></td>
+</tr>
+</table>
+
+<h1 style="text-align:center;"> Fluorine</h1>
+
+<h2>Practise balancing equations: </h2> <h3>Direction:</h3> <ul><li>In  the following equations you will see a blank box before the symbol of each compound and element. Enter the lowest possible number in each box, or leave the box blank if you think the chemical needn't have a number (i.e. the number is equivalent to '1').</li> 
+<li>When you think the equation is balanced, click on the small button <span style= "color:blue;"><b>"Check answer"</b></span> that appears below it.</li> <lI>If your equation is incorrect, then click the button <span style= "color:blue;"><b> "Reset"</b></span> and try balancing the  equation again.</li> <li>In case you are in a hurry or are unable to balance, then click the button <span style= "color:blue;"><b>"Show answer."</b></span></li>
+  <li>If you want to know the time taken (minutes:seconds) to balance a chemical equation, you click the <span style="color:blue;"><b>"Start"</b></span> button and after balancing the equation, click the <span style="color:blue;"><b>"Stop"</b></span>button. Once, you have noted the time, click the <span style="color:blue;"><b>"Reset Timer"</b></span> button.
+  </li></ul>
+ <h3>Note:</h3> If you get no response after clicking 'Check answer' or 'Show answer', your browser has disabled to run this program. Enable it by clicking below the 'address bar' and follow the instructions.
+
+
+<form name=equations>
+
+  <h4>Preparation of Fluorine:</h4>
+  <ul><li>Fluorine is prepared by the electrolysis of fused 
+    Potassium hydrogen fluoride:</li></ul>
+    <p style="font-size:115%; text-align:center;">KHF<sub>2</sub> &#8594;
+    K<sup>+</sup> + H<sup>+</sup> + 2F<sup>-</sup></p>
+    
+    <h4 style=" text-align:center;">At Cathode:</h4>
+    <p style="font-size:115%; text-align:center;"><input style="font-size: 16px; text-align:center" 
+    size=1 name=q1a>H<sup>+</sup> + <input 
+    style="font-size: 16px; text-align:center" size=1 name=q1b> 
+    e<sup>-</sup> &#8594;<input 
+    style="font-size: 16px; text-align:center" size=1 name=q1c> 
+    H<sub>2</sub></p> 
+    <p style="font-size:115%; text-align:center;"><input onclick="check(1,'Preparation of Fluorine',2,2,1,0,0,0,'H<sup>+</sup> + e<sup>-</sup>',' H<sub>2</sub>');" type= "button" value="Check answer">&nbsp;&nbsp;&nbsp;&nbsp; 
+<input type="reset" value="Reset">&nbsp;&nbsp;&nbsp;&nbsp; <input onclick="show(1,'Preparation of Fluorine',2,2,1,0,0,0,'2H<sup>+</sup> + 2e<sup>-</sup>',' H<sub>2</sub>');" type="button" value="Show answer"> 
+    </p>
+    <p style="font-size:115%; text-align:center;">
+      <span style="color:blue;"><b>Time Taken:</b></span><span class="timer" id="timer1">00:00</span>
+      <button type="button" onclick="startTimer('timer1')">Start</button>
+      <button type="button" onclick="stopTimer('timer1')">Stop</button>
+      <button type="button" onclick="resetTimer('timer1')">Reset Timer</button>
+     </p>
+  
+    <h4 style=" text-align:center;">At Anode:</h4>
+    <p style="font-size:115%; text-align:center;"><input style="font-size: 16px; text-align:center" 
+    size=1 name=q2a>F<sup>-</sup> - <input 
+    style="font-size: 16px; text-align:center" size=1 name=q2b> 
+    e<sup>-</sup> &#8594;;<input 
+    style="font-size: 16px; text-align:center" size=1 name=q2c> 
+    F<sub>2</sub></p> 
+    <p style="font-size:115%; text-align:center;"><input onclick="check(2,'Preparation of Fluorine',2,2,1,0,0,0,'F<sup>-</sup> - e<sup>-</sup>',' F<sub>2</sub>');" type="button" value="Check answer">&nbsp;&nbsp;&nbsp;&nbsp; 
+<input type="reset" value="Reset">&nbsp;&nbsp;&nbsp;&nbsp; <input onclick="show(2,'Preparation of Fluorine',2,2,1,0,0,0,'2F<sup>-</sup> - 2e<sup>-</sup>',' F<sub>2</sub>');" type="button" value="Show answer"> 
+    </p>
+    <p style="font-size:115%; text-align:center;">
+      <span style="color:blue;"><b>Time Taken:</b></span><span class="timer" id="timer2">00:00</span>
+       <button type="button" onclick="startTimer('timer2')">Start</button>
+       <button type="button" onclick="stopTimer('timer2')">Stop</button>
+       <button type="button" onclick="resetTimer('timer2')">Reset Timer</button>
+     </p>
+  <h4>Reactions of Fluorine:</h4>
+  
+   1.Hydrogen sulphide gas burns in Fluorine gas to form Sulphur hexafluoride 
+    and Hydrogen Fluoride: 
+    <p style="font-size:115%; text-align:center;"><input style="font-size: 16px; text-align:center" 
+    size=1 name=q3a> H<sub>2</sub>S + <input 
+    style="font-size: 16px; text-align:center" size=1 name=q3b> 
+    F<sub>2</sub>&#8594;<input 
+    style="font-size: 16px; text-align:center" size=1 name=q3c> 
+    SF<sub>6</sub> + <input style="font-size: 16px; text-align:center" size=1 
+    name=q3d> HF</p> 
+
+    <p style="font-size:115%; text-align:center;"><input onclick="check(3,'Reactions of Fluorine',1,4,1,2,0,0,'H<sub>2</sub>S + F<sub>2</sub>','SF<sub>6</sub> + HF');" type="button" value="Check answer">&nbsp;&nbsp;&nbsp;&nbsp; 
+<input type="reset" value="Reset">&nbsp;&nbsp;&nbsp;&nbsp; <input onclick="show(3,'Reactions of Fluorine',1,4,1,2,0,0,'H<sub>2</sub>S + 4F<sub>2</sub>','SF<sub>6</sub> + 2HF');" type="button" value="Show answer">
+    </p>
+    <p style="font-size:115%; text-align:center;">
+      <span style="color:blue;"><b>Time Taken:</b></span><span class="timer" id="timer3">00:00</span>
+      <button type="button" onclick="startTimer('timer3')">Start</button>
+      <button type="button" onclick="stopTimer('timer3')">Stop</button>
+      <button type="button" onclick="resetTimer('timer3')">Reset Timer</button>
+    </p>
+
+<p></p>
+
+  2.Fluorine reacts with Hydrogen gas explosively even in dark to form 
+  Hydrogen Fluoride gas: 
+  <p style="font-size:115%; text-align:center;"><input style="font-size: 16px; text-align:center" 
+  size=1 name=q4a> F<sub>2</sub> + <input 
+  style="font-size: 16px; text-align:center" size=1 name=q4b> 
+  H<sub>2</sub> &#8594; <input 
+  style="font-size: 16px; text-align:center" size=1 name=q4c>HF</p>
+  <p style="font-size:115%; text-align:center;"><input onclick="check(4,'Reactions of Fluorine',1,1,2,0,0,0,'F<sub>2</sub> + H<sub>2</sub>','HF');" type="button" value="Check answer">&nbsp;&nbsp;&nbsp;&nbsp; 
+<input type="reset" value="Reset">&nbsp;&nbsp;&nbsp;&nbsp;<input onclick="show(4,'Reactions of Fluorine',1,1,2,0,0,0,'F<sub>2</sub> + H<sub>2</sub>','  2 HF');" type="button" value="Show answer"> 
+  </p>
+  <p style="font-size:115%; text-align:center;">
+    <span style="color:blue;"><b>Time Taken:</b></span><span class="timer" id="timer4">00:00</span>
+    <button type="button" onclick="startTimer('timer4')">Start</button>
+    <button type="button" onclick="stopTimer('timer4')">Stop</button>
+    <button type="button" onclick="resetTimer('timer4')">Reset Timer</button>
+  </p>
+<p></p>
+
+
+  3.Fluorine fumes in moist air and reacts with water to form Oxygen and 
+  Hydrogen fluoride: 
+  
+  <p style="font-size:115%; text-align:center;"><input style="font-size: 16px; text-align:center" 
+  size=1 name=q5a> F<sub>2</sub> + <input 
+  style="font-size: 16px; text-align:center" size=1 name=q5b> 
+  H<sub>2</sub>O &#8594;<input 
+  style="font-size: 16px; text-align:center" size=1 name=q5c> HF + 
+  <input style="font-size: 16px; text-align:center" size=1 name=q5d> 
+  O<sub>2</sub></p> 
+  <p style="font-size:115%; text-align:center;"><input onclick="check(5,'Reactions of Fluorine',2,2,4,1,0,0,'F<sub>2</sub>  + H<sub>2</sub>O','HF + O<sub>2</sub>');" type="button" value="Check answer">&nbsp;&nbsp;&nbsp;&nbsp; 
+<input type="reset" value="Reset">&nbsp;&nbsp;&nbsp;&nbsp; <input onclick="show(5,'Reactions of Fluorine',2,2,4,1,0,0,'2F<sub>2</sub>  + 2H<sub>2</sub>O',' 4HF + O<sub>2</sub>');" type="button" value="Show answer"> 
+  </p>
+  <p style="font-size:115%; text-align:center;">
+    <span style="color:blue;"><b>Time Taken:</b></span><span class="timer" id="timer5">00:00</span>
+    <button type="button" onclick="startTimer('timer5')">Start</button>
+    <button type="button" onclick="stopTimer('timer5')">Stop</button>
+    <button type="button" onclick="resetTimer('timer5')">Reset Timer</button>
+  </p> 
+<p></p>
+
+
+  4.Fluorine reacts with cold dilute sodium hydroxide to form sodium Fluoride, 
+  Oxygen diFluoride and water: 
+  <p style="font-size:115%; text-align:center;"><input style="font-size: 16px; text-align:center" 
+  size=1 name=q6a> F<sub>2</sub> + <input 
+  style="font-size: 16px; text-align:center" size=1 name=q6b> NaOH 
+  &#8594;<input style="font-size: 16px; text-align:center" 
+  size=1 name=q6c> NaF + <input 
+  style="font-size: 16px; text-align:center" size=1 name=q6d> 
+  OF<sub>2</sub> + <input style="font-size: 16px; text-align:center" size=1 
+  name=q6e> H<sub>2</sub>O </p>
+  <p style="font-size:115%; text-align:center;"><input onclick="check(6,'Reactions of Fluorine',2,2,2,1,1,0,'F<sub>2</sub> + NaOH','NaF + OF<sub>2</sub> + H<sub>2</sub>O');" type="button" value="Check answer">&nbsp;&nbsp;&nbsp;&nbsp; 
+<input type="reset" value="Reset">&nbsp;&nbsp;&nbsp;&nbsp; <input onclick="show(6,'Reactions of Fluorine',2,2,2,1,1,0,'2F<sub>2</sub> + 2NaOH',' 2NaF + OF<sub>2</sub> + H<sub>2</sub>O');" type="button" value="Show answer"> 
+  </p>
+  <p style="font-size:115%; text-align:center;">
+    <span style="color:blue;"><b>Time Taken:</b></span><span class="timer" id="timer6">00:00</span>
+    <button type="button" onclick="startTimer('timer6')">Start</button>
+    <button type="button" onclick="stopTimer('timer6')">Stop</button>
+    <button type="button" onclick="resetTimer('timer6')">Reset Timer</button>
+  </p> 
+<p></p>
+
+  5.Fluorine reacts with hot concentrated sodium hydroxide to form sodium 
+  Fluoride, oxygen and water: 
+  <p style="font-size:115%; text-align:center;"><input style="font-size: 16px; text-align:center" 
+  size=1 name=q7a> F<sub>2</sub> + <input 
+  style="font-size: 16px; text-align:center" size=1 name=q7b> NaOH 
+  &#8594;<input style="font-size: 16px; text-align:center" 
+  size=1 name=q7c> NaF + <input 
+  style="font-size: 16px; text-align:center" size=1 name=q7d> 
+  O<sub>2</sub> + <input style="font-size: 16px; text-align:center" size=1 
+  name=q7e> H<sub>2</sub>O</p> 
+  <p style="font-size:115%; text-align:center;"><input onclick="check(7,'Reactions of Fluorine',2,4,4,1,2,0,'F<sub>2</sub> + NaOH','NaF + O<sub>2</sub> + H<sub>2</sub>O');" type="button" value="Check answer">&nbsp;&nbsp;&nbsp;&nbsp; 
+<input type="reset" value="Reset">&nbsp;&nbsp;&nbsp;&nbsp; <input onclick="show(7,'Reactions of Fluorine',2,4,4,1,2,0,'2F<sub>2</sub> + 4NaOH',' 4NaF + O<sub>2</sub> + 2H<sub>2</sub>O');" type="button" value="Show answer"> 
+  </p>
+  <p style="font-size:115%; text-align:center;">
+    <span style="color:blue;"><b>Time Taken:</b></span><span class="timer" id="timer7">00:00</span>
+    <button type="button" onclick="startTimer('timer7')">Start</button>
+    <button type="button" onclick="stopTimer('timer7')">Stop</button>
+    <button type="button" onclick="resetTimer('timer7')">Reset Timer</button>
+<p ></p>
+
+6.Fluorine oxidizes Potassium chlorate ( KClO<sub>3</sub>) into Potassium perchlorate (KClO<sub>4</sub>):
+<p style="font-size:115%; text-align:center;"><input style="font-size: 16px; text-align: center" 
+  size=1 name=q8a> F<sub>2</sub> + <input style="font-size: 16px; text-align:center" size=1 name=q8b> KClO<sub>3</sub> + <input style="font-size: 16px; text-align:center" size=1 name=q8c> H<sub>2</sub>O &#8594; <input style="font-size: 16px; text-align: center" size=1 name=q8d> KClO<sub>4</sub> + <input style="font-size:16px;text-align:center" size=1 name=q8e> HF</p> 
+  <p style="font-size:115%; text-align:center;">
+<input onclick="check(8,'Reactions of Fluorine',1,1,1,1,2,0,'F<sub>2</sub> + KClO<sub>3</sub> + H<sub>2</sub>O','KClO<sub>4</sub> + HF');" type="button" value="Check answer">&nbsp;&nbsp;&nbsp;&nbsp; <input type="reset" value="Reset"> &nbsp;&nbsp;&nbsp; <input onclick="show(8,'Reactions of Fluorine',1,1,1,1,2,0,'F<sub>2</sub> + KClO<sub>3</sub> + H<sub>2</sub>O','KClO<sub>4</sub> + 2HF');" type="button" value="Show answer"></p>
+<p style="font-size:115%; text-align:center;">
+  <span style="color:blue;"><b>Time Taken:</b></span><span class="timer" id="timer8">00:00</span>
+  <button type="button" onclick="startTimer('timer8')">Start</button>
+  <button type="button" onclick="stopTimer('timer8')">Stop</button>
+  <button type="button" onclick="resetTimer('timer8')">Reset Timer</button>
+</p> 
+
+<p></p>
+<table class="center">
+<tr>
+  <td><a href="index.html">Home Page</a></td>
+  <td><a href="equations.html">Intermediate Equations</a></td>
+  <td><a href="assorted.html">Assorted Equations</a></td>
+  <td><a href="ozone.html">Ozone</a></td>
+  <td><a href="potassium-dichromate.html">Potassium Dichromate</a></td>
+  <td><a href="potassium-permanganate.html">Potassium Permanganate</a></td>
+  <td><a href="hydrogen-peroxide.html">Hydrogen Peroxide</a></td>
+  <td><a href="#top">TOP</a></td>
+</tr>
+  </table>
+</form>
+
+<p></p>
+
+<address>For feedback, please e-mail&nbsp; to:<a 
+href="mailto:jibanmajumdar@gmail.com">jibanmajumdar@gmail.com</a>
+</address>
+</body>
+</html>
