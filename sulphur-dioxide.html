@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sulphur Dioxide</title>
+    <script src="chem1.js" defer></script>
+    <script src="timer.js" defer></script>
+    <meta name="Keywords" content="exercises,  balancing,  chemistry, equations, hydrogen-chloride, ammonia, nitric-acid, nitrates, sulphur-dioxide, hydrogen-sulphide, sodium-hydroxide, sulphuric-acid, preparation ">
+    <meta name="author" content="Jiban Majumdar">
+    <link rel="stylesheet" href="mystyle.css">
+</head>
+<body>
+  <div>
+    <img src="myPhoto.jpg" alt="webmaster"  width="150" height="200"> <br> <a href="mailto:jibanmajumdar@gmail.com">webmaster</a>
+    </div> 
+  <table class="center">
+
+<tr>
+<td><a href="index.html">Home Page</a></td>
+<td><a href="equ.html">Elementary Equations</a></td>
+<td><a href="advanced.html">Advanced Equations</a></td>
+<td><a href="assorted.html">Assorted Equations</a></td>
+<td><a href="hydrogen-chloride.html">Hydrogen Chloride</a></td>
+<td><a href="ammonia.html">Ammonia</a></td>	
+</tr>
+<tr>
+<td><a href="nitric-acid.html">Nitric Acid</a></td>
+<td><a href="chlorine.html">Chlorine</a></td>
+<td><a href="hydrogen-sulphide.html">Hydrogen Sulphide</a></td>
+<td><a href="sulphuric-acid.html">Sulphuric Acid</a></td>
+<td><a href="sodium-hydroxide.html">Sodium Hydroxide</a></td>
+<td></td>
+</tr>
+</table>
+
+<h1 style="text-align:center;">Sulphur Dioxide</h1>
+
+<h2>Practise balancing equations: </h2> <h3>Direction:</h3> <ul><li>In  the following equations you will see a blank box before the symbol of each compound and element. Enter the lowest possible number in each box, or leave the box blank if you think the chemical needn't have a number (i.e. the number is equivalent to '1').</li> 
+<li>When you think the equation is balanced, click on the small button <span style= "color:blue;"><b>"Check answer"</b></span> that appears below it.</li> <lI>If your equation is incorrect, then click the button <span style= "color:blue;"><b> "Reset"</b></span> and try balancing the  equation again.</li> <li>In case you are in a hurry or are unable to balance, then click the button <span style= "color:blue;"><b>"Show answer."</b></span></li>
+  <li>If you want to know the time taken (minutes:seconds) to balance a chemical equation, you click the <span style="color:blue;"><b>"Start"</b></span> button and after balancing the equation, click the <span style="color:blue;"><b>"Stop"</b></span>button. Once, you have noted the time, click the <span style="color:blue;"><b>"Reset Timer"</b></span> button.
+  </li>
+</ul>
+ <h3>Note:</h3> If you get no response after 
+clicking 'Check answer' or 'Show answer', your browser has disabled to run this 
+program. Enable it by clicking below the 'address 
+bar' and follow the instructions.
+
+<form name="equations">
+
+<h4>Preparation of Sulphur dioxide:</h4> 
+  1. Sodium Sulphite reacts with dilute Hydrochloric acid to form Sodium choride, Sulphur dioxide gas and water: 
+  
+  <p style="font-size:115%; text-align:center;"><input style="font-size: 16px; text-align: center;" 
+  size=1 name=q1a> Na<sub>2</sub>SO<sub>3</sub> + <input  style="font-size: 16px; text-align: center;" size=1 name=q1b> HCl &#8594; <input style="font-size: 16px; text-align:center;" size=1 name=q1c> NaCl+ <input style="font-size: 16px; text-align:center;" size=1   name=q1d> SO<sub>2</sub> +<input style="font-size: 16px; text-align:center;" size=1   name=q1e>H<sub>2</sub>O </p>
+   <p style="font-size:115%; text-align:center;"><input onclick="check(1,'Preparation of Sulphur dioxide',1,2,2,1,1,0,'Na<sub>2SO<sub>3</sub> + HCl','NaCl + SO<sub>2</sub> + H<sub>2</sub>O');" type="button" value="Check answer">&nbsp;&nbsp;&nbsp;&nbsp; <input type="reset" value="Reset">&nbsp;&nbsp;&nbsp;&nbsp; <input onclick="show(1,'Preparation of Sulphur dioxide',1,2,2,1,1,0,'Na<sub>2</sub>SO<sub>3</sub> + 2HCl','2NaCl + SO<sub>2</sub> + H<sub>2</sub>O');" type="button" value="Show answer"> </p>
+   <p style="font-size:115%; text-align:center;">
+    <span style="color:blue;"><b>Time Taken:</b></span><span class="timer" id="timer1">00:00</span>
+    <button type="button" onclick="startTimer('timer1')">Start</button>
+    <button type="button" onclick="stopTimer('timer1')">Stop</button>
+    <button type="button" onclick="resetTimer('timer1')">Reset Timer</button>
+   </p>
+  <p></p>
+  2.Sodium Sulphite reacts with dilute Sulphuric acid to form Sodium sulphate, Sulphur dioxide gas and water: 
+  <p style="font-size:115%; text-align:center;"><input style="font-size: 16px; text-align: center;" 
+  size=1 name=q2a> Na<sub>2</sub>SO<sub>3</sub> + <input  style="font-size: 16px; text-align: center;" size=1 name=q2b> H<sub>2</sub>SO<sub>4</sub>&#8594; <input style="font-size: 16px; text-align: center;" size=1 name=q2c> Na<sub>2</sub>SO<sub>4</sub>+ <input style="font-size: 16px; text-align: center" size=1   name=q2d> SO<sub>2</sub> +<input style="font-size: 16px; text-align: center;" size=1   name=q2e>H<sub>2</sub>O </p>
+   <p style="font-size:115%; text-align:center;"><input onclick="check(2,'Preparation of Sulphur dioxide',1,1,1,1,1,0,'Na<sub>2</sub>SO<sub>3</sub> + H<sub>2</sub>SO<sub>4</sub>','Na<sub>2</sub>SO<sub>4</sub> + SO<sub>2</sub> + H<sub>2</sub>O');" type="button" value="Check answer">&nbsp;&nbsp;&nbsp;&nbsp; <input type="reset" value="Reset">&nbsp;&nbsp;&nbsp;&nbsp; <input onclick="show(2,'Preparation of Sulphur dioxide',1,1,1,1,1,0,'Na<sub>2</sub>SO<sub>3</sub> + H<sub>2</sub>SO<sub>4</sub>','Na<sub>2</sub>SO<sub>4</sub>+ SO<sub>2</sub> + H<sub>2</sub>O');" type="button" value="Show answer"> </p>
+   <p style="font-size:115%; text-align:center;">
+    <span style="color:blue;"><b>Time Taken:</b></span><span class="timer" id="timer2">00:00</span>
+     <button type="button" onclick="startTimer('timer2')">Start</button>
+     <button type="button" onclick="stopTimer('timer2')">Stop</button>
+     <button type="button" onclick="resetTimer('timer2')">Reset Timer</button>
+   </p>
+  <p></p>
+  
+  <h4>Reactions of Sulphur Dioxide:</h4>
+  1. Sulphur dioxide gas reacts with water to form Sulphurous acid:
+  
+  <p style="font-size:115%; text-align:center;"><input style="font-size: 16px; text-align: center;" 
+  size=1 name=q3a>SO<sub>2</sub> + <input  style="font-size: 16px; text-align: center" size=1 name=q3b> H<sub>2</sub>O &#8594; <input style="font-size: 16px; text-align: center;" size=1  name=q3c> H<sub>2</sub>SO<sub>3</sub> </p>
+  <p style="font-size:115%; text-align:center;"> <input onclick="check(3,'Reactions of Sulphur dioxide',1,1,1,0,0,0,'SO<sub>2</sub>+ H<sub>2</sub>O','H<sub>2</sub>SO<sub>3</sub>');" type="button" value="Check answer">&nbsp;&nbsp;&nbsp;&nbsp; <input type="reset"  value="Reset">&nbsp;&nbsp;&nbsp;&nbsp; <input onclick="show(3,'Reactions of Sulphur dioxide',1,1,1,0,0,0,'SO<sub>2</sub>+ H<sub>2</sub>O','H<sub>2</sub>SO<sub>3</sub>');" type="button" value="Show answer"> </p>
+  <p style="font-size:115%; text-align:center;">
+    <span style="color:blue;"><b>Time Taken:</b></span><span class="timer" id="timer3">00:00</span>
+    <button type="button" onclick="startTimer('timer3')">Start</button>
+    <button type="button" onclick="stopTimer('timer3')">Stop</button>
+    <button type="button" onclick="resetTimer('timer3')">Reset Timer</button>
+  </p>
+  <p></p>
+  
+  2.Sulphur dioxide gas reacts with Sodium hydroxide solution to form Sodium sulphite and water:
+  
+  <p style="font-size:115%; text-align:center;"><input style="font-size: 16px; text-align: center;" 
+   size=1 name=q4a> SO<sub>2</sub> + <input  style="font-size: 16px; text-align: center" size=1 name=q4b> NaOH  &#8594; <input  style="font-size: 16px; text-align: center;" size=1 name=q4c> Na<sub>2</sub>SO<sub>3</sub> +   <input style="font-size: 16px; text-align: center;" size=1 name=q4d> H<sub>2</sub>O </p> 
+    <p style="font-size:115%; text-align:center;"><input onclick="check(4,'Reactions of Sulphur dioxide',1,2,1,1,0,0,'SO<sub>2</sub> + NaOH','Na<sub>2</sub>SO<sub>3</sub> + H<sub>2</sub>O');" type="button" value="Check answer">&nbsp;&nbsp;&nbsp;&nbsp; <input type="reset"  value="Reset">&nbsp;&nbsp;&nbsp;&nbsp; <input onclick="show(4,'Reactions of Sulphur dioxide',1,2,1,1,0,0,'SO<sub>2</sub> + 2NaOH','Na<sub>2</sub>SO<sub>3</sub> + H<sub>2</sub>O');" type="button" value="Show answer"> </p>
+    <p style="font-size:115%; text-align:center;">
+      <span style="color:blue;"><b>Time Taken:</b></span><span class="timer" id="timer4">00:00</span>
+      <button type="button" onclick="startTimer('timer4')">Start</button>
+      <button type="button" onclick="stopTimer('timer4')">Stop</button>
+      <button type="button" onclick="resetTimer('timer4')">Reset Timer</button>
+    </p>
+<p></p>
+  3.Sulphur dioxide reacts with  Chlorine gas in the presence of water to form Sulphuric acid and Hydrochloric acid: 
+  
+  <p style="font-size:115%; text-align:center;"><input style="font-size: 16px; text-align: center;" 
+  size=1 name=q5a> SO<sub>2</sub>+ <input  style="font-size: 16px; text-align: center;" size=1 name=q5b> Cl<sub>2</sub>+ <input  style="font-size: 16px; text-align: center;" size=1 name=q5c>H<sub>2</sub>O  &#8594; <input style="font-size: 16px; text-align: center;" size=1 name=q5d> H<sub>2</sub>SO<sub>4</sub> +   <input style="font-size: 16px; text-align: center;" size=1 name=q5e> HCl </p>
+   <p style="font-size:115%; text-align:center;"><input onclick="check(5,'Reactions of Sulphur dioxide',1,1,2,1,2,0,'SO<sub>2</sub> + Cl<sub>2</sub> + H<sub>2</sub>O','H<sub>2</sub>SO<sub>4</sub> + HCl');"      type="button" value="Check answer">&nbsp;&nbsp;&nbsp; &nbsp;<input type="reset"  value="Reset">&nbsp;&nbsp;&nbsp; <input onclick="show(5,'Reactions of Sulphur dioxide',1,1,2,2,1,0,'SO<sub>2</sub> + Cl<sub>2</sub> +2H<sub>2</sub>O','H<sub>2</sub>SO<sub>4</sub> + 2HCl');" type="button" value="Show answer"> </p>
+   <p style="font-size:115%; text-align:center;">
+    <span style="color:blue;"><b>Time Taken:</b></span><span class="timer" id="timer5">00:00</span>
+    <button type="button" onclick="startTimer('timer5')">Start</button>
+    <button type="button" onclick="stopTimer('timer5')">Stop</button>
+    <button type="button" onclick="resetTimer('timer5')">Reset Timer</button>
+  </p> 
+  <p></p>
+4.Sulphur dioxide reduces yellow Iron(III)Cloride into green Iron(II)chloride: 
+  
+  <p style="font-size:115%; text-align:center;"><input style="font-size: 16px; text-align: center;" 
+  size=1 name=q6a>SO<sub>2</sub>+<input  style="font-size: 16px; text-align: center;" size=1 name=q6b> FeCl<sub>3</sub>+<input  style="font-size: 16px; text-align: center;" size=1 name=q6c>H<sub>2</sub>O &#8594;<input style="font-size: 16px; text-align: center;" size=1 name=q6d>FeCl<sub>2</sub>+<input style="font-size: 16px; text-align: center;" size=1 name=q6e>HCl+<input style="font-size: 16px; text-align: center;" size=1 name=q6f>H<sub>2</sub>SO<sub>4</sub></p>
+   <p style="font-size:115%; text-align:center;"><input onclick="check(6,'Reactions of Sulphur dioxide',1,2,2,2,2,1,'SO<sub>2</sub> + FeCl<sub>3</sub> + H<sub>2</sub>O','FeCl<sub>2</sub> + HCl+ H<sub>2</sub>SO<sub>4</sub>');" type="button" value="Check answer">&nbsp;&nbsp;&nbsp; &nbsp;<input type="reset"  value="Reset">&nbsp;&nbsp;&nbsp; <input onclick="show(6,'Reactions of Sulphur dioxide',1,2,2,2,2,1,'SO<sub>2</sub> + 2FeCl<sub>3</sub> + 2H<sub>2</sub>O','2FeCl<sub>2</sub> + 2HCl+ H<sub>2</sub>SO<sub>4</sub>');"  type="button" value="Show answer"> </p>
+   <p style="font-size:115%; text-align:center;">
+    <span style="color:blue;"><b>Time Taken:</b></span><span class="timer" id="timer6">00:00</span>
+    <button type="button" onclick="startTimer('timer6')">Start</button>
+    <button type="button" onclick="stopTimer('timer6')">Stop</button>
+    <button type="button" onclick="resetTimer('timer6')">Reset Timer</button>
+  </p> 
+  <p></p>
+
+ 5.Sulphur dioxide reduces orange acidified Potassium dichromate into green Chromium sulphate: 
+  
+   <p style="font-size:115%; text-align:center;"><input style="font-size: 16px; text-align: center;" 
+  size=1 name=q7a>SO<sub>2</sub>+<input  style="font-size: 16px; text-align: center;" size=1 name=q7b>K<sub>2</sub>Cr<sub>2</sub>O<sub>7</sub>+<input style="font-size: 16px; text-align: center;" size=1 name=q7c>H<sub>2</sub>SO<sub>4</sub>&#8594;<input style="font-size: 16px; text-align: center;" size=1 name=q7d>Cr<sub>2</sub>(SO<sub>4</sub>)<sub>3</sub>+<input style="font-size: 16px; text-align: center;" size=1 name=q7e>K<sub>2</sub>SO<sub>4</sub>+<input style="font-size: 16px; text-align: center;" size=1 name=q7f>H<sub>2</sub>O</p>
+   <p style="font-size:115%; text-align:center;"><input onclick="check(7,'Reactions of Sulphur dioxide',3,1,1,1,1,1,'SO<sub>2</sub>+K<sub>2</sub>Cr<sub>2</sub>O<sub>7</sub>+ H<sub>2</sub>SO<sub>4</sub>','Cr<sub>2</sub>(SO<sub>4</sub>)<sub>3</sub>+K<sub>2</sub>SO<sub>4</sub>+ H<sub>2</sub>O');" type="button" value="Check answer">&nbsp;&nbsp;&nbsp; &nbsp;<input type="reset"  value="Reset">&nbsp;&nbsp;&nbsp; <input onclick="show(7,'Reactions of Sulphur dioxide',3,1,1,1,1,1,'3SO<sub>2</sub> + K<sub>2</sub>Cr<sub>2</sub>O<sub>7</sub>+H<sub>2</sub>SO<sub>4</sub>','Cr<sub>2</sub>(SO<sub>4</sub>)<sub>3</sub>+K<sub>2</sub>SO<sub>4</sub>+ H<sub>2</sub>O');" type="button" value="Show answer"></p>
+   <p style="font-size:115%; text-align:center;">
+    <span style="color:blue;"><b>Time Taken:</b></span><span class="timer" id="timer7">00:00</span>
+    <button type="button" onclick="startTimer('timer7')">Start</button>
+    <button type="button" onclick="stopTimer('timer7')">Stop</button>
+    <button type="button" onclick="resetTimer('timer7')">Reset Timer</button>
+  </p> 
+  <p></p>
+6.Sulphur dioxide reduces purple Potassium permanganate  into colourless Manganese sulphate: 
+  
+  <p style="font-size:115%; text-align:center;"><input style="font-size: 16px; text-align: center;" 
+  size=1 name=q8a>SO<sub>2</sub>+<input  style="font-size: 16px; text-align: center;" size=1 name=q8b>KMnO<sub>4</sub>+<input  style="font-size: 16px; text-align: center;" size=1 name=q8c>H<sub>2</sub>O &#8594;<input style="font-size: 16px; text-align: center;" size=1 name=q8d>MnSO<sub>4</sub>+<input style="font-size: 16px; text-align: center;" size=1 name=q8e>K<sub>2</sub>SO<sub>4</sub>+<input style="font-size: 16px; text-align: center;" size=1 name=q8f>H<sub>2</sub>SO<sub>4</sub></p>
+   <p style="font-size:115%; text-align:center;"><input onclick="check(8,'Reactions of Sulphur dioxide',5,2,2,2,1,2,'SO<sub>2</sub> + KMnO<sub>4</sub> + H<sub>2</sub>O','MnSO<sub>4</sub> + K<sub>2</sub>SO<sub>4</sub>+ H<sub>2</sub>SO<sub>4</sub>');" type="button" value="Check answer">&nbsp;&nbsp;&nbsp; &nbsp;<input  type="reset"  value="Reset">&nbsp;&nbsp;&nbsp; <input onclick="show(8,'Reactions of Sulphur dioxide',5,2,2,2,1,2,'5SO<sub>2</sub> + 2KMnO<sub>4</sub> + 2H<sub>2</sub>O','2MnSO<sub>4</sub> + K<sub>2</sub>SO<sub>4</sub>+ 2H<sub>2</sub>SO<sub>4</sub>');" type="button" value="Show answer"></p>
+   <p style="font-size:115%; text-align:center;">
+    <span style="color:blue;"><b>Time Taken:</b></span><span class="timer" id="timer8">00:00</span>
+    <button type="button" onclick="startTimer('timer8')">Start</button>
+    <button type="button" onclick="stopTimer('timer8')">Stop</button>
+    <button type="button" onclick="resetTimer('timer8')">Reset Timer</button>
+  </p> 
+
+  <p></p>
+
+ 
+<p></p>
+
+<table class="center">
+<tr>
+<td><a href="index.html">Home Page</a></td>
+<td><a href="equ.html">Elementary Equations</a></td>
+<td><a href="advanced.html">Advanced Equations</a></td>
+<td><a href="assorted.html">Assorted Equations</a></td>
+<td><a href="hydrogen-chloride.html">Hydrogen Chloride</a></td>
+<td><a href="ammonia.html">Ammonia</a></td>
+</tr>
+<tr>
+<td><a href="nitric-acid.html">Nitric Acid</a></td>
+<td><a href="chlorine.html">Chlorine</a></td>
+<td><a href="hydrogen-sulphide.html">Hydrogen Sulphide</a></td>
+<td><a href="sulphuric-acid.html">Sulphuric Acid</a></td>
+<td><a href="sodium-hydroxide.html">Sodium Hydroxide</a></td>
+<td><a href="#top">TOP</a></td>
+</tr>
+</table>
+</form>
+<p></p>
+<p></p>
+
+ <address>   
+  For feedback, please e-mail&nbsp; to:<a href="mailto:jibanmajumdar@gmail.com">jibanmajumdar@gmail.com</a>
+ </address> 
+  </body></html>
