@@ -1,0 +1,339 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ammonia</title>
+    <script src="chem1.js" defer></script>
+    <script src="timer.js" defer></script>
+    <meta name="Keywords" content="exercises,  balancing,  chemistry, equations, hydrogen-chloride, ammonia, nitric-acid, nitrates, sulphur-dioxide, hydrogen-sulphide, sodium-hydroxide, sulphuric-acid, preparation ">
+    <meta name="author" content="Jiban Majumdar">
+    <link rel="stylesheet" href="mystyle.css">
+</head>
+<body>
+  <div>
+    <img src="myPhoto.jpg" alt="webmaster"  width="150" height="200"> <br> <a href="mailto:jibanmajumdar@gmail.com">webmaster</a>
+    </div> 
+
+  <table class="center">
+<tr>
+<td><a href="index.html">Home Page</a></td>
+<td><a href="equ.html">Elementary Equations</a></td>
+<td><a href="advanced.html">Advanced Equations</a></td>
+<td><a href="assorted.html">Assorted Equations</a></td>
+<td><a href="hydrogen-chloride.html">Hydrogen Chloride</a></td>
+<td><a href="chlorine.html">Chlorine</a></td>
+	
+</tr>
+<tr>
+<td><a href="nitric-acid.html">Nitric Acid</a></td>
+<td><a href="sulphur-dioxide.html">Sulphur Dioxide</a></td>
+<td><a href="hydrogen-sulphide.html">Hydrogen Sulphide</a></td>
+<td><a href="sulphuric-acid.html">Sulphuric Acid</a></td>
+<td><a href="sodium-hydroxide.html">Sodium Hydroxide</a></td>
+<td></td>
+</tr>
+</table>
+
+<h1 style="text-align:center;">Ammonia</h1>
+
+<h2>Practise balancing equations: </h2> <h3>Direction:</h3> <ul><li>In  the following equations you will see a blank box before the symbol of each compound and element. Enter the lowest possible number in each box, or leave the box blank if you think the chemical needn't have a number (i.e. the number is equivalent to '1'). 
+<li>When you think the equation is balanced, click on the small button <span style= "color:blue;"><b>"Check answer"</b></span> that appears below it.</li> <lI>If your equation is incorrect, then click the button <span style= "color:blue;"><b> "Reset"</b></span> and try balancing the  equation again.</li> <li>In case you are in a hurry or are unable to balance, then click the button <span style= "color:blue;"><b>"Show answer."</b></span></li>
+  <li>If you want to know the time taken (minutes:seconds) to balance a chemical equation, you click the <span style="color:blue;"><b>"Start"</b></span> button and after balancing the equation, click the <span style="color:blue;"><b>"Stop"</b></span>button. Once, you have noted the time, click the <span style="color:blue;"><b>"Reset Timer"</b></span> button.
+  </li></ul>
+ 
+<h3>Note:</h3>If you get no response after clicking 'Check answer' or 'Show answer', your browser has disabled to run this 
+program. Enable it by clicking below the 'address bar' and follow the instructions.
+
+<form name="equations">
+
+<h4>Preparation of Ammonia:</h4>
+   1.When Ammonium Chloride is heated  with slaked lime (Calcium hydroxide),Ammonia gas is formed: 
+  <p style="font-size:115%; text-align:center;"><input style="font-size: 16px; text-align:center" 
+  size=1 name=q1a> NH<sub>4</sub>Cl + <input style="font-size: 16px; text-align:center" size=1 name=q1b> Ca(OH)<sub>2</sub>&#8594;<input style="font-size: 16px; text-align: center" size=1 name=q1c> CaCl<sub>2</sub>+ <input style="font-size:16px;text-align:center" size=1 name=q1d>NH<sub>3</sub> + <input style="font-size:16px;text-align:center" size=1 name=q1e>H<sub>2</sub>O</p> 
+  <p style="font-size:115%; text-align:center;">
+<input onclick="check(1,'Preparation of Ammonia',2,1,1,2,2,0,'NH<sub>4</sub>Cl + Ca(OH)<sub>2</sub>','CaCl<sub>2</sub> + NH<sub>3</sub>+H<sub>2</sub>O');" type="button" value="Check answer">&nbsp;&nbsp;&nbsp;&nbsp; <input type="reset" value="Reset">  &nbsp;&nbsp;&nbsp; <input onclick="show(1,'Preparation of Ammonia',2,1,1,2,2,0,'2NH<sub>4</sub>Cl + Ca(OH)<sub>2</sub>','CaCl<sub>2</sub>+2NH<sub>3</sub> +2H<sub>2</sub>O');" type="button" value="Show answer"></p>
+<p style="font-size:115%; text-align:center;">
+  <span style="color:blue;"><b>Time Taken:</b></span><span class="timer" id="timer1">00:00</span>
+  <button type="button" onclick="startTimer('timer1')">Start</button>
+  <button type="button" onclick="stopTimer('timer1')">Stop</button>
+  <button type="button" onclick="resetTimer('timer1')">Reset Timer</button>
+ </p>
+
+2.When Magnesium nitride is added to water, Ammonia gas is formed:
+  <p style="font-size:115%; text-align:center;"><input style="font-size: 16px; text-align: center" 
+  size=1 name=q2a> Mg<sub>3</sub>N<sub>2</sub> + <input style="font-size: 16px; text-align:center" size=1 name=q2b> H<sub>2</sub>O &#8594; <input style="font-size: 16px; text-align: center" size=1 name=q2c> Mg(OH)<sub>2</sub> + <input style="font-size:16px;text-align:center" size=1 name=q2d> NH<sub>3</sub></p> 
+  <p style="font-size:115%; text-align:center;">
+<input onclick="check(2,'Preparation of Ammonia',1,6,3,2,0,0,'Mg<sub>3</sub>N<sub>2</sub> + H<sub>2</sub>O','Mg(OH)<sub>2</sub> + NH<sub>3</sub>');" type="button" value="Check answer">&nbsp;&nbsp;&nbsp;&nbsp; <input type="reset" value="Reset">  &nbsp;&nbsp;&nbsp; <input onclick="show(2,'Preparation of Ammonia',1,6,3,2,0,0,'Mg<sub>3</sub>N<sub>2</sub> + 6 H<sub>2</sub>O','3Mg(OH)<sub>2</sub> + 2NH<sub>3</sub> ');" type="button" value="Show answer"></p>
+<p style="font-size:115%; text-align:center;">
+  <span style="color:blue;"><b>Time Taken:</b></span><span class="timer" id="timer2">00:00</span>
+   <button type="button" onclick="startTimer('timer2')">Start</button>
+   <button type="button" onclick="stopTimer('timer2')">Stop</button>
+   <button type="button" onclick="resetTimer('timer2')">Reset Timer</button>
+ </p>
+
+3.When Aluminium nitride is added to water, Ammonia gas is formed:
+  <p style="font-size:115%; text-align:center;"><input style="font-size: 16px; text-align: center" 
+  size=1 name=q3a> AlN + <input style="font-size: 16px; text-align:center" size=1 name=q3b> H<sub>2</sub>O &#8594; <input style="font-size: 16px; text-align: center" size=1 name=q3c> Al(OH)<sub>3</sub> + <input style="font-size:16px;text-align:center" size=1 name=q3d> NH<sub>3</sub></p> 
+ <p style="font-size:115%; text-align:center;"> 
+<input onclick="check(3,'Preparation of Ammonia',1,3,1,1,0,0,'AlN + H<sub>2</sub> O','Al(OH)<sub>3</sub> + NH<sub>3</sub>');" type="button" value="Check answer">&nbsp;&nbsp;&nbsp;&nbsp; <input type="reset" value="Reset">&nbsp;&nbsp;&nbsp;&nbsp;  <input onclick="show(3,'Preparation of Ammonia',1,3,1,1,0,0,'AlN + 3 H<sub>2</sub> O','Al(OH)<sub>3</sub> + NH<sub>3</sub> ');" type="button" value="Show answer"></p>
+<p style="font-size:115%; text-align:center;">
+  <span style="color:blue;"><b>Time Taken:</b></span><span class="timer" id="timer3">00:00</span>
+  <button type="button" onclick="startTimer('timer3')">Start</button>
+  <button type="button" onclick="stopTimer('timer3')">Stop</button>
+  <button type="button" onclick="resetTimer('timer3')">Reset Timer</button>
+</p>
+
+4.When A mixture of Nitrogen gas and Hydrogen gas is passed over Iron catalyst at 200 atm pressure and 450<sup>o</sup>C, Ammonia gas is formed (Haber Process):
+  
+  <p style="font-size:115%; text-align:center;"><input style="font-size: 16px; text-align: center" 
+  size=1 name=q4a> N<sub>2</sub> + <input style="font-size: 16px; text-align:center" size=1 name=q4b> H<sub>2</sub>&nbsp;&nbsp;&#8652;&nbsp;&nbsp;<input style="font-size: 16px; text-align: center" size=1 name=q4c> NH<sub>3</sub></p> 
+  
+<p style="font-size:115%; text-align:center;"><input onclick="check(4,'Preparation of Ammonia',1,3,2,0,0,0,'N<sub>2</sub> + H<sub>2</sub>','NH<sub>3</sub>');" type="button"  value="Check answer">&nbsp;&nbsp;&nbsp;&nbsp; <input type="reset" value="Reset">  &nbsp;&nbsp;&nbsp; <input onclick="show(4,'Preparation of Ammonia',1,3,2,0,0,0,'N<sub>2</sub> + 3H<sub>2</sub>','2NH<sub>3</sub> ');" type="button" value="Show answer"></p>
+<p style="font-size:115%; text-align:center;">
+  <span style="color:blue;"><b>Time Taken:</b></span><span class="timer" id="timer4">00:00</span>
+  <button type="button" onclick="startTimer('timer4')">Start</button>
+  <button type="button" onclick="stopTimer('timer4')">Stop</button>
+  <button type="button" onclick="resetTimer('timer4')">Reset Timer</button>
+</p>
+  <p></p>
+  <h3>Reactions of Ammonia:</h3>
+  1. Ammonia reacts with Hydrogen Chloride gas to form  white fumes of Ammonium chloride:
+     
+  <p style="font-size:115%; text-align:center;"><input style="font-size: 16px; text-align: center" 
+   size=1 name=q5a> HCl + <input  style="font-size: 16px; text-align: center" size=1 name=q5b> NH<sub>3</sub>&#8594;<input style="font-size: 16px; text-align: center" size=1  name=q5c> NH<sub>4</sub>Cl </p>
+ <p style="font-size:115%; text-align:center;"> <input onclick="check(5,'Reactions of Ammonia',1,1,1,0,0,0,'HCl + NH<sub>3</sub>','NH<sub>4</sub>Cl');" type="button"  value="Check answer">&nbsp;&nbsp;&nbsp;&nbsp; <input type="reset" value="Reset">&nbsp;&nbsp;&nbsp;&nbsp; <input onclick="show(5,'Reactions of Ammonia',1,1,1,0,0,0,'HCl+ NH<sub>3</sub>','NH<sub>4</sub>Cl');" type="button" value="Show answer"> </p>
+ <p style="font-size:115%; text-align:center;">
+  <span style="color:blue;"><b>Time Taken:</b></span><span class="timer" id="timer5">00:00</span>
+  <button type="button" onclick="startTimer('timer5')">Start</button>
+  <button type="button" onclick="stopTimer('timer5')">Stop</button>
+  <button type="button" onclick="resetTimer('timer5')">Reset Timer</button>
+</p>
+  <p></p>
+  2. Ammonia reacts with Nitric acid to form  Ammonium nitrate:
+     
+  <p style="font-size:115%; text-align:center;"><input style="font-size: 16px; text-align: center" 
+   size=1 name=q6a> HNO<sub>3</sub> + <input  style="font-size: 16px; text-align: center" size=1 name=q6b> NH<sub>3</sub>&#8594;<input style="font-size: 16px; text-align: center" size=1  name=q6c> NH<sub>4</sub>NO<sub>3</sub> </p>
+ <p style="font-size:115%; text-align:center;"> <input onclick="check(6,'Reactions of Ammonia',1,1,1,0,0,0,'HNO<sub>3</sub> + NH<sub>3</sub>','NH<sub>4</sub>NO<sub>3</sub>');" type="button"  value="Check answer">&nbsp;&nbsp;&nbsp;&nbsp; <input type="reset" value="Reset">&nbsp;&nbsp;&nbsp;&nbsp; <input onclick="show(6,'Reactions of Ammonia',1,1,1,0,0,0,'HNO<sub>3</sub>+ NH<sub>3</sub>','NH<sub>4</sub>NO<sub>3</sub>');" type="button" value="Show answer"> </p>
+ <p style="font-size:115%; text-align:center;">
+  <span style="color:blue;"><b>Time Taken:</b></span><span class="timer" id="timer6">00:00</span>
+  <button type="button" onclick="startTimer('timer6')">Start</button>
+  <button type="button" onclick="stopTimer('timer6')">Stop</button>
+  <button type="button" onclick="resetTimer('timer6')">Reset Timer</button>
+</p> 
+  <p></p>
+  3. Ammonia reacts with Sulphuric acid to form  Ammonium sulphate:
+     
+  <p style="font-size:115%; text-align:center;"><input style="font-size: 16px; text-align: center" 
+   size=1 name=q7a> H<sub>2</sub>SO<sub>4</sub> + <input  style="font-size: 16px; text-align: center" size=1 name=q7b> NH<sub>3</sub>&#8594;<input style="font-size: 16px; text-align: center" size=1  name=q7c> (NH<sub>4</sub>)<sub>2</sub>SO<sub>4</sub> </p>
+ <p style="font-size:115%; text-align:center;"> <input onclick="check(7,'Reactions of Ammonia',1,2,1,0,0,0,'H<sub>2</sub>SO<sub>4</sub> + NH<sub>3</sub>','(NH<sub>4</sub>)<sub>2</sub>SO<sub>4</sub>');" type="button"  value="Check answer">&nbsp;&nbsp;&nbsp;&nbsp; <input type="reset" value="Reset">&nbsp;&nbsp;&nbsp; &nbsp;<input onclick="show(7,'Reactions of Ammonia',1,2,1,0,0,0,'H<sub>2</sub>SO<sub>4</sub>+ 2NH<sub>3</sub>','(NH<sub>4</sub>)<sub>2</sub>SO<sub>4</sub>');" type="button" value="Show answer"> </p>
+ <p style="font-size:115%; text-align:center;">
+  <span style="color:blue;"><b>Time Taken:</b></span><span class="timer" id="timer7">00:00</span>
+  <button type="button" onclick="startTimer('timer7')">Start</button>
+  <button type="button" onclick="stopTimer('timer7')">Stop</button>
+  <button type="button" onclick="resetTimer('timer7')">Reset Timer</button>
+</p> 
+  <p></p>
+  4.Ammonia burns in oxygen to form Nitrogen gas: 
+  
+  <p style="font-size:115%; text-align:center;"><input style="font-size: 16px; text-align: center" 
+  size=1 name=q8a> NH<sub>3</sub> + <input  style="font-size: 16px; text-align: center" size=1 name=q8b> O<sub>2</sub>&#8594;<input style="font-size: 16px; text-align: center" size=1 name=q8c> N<sub>2</sub> + <input style="font-size: 16px; text-align: center" size=1  name=q8d> H<sub>2</sub>O </p>
+  <p style="font-size:115%; text-align:center;"><input onclick="check(8,'Reactions of Ammonia',4,3,2,6,0,0,'NH<sub>3</sub> + O<sub>2</sub>','N<sub>2</sub> + H<sub>2</sub>O');" type="button" value="Check answer">&nbsp;&nbsp;&nbsp; &nbsp;<input type="reset" value="Reset">&nbsp;&nbsp;&nbsp;&nbsp; <input onclick="show(8,'Reactions of Ammonia',4,3,2,6,0,0,'4NH<sub>3</sub> + 3O<sub>2</sub>','2N<sub>2</sub> + 6H<sub>2</sub>O');" type="button" value="Show answer"> </p>
+  <p style="font-size:115%; text-align:center;">
+    <span style="color:blue;"><b>Time Taken:</b></span><span class="timer" id="timer8">00:00</span>
+    <button type="button" onclick="startTimer('timer8')">Start</button>
+    <button type="button" onclick="stopTimer('timer8')">Stop</button>
+    <button type="button" onclick="resetTimer('timer8')">Reset Timer</button>
+  </p> 
+<p></p>
+5.Ammonia reduces black copper(II)oxide into brown copper metal: 
+  
+  <p style="font-size:115%; text-align:center;"><input style="font-size: 16px; text-align: center" 
+  size=1 name=q9a> NH<sub>3</sub> + <input  style="font-size: 16px; text-align: center" size=1 name=q9b> CuO &#8594;<input style="font-size: 16px; text-align: center" size=1 name=q9c> N<sub>2</sub> + <input style="font-size: 16px; text-align: center" size=1 name=q9d> Cu + <input  style="font-size: 16px; text-align: center" size=1 name=q9e> H<sub>2</sub>O</p>
+  <p style="font-size:115%; text-align:center;"><input onclick="check(9,'Reactions of Ammonia',2,3,1,3,3,0,'NH<sub>3</sub> + CuO<sub>2</sub>','N<sub>2</sub> + Cu + H<sub>2</sub>O');" type="button" value="Check answer">&nbsp;&nbsp;&nbsp; &nbsp;<input type="reset" value="Reset">&nbsp;&nbsp;&nbsp;&nbsp;  <input onclick="show(9,'Reactions of Ammonia',2,3,1,3,3,0,'2NH<sub>3</sub> + 3CuO','N<sub>2</sub> + 3Cu + 3H<sub>2</sub>O');" type="button" value="Show answer"> </p>
+  <p style="font-size:115%; text-align:center;">
+    <span style="color:blue;"><b>Time Taken:</b></span><span class="timer" id="timer9">00:00</span>
+    <button type="button" onclick="startTimer('timer9')">Start</button>
+    <button type="button" onclick="stopTimer('timer9')">Stop</button>
+    <button type="button" onclick="resetTimer('timer9')">Reset Timer</button>
+  </p>
+<p></p>
+6.Ammonia reduces yellow lead(II)oxide into grey lead metal: 
+  
+  <p style="font-size:115%; text-align:center;"><input style="font-size: 16px; text-align: center" 
+  size=1 name=q10a> NH<sub>3</sub> + <input  style="font-size: 16px; text-align: center" size=1 name=q10b> PbO &#8594;<input style="font-size: 16px; text-align: center" size=1 name=q10c> N<sub>2</sub> + <input style="font-size: 16px; text-align: center" size=1 name=q10d> Pb + <input  style="font-size: 16px; text-align: center" size=1 name=q10e> H<sub>2</sub>O</p>
+  <p style="font-size:115%; text-align:center;"><input onclick="check(10,'Reactions of Ammonia',2,3,1,3,3,0,'NH<sub>3</sub> + PbO<sub>2</sub>','N<sub>2</sub> + Pb + H<sub>2</sub>O');" type="button" value="Check answer">&nbsp;&nbsp;&nbsp;&nbsp; <input type="reset" value="Reset">&nbsp;&nbsp;&nbsp; &nbsp;<input onclick="show(10,'Reactions of Ammonia',2,3,1,3,3,0,'2NH<sub>3</sub> + 3PbO','N<sub>2</sub> + 3Pb + 3H<sub>2</sub>O');" type="button" value="Show answer"> </p>
+  <p style="font-size:115%; text-align:center;">
+    <span style="color:blue;"><b>Time Taken:</b></span><span class="timer" id="timer10">00:00</span>
+    <button type="button" onclick="startTimer('timer10')">Start</button>
+    <button type="button" onclick="stopTimer('timer10')">Stop</button>
+    <button type="button" onclick="resetTimer('timer10')">Reset Timer</button>
+  </p>
+<p></p>
+7.Excess Ammonia reacts with Chlorine gas to form white fumes of Ammonium chloride: 
+  
+  <p style="font-size:115%; text-align:center;"><input style="font-size: 16px; text-align: center" 
+  size=1 name=q11a> NH<sub>3</sub> + <input  style="font-size: 16px; text-align: center" size=1 name=q11b> Cl<sub>2</sub>&#8594; <input style="font-size: 16px; text-align: center" size=1 name=q11c> N<sub>2</sub> + <input style="font-size: 16px; text-align: center" size=1 name=q11d> NH<sub>4</sub>Cl</p>
+  <p style="font-size:115%; text-align:center;"><input onclick="check(11,'Reactions of Ammonia',8,3,1,6,0,0,'NH<sub>3</sub> + Cl<sub>2</sub>','N<sub>2</sub> + NH<sub>4</sub>Cl');" type="button" value="Check answer">&nbsp;&nbsp;&nbsp;&nbsp; <input type="reset" value="Reset">&nbsp;&nbsp;&nbsp;&nbsp;  <input onclick="show(11,'Reactions of Ammonia',8,3,1,6,0,0,'8NH<sub>3</sub> + 3Cl<sub>2</sub>','N<sub>2</sub> +  6NH<sub>4</sub>Cl');" type="button" value="Show answer"> </p>
+  <p style="font-size:115%; text-align:center;">
+    <span style="color:blue;"><b>Time Taken:</b></span><span class="timer" id="timer11">00:00</span>
+    <button type="button" onclick="startTimer('timer11')">Start</button>
+    <button type="button" onclick="stopTimer('timer11')">Stop</button>
+    <button type="button" onclick="resetTimer('timer11')">Reset Timer</button>
+  </p>
+<p></p>
+8.Excess Chlorine reacts with Ammonia gas to form misty fumes of Hydrogen chloride: 
+  
+  <p style="font-size:115%; text-align:center;"><input style="font-size: 16px; text-align: center" 
+  size=1 name=q12a> NH<sub>3</sub> + <input  style="font-size: 16px; text-align: center" size=1 name=q12b> Cl<sub>2</sub> &#8594;<input style="font-size: 16px; text-align: center" size=1 name=q12c> NCl<sub>3</sub> + <input style="font-size: 16px; text-align: center" size=1 name=q12d> HCl</p>
+  <p style="font-size:115%; text-align:center;"><input onclick="check(12,'Reactions of Ammonia',1,3,1,3,0,0,'NH<sub>3</sub> + Cl<sub>2</sub>','NCl<sub>3</sub> + HCl');" type="button" value="Check answer">&nbsp;&nbsp;&nbsp;&nbsp; <input type="reset" value="Reset">&nbsp;&nbsp;&nbsp;&nbsp;  <input onclick="show(12,'Reactions of Ammonia',1,3,1,3,0,0,'NH<sub>3</sub> + 3Cl<sub>2</sub>','NCl<sub>3</sub> +  3HCl');" type="button" value="Show answer"> </p>
+  <p style="font-size:115%; text-align:center;">
+    <span style="color:blue;"><b>Time Taken:</b></span><span class="timer" id="timer12">00:00</span>
+    <button type="button" onclick="startTimer('timer12')">Start</button>
+    <button type="button" onclick="stopTimer('timer12')">Stop</button>
+    <button type="button" onclick="resetTimer('timer12')">Reset Timer</button>
+  </p>
+<p></p>
+  9. When a mixture of Ammonia and air is passed over hot platinum catalyst, Ammonia reacts with oxygen of air to form nirogen monoxide gas: 
+  
+  <p style="font-size:115%; text-align:center;"><input style="font-size: 16px; text-align: center" 
+  size=1 name=q13a> NH<sub>3</sub> + <input  style="font-size: 16px; text-align: center" size=1 name=q13b> O<sub>2</sub>&nbsp;&nbsp;&#8652;&nbsp;&nbsp;<input style="font-size: 16px; text-align: center" size=1 name=q13c> NO + <input style="font-size: 16px; text-align: center" size=1 name=q13d> H<sub>2</sub>O </p>
+  <p style="font-size:115%; text-align:center;"><input onclick="check(13,'Reactions of Ammonia',4,5,4,6,0,0,'NH<sub>3</sub> + O<sub>2</sub>','NO + H<sub>2</sub>O');" type="button" value="Check answer">&nbsp;&nbsp;&nbsp;&nbsp; <input type="reset" value="Reset">&nbsp;&nbsp;&nbsp;&nbsp; <input onclick="show(13,'Reactions of Ammonia',4,5,4,6,0,0,'4NH<sub>3</sub> + 5O<sub>2</sub>',
+'4NO +6H<sub>2</sub>O');" type="button" value="Show answer"> </p>
+<p style="font-size:115%; text-align:center;">
+  <span style="color:blue;"><b>Time Taken:</b></span><span class="timer" id="timer13">00:00</span>
+  <button type="button" onclick="startTimer('timer13')">Start</button>
+  <button type="button" onclick="stopTimer('timer13')">Stop</button>
+  <button type="button" onclick="resetTimer('timer13')">Reset Timer</button>
+</p>
+ <p></p>  
+ 
+ <h3>Reactions of aqueous Ammonia(Ammonium Hydroxide):</h3>
+  
+  1. When aqueous Ammonia is added to a solution of Lead(II)nitrate, a white precipitate of Lead(II)hydroxide is formed.This precipitate is insoluble in excess aqueous ammonia:
+
+  <p style="font-size:115%; text-align:center;"><input style="font-size: 16px; text-align: center" 
+  size=1 name=q14a> NH<sub>4</sub>OH + <input  style="font-size: 16px; text-align: center" size=1 name=q14b> Pb(NO<sub>3</sub>)<sub>2</sub> &#8594;<input style="font-size: 16px; text-align: center" size=1 name=q14c> Pb(OH)<sub>2</sub> + <input style="font-size: 16px; text-align: center" size=1 name=q14d> NH<sub>4</sub>NO<sub>3</sub></p>
+  <p style="font-size:115%; text-align:center;"><input onclick="check(14,'Reactions of aqueous Ammonia',2,1,1,2,0,0,'NH<sub>4</sub>OH + Pb(NO<sub>3</sub>)<sub>2</sub>','Pb(OH)<sub>2</sub> + NH<sub>4</sub>NO<sub>3</sub>');" type="button" value="Check answer">&nbsp;&nbsp;&nbsp;&nbsp; <input type="reset" value="Reset">&nbsp;&nbsp;&nbsp;&nbsp;  <input onclick="show(14,'Reactions of aqueous Ammonia',2,1,1,2,0,0,'2NH<sub>4</sub>OH + Pb(NO<sub>3</sub>)<sub>2</sub>','Pb(OH)<sub>2</sub> + 2NH<sub>4</sub>NO<sub>3</sub>');" type="button" value="Show answer"> </p>
+  <p style="font-size:115%; text-align:center;">
+    <span style="color:blue;"><b>Time Taken:</b></span><span class="timer" id="timer14">00:00</span>
+    <button type="button" onclick="startTimer('timer14')">Start</button>
+    <button type="button" onclick="stopTimer('timer14')">Stop</button>
+    <button type="button" onclick="resetTimer('timer14')">Reset Timer</button>
+  </p> 
+<p></p>
+
+2. When aqueous Ammonia is added to a solution of Iron(II)sulphate, a green precipitate of Iron(II)hydroxide is formed.This precipitate is insoluble in excess aqueous ammonia:
+  <p style="font-size:115%; text-align:center;"><input style="font-size: 16px; text-align: center" 
+  size=1 name=q15a> NH<sub>4</sub>OH + <input  style="font-size: 16px; text-align: center" size=1 name=q15b> FeSO<sub>4</sub>&#8594; <input style="font-size: 16px; text-align: center" size=1 name=q15c> Fe(OH)<sub>2</sub> + <input style="font-size: 16px; text-align: center" size=1 name=q15d> (NH<sub>4</sub>)<sub>2</sub>SO<sub>4</sub></p>
+  <p style="font-size:115%; text-align:center;"><input onclick="check(15,'Reactions of aqueous Ammonia',2,1,1,1,0,0,'NH<sub>4</sub>OH + FeSO<sub>4</sub>','Fe(OH)<sub>2</sub> + (NH<sub>4</sub>)<sub>2</sub>SO<sub>4</sub>');" type="button" value="Check answer">&nbsp;&nbsp;&nbsp;&nbsp; <input type="reset" value="Reset">&nbsp;&nbsp;&nbsp;&nbsp;  <input onclick="show(15,'Reactions of aqueous Ammonia',2,1,1,1,0,0,'2NH<sub>4</sub>OH + FeSO<sub>4</sub>','Fe(OH)<sub>2</sub> + (NH<sub>4</sub>)<sub>2</sub>SO<sub>4</sub>');" type="button" value="Show answer"> </p>
+  <p style="font-size:115%; text-align:center;">
+    <span style="color:blue;"><b>Time Taken:</b></span><span class="timer" id="timer15">00:00</span>
+    <button type="button" onclick="startTimer('timer15')">Start</button>
+    <button type="button" onclick="stopTimer('timer15')">Stop</button>
+    <button type="button" onclick="resetTimer('timer15')">Reset Timer</button>
+  </p>
+<p></p>
+
+3. When aqueous Ammonia is added to a solution of Iron(III)chloride, a reddish brown precipitate of Iron(III)hydroxide is formed.This precipitate is insoluble in excess aqueous ammonia:
+
+  <p style="font-size:115%; text-align:center;"><input style="font-size: 16px; text-align: center" 
+  size=1 name=q16a> NH<sub>4</sub>OH + <input  style="font-size: 16px; text-align: center" size=1 name=q16b> FeCl<sub>3</sub>&#8594; <input style="font-size: 16px; text-align: center" size=1 name=q16c> Fe(OH)<sub>3</sub> + <input style="font-size: 16px; text-align: center" size=1 name=q16d> NH<sub>4</sub>Cl</p>
+  <p style="font-size:115%; text-align:center;"><input onclick="check(16,'Reactions of aqueous Ammonia',3,1,1,3,0,0,'NH<sub>4</sub>OH + FeCl<sub>3</sub>','Fe(OH)<sub>3</sub> + NH<sub>4</sub>Cl');" type="button" value="Check answer">&nbsp;&nbsp;&nbsp;&nbsp; <input type="reset" value="Reset">&nbsp;&nbsp;&nbsp; &nbsp;<input onclick="show(16,'Reactions of aqueous Ammonia',3,1,1,3,0,0,'3NH<sub>4</sub>OH + FeCl<sub>3</sub>','Fe(OH)<sub>3</sub> + 3NH<sub>4</sub>Cl');" type="button" value="Show answer"> </p>
+  <p style="font-size:115%; text-align:center;">
+    <span style="color:blue;"><b>Time Taken:</b></span><span class="timer" id="timer16">00:00</span>
+    <button type="button" onclick="startTimer('timer16')">Start</button>
+    <button type="button" onclick="stopTimer('timer16')">Stop</button>
+    <button type="button" onclick="resetTimer('timer16')">Reset Timer</button>
+  </p>
+<p></p>
+
+4. When aqueous Ammonia is added to a solution of Aluminium chloride, a white gelatinous precipitate of Aluminium hydroxide is formed.This precipitate is insoluble in excess aqueous ammonia:
+
+  <p style="font-size:115%; text-align:center;"><input style="font-size: 16px; text-align: center" 
+  size=1 name=q17a> NH<sub>4</sub>OH + <input  style="font-size: 16px; text-align: center" size=1 name=q17b> AlCl<sub>3</sub> &#8594; <input style="font-size: 16px; text-align: center" size=1 name=q17c> Al(OH)<sub>3</sub> + <input style="font-size: 16px; text-align: center" size=1 name=q17d> NH<sub>4</sub>Cl</p>
+  <p style="font-size:115%; text-align:center;"><input onclick="check(17,'Reactions of aqueous Ammonia',3,1,1,3,0,0,'NH<sub>4</sub>OH + AlCl<sub>3</sub>','Al(OH)<sub>3</sub> + NH<sub>4</sub>)Cl');" type="button" value="Check answer">&nbsp;&nbsp;&nbsp;&nbsp; <input type="reset" value="Reset">&nbsp;&nbsp;&nbsp;&nbsp;  <input onclick="show(17,'Reactions of aqueous Ammonia',3,1,1,3,0,0,'3NH<sub>4</sub>OH + AlCl<sub>3</sub>','Al(OH)<sub>3</sub> + 3NH<sub>4</sub>Cl');" type="button" value="Show answer"> </p>
+  <p style="font-size:115%; text-align:center;">
+    <span style="color:blue;"><b>Time Taken:</b></span><span class="timer" id="timer17">00:00</span>
+    <button type="button" onclick="startTimer('timer17')">Start</button>
+    <button type="button" onclick="stopTimer('timer17')">Stop</button>
+    <button type="button" onclick="resetTimer('timer17')">Reset Timer</button>
+  </p>
+<p></p>
+
+5. When aqueous Ammonia is added to a solution of Copper(II)sulphate, a blue precipitate of Copper(II)hydroxide is formed.This precipitate dissolves in excess aqueous ammonia to form a deep blue solution:
+
+  <p style="font-size:115%; text-align:center;"><input style="font-size: 16px; text-align: center" 
+  size=1 name=q18a> NH<sub>4</sub>OH + <input  style="font-size: 16px; text-align: center" size=1 name=q18b> CuSO<sub>4</sub> &#8594; <input style="font-size: 16px; text-align: center" size=1 name=q18c> Cu(OH)<sub>2</sub> + <input style="font-size: 16px; text-align: center" size=1 name=q18d> (NH<sub>4</sub>)<sub>2</sub>SO<sub>4</sub></p>
+  <p style="font-size:115%; text-align:center;"><input onclick="check(18,'Reactions of aqueous Ammonia',2,1,1,1,0,0,'NH<sub>4</sub>OH + CuSO<sub>4</sub>','Cu(OH)<sub>2</sub> + (NH<sub>4</sub>)<sub>2</sub>SO<sub>4</sub>');" type="button" value="Check answer">&nbsp;&nbsp;&nbsp;&nbsp; <input type="reset" value="Reset">&nbsp;&nbsp;&nbsp;&nbsp;  <input onclick="show(18,'Reactions of aqueous Ammonia',2,1,1,1,0,0,'2NH<sub>4</sub>OH + CuSO<sub>4</sub>','Cu(OH)<sub>2</sub> + (NH<sub>4</sub>)<sub>2</sub>SO<sub>4</sub>');" type="button" value="Show answer"> </p>
+  <p style="font-size:115%; text-align:center;">
+    <span style="color:blue;"><b>Time Taken:</b></span><span class="timer" id="timer18">00:00</span>
+    <button type="button" onclick="startTimer('timer18')">Start</button>
+    <button type="button" onclick="stopTimer('timer18')">Stop</button>
+    <button type="button" onclick="resetTimer('timer18')">Reset Timer</button>
+  </p>
+
+<p style="font-size:115%; text-align:center;"><input style="font-size: 16px; text-align: center" 
+  size=1 name=q19a> Cu(OH)<sub>2</sub> + <input  style="font-size: 16px; text-align: center" size=1 name=q19b> NH<sub>3</sub> &#8594; <input style="font-size: 16px; text-align: center" size=1 name=q19c> Cu(NH<sub>3</sub>)<sub>4</sub><sup>2+</sup> + <input style="font-size: 16px; text-align: center" size=1 name=q19d> OH<sup>-</sup></p>
+ <p style="font-size:115%; text-align:center;"><input onclick="check(19,'Reactions of aqueous Ammonia',1,4,1,2,0,0,'Cu(OH)<sub>2</sub> + NH<sub>3</sub>','Cu(NH<sub>3</sub>)<sub>4</sub><sup>2+</sup> + OH<sup>-</sup>');" type="button" value="Check answer">&nbsp;&nbsp;&nbsp;&nbsp; <input type="reset" value="Reset">&nbsp;&nbsp;&nbsp;&nbsp;  <input onclick="show(19,'Reactions of aqueous Ammonia',1,4,1,2,0,0,'Cu(OH)<sub>2</sub> + 4NH<sub>3</sub>','Cu(NH<sub>3</sub>)<sub>4</sub><sup>2+</sup> + 2OH<sup>-</sup>');" type="button" value="Show answer"> </p>
+ <p style="font-size:115%; text-align:center;">
+  <span style="color:blue;"><b>Time Taken:</b></span><span class="timer" id="timer19">00:00</span>
+  <button type="button" onclick="startTimer('timer19')">Start</button>
+  <button type="button" onclick="stopTimer('timer19')">Stop</button>
+  <button type="button" onclick="resetTimer('timer19')">Reset Timer</button>
+</p>
+<p></p>
+
+6. When aqueous Ammonia is added to a solution of Zinc sulphate, a white gelatinous precipitate of Zinc hydroxide is formed.This precipitate dissolves in excess aqueous ammonia to form a colourless solution:
+
+  <p style="font-size:115%; text-align:center;"><input style="font-size: 16px; text-align: center" 
+  size=1 name=q20a> NH<sub>4</sub>OH + <input  style="font-size: 16px; text-align: center" size=1 name=q20b> ZnSO<sub>4</sub> &#8594; <input style="font-size: 16px; text-align: center" size=1 name=q20c> Zn(OH)<sub>2</sub> + <input style="font-size: 16px; text-align: center" size=1 name=q20d> (NH<sub>4</sub>)<sub>2</sub>SO<sub>4</sub></p>
+  <p style="font-size:115%; text-align:center;"><input onclick="check(20,'Reactions of aqueous Ammonia',2,1,1,1,0,0,'NH<sub>4</sub>OH + ZnSO<sub>4</sub>','Zn(OH)<sub>2</sub> + (NH<sub>4</sub>)<sub>2</sub>SO<sub>4</sub>');" type="button" value="Check answer">&nbsp;&nbsp;&nbsp;&nbsp; <input type="reset" value="Reset">&nbsp;&nbsp;&nbsp;&nbsp;  <input onclick="show(20,'Reactions of aqueous Ammonia',2,1,1,1,0,0,'2NH<sub>4</sub>OH + ZnSO<sub>4</sub>','Zn(OH)<sub>2</sub> + (NH<sub>4</sub>)<sub>2</sub>SO<sub>4</sub>');" type="button" value="Show answer"> </p>
+  <p style="font-size:115%; text-align:center;">
+    <span style="color:blue;"><b>Time Taken:</b></span><span class="timer" id="timer20">00:00</span>
+    <button type="button" onclick="startTimer('timer20')">Start</button>
+    <button type="button" onclick="stopTimer('timer20')">Stop</button>
+    <button type="button" onclick="resetTimer('timer20')">Reset Timer</button>
+  </p>
+
+<p style="font-size:115%; text-align:center;"><input style="font-size: 16px; text-align: center" 
+  size=1 name=q21a> Zn(OH)<sub>2</sub> + <input  style="font-size: 16px; text-align: center" size=1 name=q21b> NH<sub>3</sub> &#8594; <input style="font-size: 16px; text-align: center" size=1 name=q21c> Zn(NH<sub>3</sub>)<sub>4</sub><sup>2+</sup> + <input style="font-size: 16px; text-align: center" size=1 name=q21d> OH<sup>-</sup></p>
+  <p style="font-size:115%; text-align:center;"><input onclick="check(21,'Reactions of aqueous Ammonia',1,4,1,2,0,0,'Zn(OH)<sub>2</sub> + NH<sub>3</sub>','Zn(NH<sub>3</sub>)<sub>4</sub><sup>2+</sup> + OH<sup>-</sup>');" type="button" value="Check answer">&nbsp;&nbsp;&nbsp; &nbsp;<input type="reset" value="Reset">&nbsp;&nbsp;&nbsp;&nbsp;  <input onclick="show(21,'Reactions of aqueous Ammonia',1,4,1,2,0,0,'Zn(OH)<sub>2</sub> + 4NH<sub>3</sub>','Zn(NH<sub>3</sub>)<sub>4</sub><sup>2+</sup> + 2OH<sup>-</sup>');" type="button" value="Show answer"> </p>
+  <p style="font-size:115%; text-align:center;">
+    <span style="color:blue;"><b>Time Taken:</b></span><span class="timer" id="timer21">00:00</span>
+    <button type="button" onclick="startTimer('timer21')">Start</button>
+    <button type="button" onclick="stopTimer('timer21')">Stop</button>
+    <button type="button" onclick="resetTimer('timer21')">Reset Timer</button>
+  </p>
+  
+ 
+
+<p></p>
+<table class="center">
+  <tr>
+  <td><a href="index.html">Home Page</a></td>
+  <td><a href="equ.html">Elementary Equations</a></td>
+  <td><a href="advanced.html">Advanced Equations</a></td>
+  <td><a href="assorted.html">Assorted Equations</a></td>
+  <td><a href="hydrogen-chloride.html">Hydrogen Chloride</a></td>
+  <td><a href="chlorine.html">Chlorine</a></td>
+    
+  </tr>
+  <tr>
+  <td><a href="nitric-acid.html">Nitric Acid</a></td>
+  <td><a href="sulphur-dioxide.html">Sulphur Dioxide</a></td>
+  <td><a href="hydrogen-sulphide.html">Hydrogen Sulphide</a></td>
+  <td><a href="sulphuric-acid.html">Sulphuric Acid</a></td>
+  <td><a href="sodium-hydroxide.html">Sodium Hydroxide</a></td>
+  <td><a href="#top">TOP</a></td>
+  </tr>
+  </table>
+</form>
+<p></p>
+
+ <address>   
+  For feedback, please e-mail&nbsp; to:<a href="mailto:jibanmajumdar@gmail.com">jibanmajumdar@gmail.com</a>
+ </address>  
+ </body>
+
+</html>
