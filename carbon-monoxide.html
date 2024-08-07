@@ -1,0 +1,198 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Carbon Monoxide</title>
+    <script src="chem1.js" defer></script>
+    <script src="timer.js" defer></script>
+    <meta name="keywords" content="exercises, balancing, chemistry, equations, hydrogen, Oxygen, Carbon-dioxide, carbon-monoxide, preparation">
+    <meta name="author" content="Jiban Majumdar">
+    <link rel="stylesheet" href="mystyle.css">
+</head>
+<body>
+  <div>
+    <img src="myPhoto.jpg" alt="webmaster"  width="150" height="200"> <br> <a href="mailto:jibanmajumdar@gmail.com">webmaster</a>
+    </div> 
+  <table class="center">
+
+<tr>
+<td><a href="index.html">Home Page</a></td>
+<td><a href="equations.html">Intermediate Equations</a></td>
+<td><a href="assorted.html">Assorted Equations</a></td>
+<td><a href="oxygen.html">Oxygen</a></td>
+<td><a href="hydrogen.html">Hydrogen</a></td>	
+<td><a href="carbon-dioxide.html">Carbon Dioxide</a></td>
+<td><a href="nitrogen.html">Nitrogen</a></td>	
+</tr>
+</table>
+
+<h1 style="text-align:center;">Carbon Monoxide</h1>
+
+<h2>Practise balancing equations:</h2> <h3>Direction:</h3> <ul><li>In  the following equations you will see a blank box before the symbol of each compound and element. Enter the lowest possible number in each box, or leave the box blank if you think the chemical needn't have a number (i.e. the number is equivalent to '1').</li> 
+<li>When you think the equation is balanced, click on the small button <span style= "color:blue;"><b>"Check answer"</b></span> that appears below it.</li> <lI>If your equation is incorrect, then click the button <span style= "color:blue;"><b> "Reset"</b></span> and try balancing the  equation again.</li> <li>In case you are in a hurry or are unable to balance, then click the button <span style= "color:blue;"><b>"Show answer."</b></span></li>
+  <li>If you want to know the time taken (minutes:seconds) to balance a chemical equation, you click the <span style="color:blue;"><b>"Start"</b></span> button and after balancing the equation, click the <span style="color:blue;"><b>"Stop"</b></span>button. Once, you have noted the time, click the <span style="color:blue;"><b>"Reset Timer"</b></span> button.
+  </li>
+</ul>
+
+ <h3>Note:</h3> If you get no response after clicking 'Check answer' or 'Show answer', your browser has disabled to run this program. Enable it by clicking below the 'address bar' and follow the instructions.
+
+<form name="equations">
+
+  <h4>Preparation of Carbon Monoxide(Laboratory Methods):</h4> 1. When Methanoic(Formic)acid is heated gently with concentrated Sulphuric acid, Carbon monoxide and water are formed:
+     
+  <p style="font-size:115%; text-align:center;">  <input style="font-size: 16px; text-align: center" 
+  size=1 name=q1a>HCOOH &#8594;<input  style="font-size: 16px; text-align: center" size=1 name=q1b>CO + <input style="font-size: 16px; text-align: center" size=1 name=q1c>H<sub>2</sub>O</p> 
+
+ <p style="font-size:115%; text-align:center;"> <input onclick="check(1,'Preparation of Carbon Monoxide(Laboratory Methods)',1,1,1,0,0,0,'HCOOH', 'CO + H<sub>2</sub>O');" type="button" value="Check answer">&nbsp;&nbsp;&nbsp;&nbsp; <input type="reset" value="Reset">&nbsp;&nbsp;&nbsp;&nbsp; <input onclick="show(1,'Preparation of Carbon Monoxide(Laboratory Methods)',1,1,1,0,0,0,'HCOOH','CO + H<sub>2</sub>O');" type="button" value="Show answer"></p> 
+ <p style="font-size:115%; text-align:center;">
+  <span style="color:blue;"><b>Time Taken:</b></span><span class="timer" id="timer1">00:00</span>
+  <button type="button" onclick="startTimer('timer1')">Start</button>
+  <button type="button" onclick="stopTimer('timer1')">Stop</button>
+  <button type="button" onclick="resetTimer('timer1')">Reset Timer</button>
+</p>
+<p></p>
+2.When Oxalic acid is heated with concentrated Sulphuric acid, Carbon dioxide, Carbon monoxide and water are formed. Carbon dioxide is removed by passing the gases through concentrated Potassium hydroxide solution: 
+  <p style="font-size:115%; text-align:center;">  <input style="font-size: 16px; text-align: center" 
+  size=1 name=q2a>H<sub>2</sub>C<sub>2</sub>O<sub>4</sub> &#8594;<input  style="font-size: 16px; text-align: center" size=1 name=q2b>CO<sub>2</sub> + <input style="font-size: 16px; text-align: center" size=1 name=q2c>CO + <input style="font-size: 16px; text-align: center" size=1 name=q2d>H<sub>2</sub>O</p> 
+
+ <p style="font-size:115%; text-align:center;"> <input onclick="check(2,'Preparation of Carbon Monoxide(Laboratory Methods)',1,1,1,1,0,0,'H<sub>2</sub>C<sub>2</sub>O<sub>4</sub>', 'CO<sub>2</sub> + CO + H<sub>2</sub>O');" type="button" value="Check answer">&nbsp;&nbsp;&nbsp;&nbsp; <input type="reset" value="Reset">&nbsp;&nbsp;&nbsp;&nbsp; <input onclick="show(2,'Preparation of Carbon Monoxide(Laboratory Method)',1,1,1,1,0,0,'H<sub>2</sub>C<sub>2</sub>O<sub>4</sub>','CO<sub>2</sub> + CO + H<sub>2</sub>O');" type="button" value="Show answer"></p> 
+ <p style="font-size:115%; text-align:center;">
+  <span style="color:blue;"><b>Time Taken:</b></span><span class="timer" id="timer2">00:00</span>
+  <button type="button" onclick="startTimer('timer2')">Start</button>
+  <button type="button" onclick="stopTimer('timer2')">Stop</button>
+  <button type="button" onclick="resetTimer('timer2')">Reset Timer</button>
+</p>
+
+  <p style="font-size:115%; text-align:center;">  <input style="font-size: 16px; text-align: center" 
+  size=1 name=q3a>CO<sub>2</sub> + <input  style="font-size: 16px; text-align: center" size=1 name=q3b>KOH &#8594;<input  style="font-size: 16px; text-align: center" size=1 name=q3c>K<sub>2</sub>CO<sub>3</sub> + <input style="font-size: 16px; text-align: center" size=1 name=q3d>H<sub>2</sub>O</p> 
+
+ <p style="font-size:115%; text-align:center;"> <input onclick="check(3,'Preparation of Carbon Monoxide(Laboratory Methods)',1,2,1,1,0,0,'CO<sub>2</sub> + KOH', 'K<sub>2</sub>CO<sub>3</sub> + H<sub>2</sub>O');" type="button" value="Check answer">&nbsp;&nbsp;&nbsp;&nbsp; <input type="reset" value="Reset">&nbsp;&nbsp;&nbsp;&nbsp; <input onclick="show(3,'Preparation of Carbon Monoxide(Laboratory Methods)',1,2,1,1,0,0,'CO<sub>2</sub> + 2 KOH', 'K<sub>2</sub>CO<sub>3</sub> + H<sub>2</sub>O');" type="button" value="Show answer"></p> 
+ <p style="font-size:115%; text-align:center;">
+  <span style="color:blue;"><b>Time Taken:</b></span><span class="timer" id="timer3">00:00</span>
+  <button type="button" onclick="startTimer('timer3')">Start</button>
+  <button type="button" onclick="stopTimer('timer3')">Stop</button>
+  <button type="button" onclick="resetTimer('timer3')">Reset Timer</button>
+</p>
+<p></p>
+3.When Carbon dioxide gas is passed over red hot coke(Carbon), Carbon monoxide gas is formed: 
+  <p style="font-size:115%; text-align:center;">  <input style="font-size: 16px; text-align: center" 
+  size=1 name=q4a>CO<sub>2</sub> + <input  style="font-size: 16px; text-align: center" size=1 name=q4b>C &#8594; <input style="font-size: 16px; text-align: center" size=1 name=q4c>CO</p> 
+
+ <p style="font-size:115%; text-align:center;"> <input onclick="check(4,'Preparation of Carbon Monoxide(Laboratory Methods)',1,1,2,0,0,0,'CO<sub>2</sub> + C', 'CO');" type="button" value="Check answer">&nbsp;&nbsp;&nbsp;&nbsp; <input type="reset" value="Reset">&nbsp;&nbsp;&nbsp;&nbsp; <input onclick="show(4,'Preparation of Carbon Monoxide(Laboratory Methods)',1,1,2,0,0,0,'CO<sub>2</sub> + C', '2 CO');" type="button" value="Show answer"></p> 
+ <p style="font-size:115%; text-align:center;">
+  <span style="color:blue;"><b>Time Taken:</b></span><span class="timer" id="timer4">00:00</span>
+  <button type="button" onclick="startTimer('timer4')">Start</button>
+  <button type="button" onclick="stopTimer('timer4')">Stop</button>
+  <button type="button" onclick="resetTimer('timer4')">Reset Timer</button>
+</p>
+<p></p>
+
+<h4>Reactions of Carbon monoxide:</h4>
+	1. Carbon monoxide gas burns in Oxygen with a blue flame to form carbon dioxide gas:
+	<p style="font-size:115%; text-align:center;"> <input style="font-size: 16px; text-align: center" size=1 name=q5a>CO + <input  style="font-size: 16px; text-align: center" size=1 name=q5b>O<sub>2</sub> &#8594;<input style="font-size: 16px; text-align: center" size=1 name=q5c>CO<sub>2</sub></p> 
+ <p style="font-size:115%; text-align:center;"> <input onclick="check(5,'Reactions of Carbon monoxide',2,1,2,0,0,0,'CO + O<sub>2</sub>','CO<sub>2</sub>');" type="button" value="Check answer">&nbsp;&nbsp;&nbsp;&nbsp; <input type="reset" value="Reset">&nbsp;&nbsp;&nbsp;&nbsp; <input onclick="show(5,'Reactions of Carbon monoxide',2,1,2,0,0,0,'2 CO +  O<sub>2</sub>','2 CO<sub>2</sub>');" type="button" value="Show answer"></p>
+ <p style="font-size:115%; text-align:center;">
+  <span style="color:blue;"><b>Time Taken:</b></span><span class="timer" id="timer5">00:00</span>
+  <button type="button" onclick="startTimer('timer5')">Start</button>
+  <button type="button" onclick="stopTimer('timer5')">Stop</button>
+  <button type="button" onclick="resetTimer('timer5')">Reset Timer</button>
+</p>
+<p></p>
+
+2.When a mixture of Carbon monoxide and steam is passed over Iron(III) oxide(catalyst) at 450<sup>o</sup>C,Carbon dioxide and Hydrogen are formed.  
+  <p style="font-size:115%; text-align:center;">  <input style="font-size: 16px; text-align: center" 
+  size=1 name=q6a>CO + <input  style="font-size: 16px; text-align: center" size=1 name=q6b>H<sub>2</sub>O &#8594;<input style="font-size: 16px; text-align: center" size=1 name=q6c>CO<sub>2</sub> + <input style="font-size: 16px; text-align: center" size=1 name=q6d>H<sub>2</sub></p> 
+
+ <p style="font-size:115%; text-align:center;"> <input onclick="check(6,'Reactions of Carbon monoxide)',1,1,1,1,0,0,'CO + H<sub>2</sub>O', 'CO<sub>2</sub> +  H<sub>2</sub>');" type="button" value="Check answer">&nbsp;&nbsp;&nbsp;&nbsp; <input type="reset" value="Reset">&nbsp;&nbsp;&nbsp;&nbsp; <input onclick="show(6,'Reactions of Carbon monoxide)',1,1,1,1,0,0,'CO + H<sub>2</sub>O', 'CO<sub>2</sub> +  H<sub>2</sub>');" type="button" value="Show answer"></p>
+ <p style="font-size:115%; text-align:center;">
+  <span style="color:blue;"><b>Time Taken:</b></span><span class="timer" id="timer6">00:00</span>
+  <button type="button" onclick="startTimer('timer6')">Start</button>
+  <button type="button" onclick="stopTimer('timer6')">Stop</button>
+  <button type="button" onclick="resetTimer('timer6')">Reset Timer</button>
+</p>
+<p></p>
+ 3. In the presence of sunlight, Carbon monoxide reacts with Chlorine gas to form Phosgene(carbonyl Chloride):
+	<p style="font-size:115%; text-align:center;"> <input style="font-size: 16px; text-align: center" size=1 name=q7a>CO + <input  style="font-size: 16px; text-align: center" size=1 name=q7b>Cl<sub>2</sub> &#8594;<input style="font-size: 16px; text-align: center" size=1 name=q7c>COCl<sub>2</sub></p> 
+ <p style="font-size:115%; text-align:center;"> <input onclick="check(7,'Reactions of Carbon monoxide',1,1,1,0,0,0,'CO + Cl<sub>2</sub>','COCl<sub>2</sub>');" type="button" value="Check answer">&nbsp;&nbsp;&nbsp;&nbsp; <input type="reset" value="Reset">&nbsp;&nbsp;&nbsp;&nbsp; <input onclick="show(7,'Reactions of Carbon monoxide',1,1,1,0,0,0,' CO +  Cl<sub>2</sub>',' COCl<sub>2</sub>');" type="button" value="Show answer"></p>
+ <p style="font-size:115%; text-align:center;">
+  <span style="color:blue;"><b>Time Taken:</b></span><span class="timer" id="timer7">00:00</span>
+  <button type="button" onclick="startTimer('timer7')">Start</button>
+  <button type="button" onclick="stopTimer('timer7')">Stop</button>
+  <button type="button" onclick="resetTimer('timer7')">Reset Timer</button>
+</p>
+<p></p>
+4. Carbon monoxide reacts with heated yellow Zinc oxide to form grey Zinc metal and Carbon dioxide:
+	<p style="font-size:115%; text-align:center;"> <input style="font-size: 16px; text-align: center" size=1 name=q8a>CO + <input  style="font-size: 16px; text-align: center" size=1 name=q8b>ZnO &#8594;<input style="font-size: 16px; text-align: center" size=1 name=q8c>Zn+ <input style="font-size: 16px; text-align: center" size=1 name=q8d>CO<sub>2</sub></p> 
+ <p style="font-size:115%; text-align:center;"> <input onclick="check(8,'Reactions of Carbon monoxide',1,1,1,1,0,0,'CO + ZnO','Zn + CO<sub>2</sub>');" type="button" value="Check answer">&nbsp;&nbsp;&nbsp;&nbsp; <input type="reset" value="Reset">&nbsp;&nbsp;&nbsp;&nbsp; <input onclick="show(8,'Reactions of Carbon monoxide',1,1,1,1,0,0,'CO + ZnO','Zn + CO<sub>2</sub>');" type="button" value="Show answer"></p>
+ <p style="font-size:115%; text-align:center;">
+  <span style="color:blue;"><b>Time Taken:</b></span><span class="timer" id="timer8">00:00</span>
+  <button type="button" onclick="startTimer('timer8')">Start</button>
+  <button type="button" onclick="stopTimer('timer8')">Stop</button>
+  <button type="button" onclick="resetTimer('timer8')">Reset Timer</button>
+</p>
+<p></p>
+5. Carbon monoxide reacts with heated brown Iron(III) oxide to form greyish black Iron metal and Carbon dioxide:
+	<p style="font-size:115%; text-align:center;"> <input style="font-size: 16px; text-align: center" size=1 name=q9a>CO + <input  style="font-size: 16px; text-align: center" size=1 name=q9b>Fe<sub>2</sub>O<sub>3</sub> &#8594;<input style="font-size: 16px; text-align: center" size=1 name=q9c>Fe+ <input style="font-size: 16px; text-align: center" size=1 name=q9d>CO<sub>2</sub></p> 
+ <p style="font-size:115%; text-align:center;"> <input onclick="check(9,'Reactions of Carbon monoxide',3,1,2,3,0,0,'CO + Fe<sub>2</sub>O<sub>3</sub>','Fe + CO<sub>2</sub>');" type="button" value="Check answer">&nbsp;&nbsp;&nbsp;&nbsp; <input type="reset" value="Reset">&nbsp;&nbsp;&nbsp;&nbsp; <input onclick="show(9,'Reactions of Carbon monoxide',3,1,2,3,0,0,'3 CO + Fe<sub>2</sub>O<sub>3</sub>','2 Fe + 3 CO<sub>2</sub>');" type="button" value="Show answer"></p>
+ <p style="font-size:115%; text-align:center;">
+  <span style="color:blue;"><b>Time Taken:</b></span><span class="timer" id="timer9">00:00</span>
+  <button type="button" onclick="startTimer('timer9')">Start</button>
+  <button type="button" onclick="stopTimer('timer9')">Stop</button>
+  <button type="button" onclick="resetTimer('timer9')">Reset Timer</button>
+</p>
+<p></p>
+6. Carbon monoxide reacts with heated orange Lead(II) oxide to form grey Lead metal and Carbon dioxide:
+	<p style="font-size:115%; text-align:center;"> <input style="font-size: 16px; text-align: center" size=1 name=q10a>CO + <input  style="font-size: 16px; text-align: center" size=1 name=q10b>PbO &#8594;<input style="font-size: 16px; text-align: center" size=1 name=q10c>Pb+ <input style="font-size: 16px; text-align: center" size=1 name=q10d>CO<sub>2</sub></p> 
+ <p style="font-size:115%; text-align:center;"> <input onclick="check(10,'Reactions of Carbon monoxide',1,1,1,1,0,0,'CO + PbO','Pb + CO<sub>2</sub>');" type="button" value="Check answer">&nbsp;&nbsp;&nbsp;&nbsp; <input type="reset" value="Reset">&nbsp;&nbsp;&nbsp;&nbsp; <input onclick="show(10,'Reactions of Carbon monoxide',1,1,1,1,0,0,'CO + PbO','Pb + CO<sub>2</sub>');" type="button" value="Show answer"></p>
+ <p style="font-size:115%; text-align:center;">
+  <span style="color:blue;"><b>Time Taken:</b></span><span class="timer" id="timer10">00:00</span>
+  <button type="button" onclick="startTimer('timer10')">Start</button>
+  <button type="button" onclick="stopTimer('timer10')">Stop</button>
+  <button type="button" onclick="resetTimer('timer10')">Reset Timer</button>
+</p>
+<p></p>
+7. Carbon monoxide reacts with heated black Copper(II) oxide to form brown Copper metal and Carbon dioxide:
+	<p style="font-size:115%; text-align:center;"> <input style="font-size: 16px; text-align: center" size=1 name=q11a>CO + <input  style="font-size: 16px; text-align: center" size=1 name=q11b>CuO &#8594;<input style="font-size: 16px; text-align: center" size=1 name=q11c>Cu+ <input style="font-size: 16px; text-align: center" size=1 name=q11d>CO<sub>2</sub></p> 
+ <p style="font-size:115%; text-align:center;"> <input onclick="check(11,'Reactions of Carbon monoxide',1,1,1,1,0,0,'CO + CuO','Cu + CO<sub>2</sub>');" type="button" value="Check answer">&nbsp;&nbsp;&nbsp;&nbsp; <input type="reset" value="Reset">&nbsp;&nbsp;&nbsp;&nbsp; <input onclick="show(11,'Reactions of Carbon monoxide',1,1,1,1,0,0,'CO + CuO','Cu + CO<sub>2</sub>');" type="button" value="Show answer"></p>
+ <p style="font-size:115%; text-align:center;">
+  <span style="color:blue;"><b>Time Taken:</b></span><span class="timer" id="timer11">00:00</span>
+  <button type="button" onclick="startTimer('timer11')">Start</button>
+  <button type="button" onclick="stopTimer('timer11')">Stop</button>
+  <button type="button" onclick="resetTimer('timer11')">Reset Timer</button>
+</p>
+</form>
+<p></p>
+
+<table class="center">
+  <tr>
+  <td><a href="index.html">Home Page</a></td>
+  <td><a href="equations.html">Intermediate Equations</a></td>
+  <td><a href="assorted.html">Assorted Equations</a></td>
+  <td><a href="oxygen.html">Oxygen</a></td>
+  <td><a href="hydrogen.html">Hydrogen</a></td>	
+  <td><a href="carbon-dioxide.html">Carbon Dioxide</a></td>
+  <td><a href="nitrogen.html">Nitrogen</a></td>	
+  <td><a href="#top">TOP</a></td>		
+  </tr>
+</table>
+
+<p></p>
+
+<address>   
+  For feedback, please e-mail&nbsp; to:<a href="mailto:jibanmajumdar@gmail.com">jibanmajumdar@gmail.com</a>
+ </address>  
+ </body>
+
+</html>
+
+
+
+
+
+
+
+
+
+
+
